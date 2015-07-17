@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_f5f5f5"
+    android:orientation="vertical"
+    android:paddingLeft="13dp"
+    android:paddingRight="13dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp" >
+
+        <ImageView
+            android:id="@+id/item_img_indicator"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_bill_item_folder"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/item_img_indicator"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/item_tv_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="@color/color_4c4c4c"
+                android:textSize="@dimen/txt_size_15" />
+
+            <TextView
+                android:id="@+id/item_tv_percentage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/txt_budget_percentage"
+                android:textColor="@color/color_4c4c4c"
+                android:textSize="@dimen/txt_size_15" />
+
+            <TextView
+                android:id="@+id/item_tv_moeny"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/txt_budget_format"
+                android:textColor="@color/color_4c4c4c"
+                android:textSize="@dimen/txt_size_15" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_remark_zone"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:minHeight="80dp"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/item_img_remark_photo"
+            android:layout_width="91dp"
+            android:layout_height="68dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="3dp"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_photo_default" />
+
+        <TextView
+            android:id="@+id/item_tv_remark_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/item_img_remark_photo"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:padding="6dp"
+            android:text="@string/app_name"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_15" />
+    </RelativeLayout>
+
+</LinearLayout>

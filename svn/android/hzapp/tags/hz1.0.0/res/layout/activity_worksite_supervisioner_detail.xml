@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <com.huizhuang.zxsq.widget.CircleImageView
+                        android:id="@+id/civ_head"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/bg_photo_default" />
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:text="史蒂芬"
+                        android:textColor="@color/gray_4c"
+                        android:textSize="@dimen/txt_size_20" />
+
+                    <RatingBar
+                        android:id="@+id/rb_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:progressDrawable="@drawable/rating_bar_yellow"
+                        android:stepSize="0.5" />
+
+                    <TextView
+                        android:id="@+id/tv_evaluate_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="3dp"
+                        android:text="4.0(32评价)"
+                        android:textColor="@color/color_808080"
+                        android:textSize="@dimen/txt_size_16" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/color_d9d9d9" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_work_year"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="3dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="从事监理5年"
+                            android:textColor="@color/color_808080"
+                            android:textSize="@dimen/txt_size_16" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/color_d9d9d9" />
+
+                        <TextView
+                            android:id="@+id/tv_service_count"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="3dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="服务业主32户"
+                            android:textColor="@color/color_808080"
+                            android:textSize="@dimen/txt_size_16" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/color_d9d9d9" />
+
+                    <LinearLayout
+                        android:id="@+id/lin_comments_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+            <Button
+                android:id="@+id/btn_submit"
+                style="@style/ButtonLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_square"
+                android:text="@string/btn_supervisioner_priority" />
+        </LinearLayout>
+
+        <com.huizhuang.zxsq.widget.DataLoadingLayout
+            android:id="@+id/common_dl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </com.huizhuang.zxsq.widget.DataLoadingLayout>
+    </RelativeLayout>
+
+</LinearLayout>

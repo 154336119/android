@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="65dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/catalog"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="42dp"
+        android:background="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="12dp" >
+
+        <ImageView
+            android:id="@+id/cv_icon"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/ic_default_header" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/cv_icon"
+            android:textColor="@color/gray_4c"
+            android:textSize="@dimen/txt_size_14" />
+
+        <TextView
+            android:id="@+id/tv_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_name"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@id/cv_icon"
+            android:textColor="@color/gray_4c"
+            android:textSize="@dimen/txt_size_12" />
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/tv_sex"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@id/tv_sex"
+            android:textColor="@color/gray_4c"
+            android:textSize="@dimen/txt_size_12" />
+    </RelativeLayout>
+
+</FrameLayout>

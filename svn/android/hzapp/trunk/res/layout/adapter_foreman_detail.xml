@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/activity_bg"
+    android:paddingLeft="17dp"
+    android:paddingRight="17dp">
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_photo_default" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_site_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="17dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_16" />
+        <TextView
+            android:id="@+id/tv_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_site_name"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_15" />
+        <TextView
+            android:id="@+id/tv_see"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_site_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/icon_foreman_see"
+            android:drawablePadding="5dp"
+            android:textColor="@color/color_cccccc"
+            android:textSize="@dimen/txt_size_16" />
+    </RelativeLayout>
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="2px"
+	    android:background="@color/gray_disabled"
+	    android:layout_marginBottom="20dp"/>
+	
+</LinearLayout>

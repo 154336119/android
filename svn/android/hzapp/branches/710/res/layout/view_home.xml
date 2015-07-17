@@ -1,0 +1,173 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg" >
+
+    <RelativeLayout
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange_light" >
+
+        <RelativeLayout
+            android:id="@+id/rl_btn_left"
+            android:layout_width="@dimen/page_header_height"
+            android:layout_height="@dimen/page_header_height"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="6dp" >
+
+            <com.huizhuang.zxsq.widget.CircleImageView
+                android:id="@+id/img_btn_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/ic_home_account_bg" />
+
+            <ImageView
+                android:id="@+id/iv_home_order_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/img_btn_left"
+                android:layout_alignTop="@id/img_btn_left"
+                android:src="@drawable/ic_account_red_point"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_title_noe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="6dp"
+                android:drawableRight="@drawable/ic_home_title"
+                android:gravity="center"
+                android:text="惠装"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_size_20" />
+
+            <TextView
+                android:id="@+id/tv_title_tow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="省40%"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_size_20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="11dp"
+            android:layout_toRightOf="@id/ll_title"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_city"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:drawablePadding="3dp"
+                android:drawableRight="@drawable/ic_home_arrow_down"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="成都"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rob_order_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange_light"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="抢单中..."
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/page_header_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:text="取消订单"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_bottom"
+        android:layout_below="@id/common_action_bar" >
+
+        <ViewStub
+            android:id="@+id/viewstub_import_home"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/home_map_layout" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_appointment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/bg_btn_appointment_selector"
+            android:text="@string/txt_appointment"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_choice_foreman"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn_choice_foreman_selector"
+            android:text="@string/txt_home_choice_foreman"
+            android:textColor="@color/color_ff5e5e"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</RelativeLayout>

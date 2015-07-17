@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg"
+    android:orientation="vertical" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar"
+        android:clickable="false" />
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="@color/black_transparent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp">
+        <TextView 
+            android:id="@+id/tv_company_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:text="asdsadasd"
+            android:singleLine="true"
+            android:ellipsize="middle"/>
+        <TextView 
+            android:id="@+id/tv_company_addr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:text="asdsadasd"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:layout_marginTop="7dp"/>        
+    </LinearLayout>
+    
+</RelativeLayout>

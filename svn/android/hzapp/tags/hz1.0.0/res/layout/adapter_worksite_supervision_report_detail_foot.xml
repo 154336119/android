@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="验收总结"
+        android:textColor="@color/gray_light"
+        android:textSize="@dimen/txt_size_16" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffe1e1e1" 
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:text="编辑你对该节点的监理结果"
+        android:textColor="@color/gray_light"
+        android:textSize="@dimen/txt_size_14" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        style="@style/ButtonLarge"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:textColor="@drawable/txt_ws_report"
+        android:background="@drawable/btn_ws_report"
+        android:text="对监理工长表示肯定，为他评分" />
+
+</LinearLayout>

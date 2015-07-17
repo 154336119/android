@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="11dp">
+    <TextView 
+        android:id="@+id/tv_house_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray_4c"
+        android:textSize="15sp"
+        android:text="sdaasdsa"
+        android:paddingRight="11dp"
+        android:layout_marginTop="11dp"/>
+    <TextView 
+        android:id="@+id/tv_road_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray_80"
+        android:textSize="11sp"
+        android:text="sdaasdsa"
+        android:layout_below="@id/tv_house_name"
+        android:layout_marginTop="11dp"/>
+    
+    <ImageView  
+	   android:id="@+id/iv_choice"  
+	   android:layout_width="wrap_content"  
+	   android:layout_height="wrap_content"  
+	   android:layout_alignParentRight="true"
+	   android:layout_centerVertical="true"
+	   android:src="@drawable/ic_choice_house" 
+	   android:paddingRight="11dp"/>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5px"
+        android:background="#d9d9d9"
+        android:layout_below="@id/tv_road_name"
+        android:layout_marginTop="11dp"/>
+</RelativeLayout>

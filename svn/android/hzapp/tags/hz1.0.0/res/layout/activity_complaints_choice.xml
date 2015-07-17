@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="50dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="1dip"
+                    android:layout_marginLeft="20dip"
+                    android:layout_weight="1"
+                    android:background="#ff6c38"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:text="装修问题"
+                    android:textColor="#ff6c38"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="1dip"
+                    android:layout_marginRight="20dip"
+                    android:layout_weight="1"
+                    android:background="#ff6c38"
+                    android:contentDescription="@string/app_name" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dip"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#ffffff"
+                    android:visibility="visible" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/home_page_dividing_line_h"
+                        android:contentDescription="@string/app_name" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="你当前没有订单"
+                        android:textColor="#808080"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/home_page_dividing_line_h"
+                        android:contentDescription="@string/app_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/complaints_choice_order_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="invisible" >
+                    <include layout="@layout/adapter_worksite_order_list" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_page_dividing_line_h"
+                android:contentDescription="@string/app_name" />
+
+            <LinearLayout
+                android:id="@+id/complaints_choice_more_order"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="15dip" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="查看更多订单"
+                    android:textColor="#4c4c4c"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dip"
+                    android:background="@drawable/arrow_right_gray_big"
+                    android:contentDescription="@string/app_name" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_page_dividing_line_h"
+                android:contentDescription="@string/app_name" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="1dip"
+                    android:layout_marginLeft="20dip"
+                    android:layout_weight="1"
+                    android:background="#ff6c38"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:text="向惠装反馈，惠装需要你"
+                    android:textColor="#ff6c38"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="1dip"
+                    android:layout_marginRight="20dip"
+                    android:layout_weight="1"
+                    android:background="#ff6c38"
+                    android:contentDescription="@string/app_name" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_page_dividing_line_h"
+                android:contentDescription="@string/app_name" />
+
+            <LinearLayout
+                android:id="@+id/complaints_choice_contract_record"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="15dip" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="合同备案问题"
+                    android:textColor="#4c4c4c"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dip"
+                    android:background="@drawable/arrow_right_gray_big"
+                    android:contentDescription="@string/app_name" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_page_dividing_line_h"
+                android:contentDescription="@string/app_name" />
+
+            <LinearLayout
+                android:id="@+id/complaints_choice_secured_transactions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="15dip" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="担保交易问题"
+                    android:textColor="#4c4c4c"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dip"
+                    android:background="@drawable/arrow_right_gray_big"
+                    android:contentDescription="@string/app_name" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_page_dividing_line_h"
+                android:contentDescription="@string/app_name" />
+
+            <LinearLayout
+                android:id="@+id/complaints_choice_third_supervision"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="15dip" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="第三方监理问题"
+                    android:textColor="#4c4c4c"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dip"
+                    android:background="@drawable/arrow_right_gray_big"
+                    android:contentDescription="@string/app_name" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_page_dividing_line_h"
+                android:contentDescription="@string/app_name" />
+
+            <LinearLayout
+                android:id="@+id/complaints_choice_complaint_handling"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="15dip" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="投诉闪电处理"
+                    android:textColor="#4c4c4c"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dip"
+                    android:background="@drawable/arrow_right_gray_big"
+                    android:contentDescription="@string/app_name" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_page_dividing_line_h"
+                android:contentDescription="@string/app_name" />
+
+            <LinearLayout
+                android:id="@+id/complaints_choice_other"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="15dip" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="其他问题"
+                    android:textColor="#4c4c4c"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dip"
+                    android:background="@drawable/arrow_right_gray_big"
+                    android:contentDescription="@string/app_name" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_page_dividing_line_h"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_home_marker_popwoindow">
+    <ImageView
+        android:id="@+id/tv_marker_icon"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="11dp"/>
+
+    <TextView
+        android:id="@+id/tv_marker_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/orange_light"
+        android:ellipsize="end"
+        android:textSize="15sp"
+        android:layout_toRightOf="@id/tv_marker_icon" 
+        android:layout_marginLeft="6dp"
+        android:text="阿斯顿萨阿aasdsdsa斯顿"
+        android:singleLine="true"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_marker_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/color_4c4c4c"
+        android:textSize="15sp"
+        android:layout_toRightOf="@id/tv_marker_icon" 
+        android:layout_below="@id/tv_marker_name"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="17dp"
+        android:text="阿斯达的撒"/>    
+</RelativeLayout>

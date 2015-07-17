@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="57dp"
+    android:background="@color/color_f5f5f5"
+    android:paddingLeft="13dp"
+    android:paddingRight="13dp" >
+
+    <TextView
+        android:id="@+id/item_tv_year_and_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/txt_year_and_month_format"
+        android:textColor="@color/color_4c4c4c"
+        android:textSize="@dimen/txt_size_15" />
+
+    <TextView
+        android:id="@+id/item_tv_total_moeny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/txt_budget_format"
+        android:textColor="@color/color_4c4c4c"
+        android:textSize="@dimen/txt_size_15" />
+
+</RelativeLayout>

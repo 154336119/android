@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_f5f5f5"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <Button
+        android:id="@+id/btn_filter_ok"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_btn_filter_bar_ok"
+        android:gravity="center"
+        android:text="@string/txt_btn_filter_complete"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_18" />
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_filter_ok"
+        android:layout_below="@id/common_action_bar" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_search_zone"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@color/color_ebebeb"
+                android:minHeight="46dp"
+                android:paddingBottom="6dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="6dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_common_search_bar"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="btnSearchBarOnClick"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_common_search"
+                        android:drawablePadding="5dp"
+                        android:text="@string/txt_btn_filter_common_search"
+                        android:textColor="@color/color_808080"
+                        android:textSize="@dimen/txt_size_16" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <com.huizhuang.zxsq.widget.component.FilterGirdViewBar
+                android:id="@+id/filter_grid_view_bar_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </com.huizhuang.zxsq.widget.component.FilterGirdViewBar>
+
+            <com.huizhuang.zxsq.widget.component.FilterGirdViewBar
+                android:id="@+id/filter_grid_view_bar_way"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </com.huizhuang.zxsq.widget.component.FilterGirdViewBar>
+
+            <com.huizhuang.zxsq.widget.component.FilterGirdViewBar
+                android:id="@+id/filter_grid_view_bar_level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </com.huizhuang.zxsq.widget.component.FilterGirdViewBar>
+
+            <com.huizhuang.zxsq.widget.component.FilterGirdViewBar
+                android:id="@+id/filter_grid_view_bar_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </com.huizhuang.zxsq.widget.component.FilterGirdViewBar>
+
+            <com.huizhuang.zxsq.widget.component.FilterGirdViewBar
+                android:id="@+id/filter_grid_view_bar_brand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </com.huizhuang.zxsq.widget.component.FilterGirdViewBar>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

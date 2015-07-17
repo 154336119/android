@@ -1,0 +1,4320 @@
+[
+    {
+        "area_id": "100",
+        "area_name": "河北省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "hebeisheng",
+        "province": "100",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "101",
+                "area_name": "石家庄市",
+                "area_level": "2",
+                "parent_id": "100",
+                "post": null,
+                "areacode": "shijiazhuangshi",
+                "province": "100",
+                "city": "101"
+            },
+            {
+                "area_id": "125",
+                "area_name": "唐山市",
+                "area_level": "2",
+                "parent_id": "100",
+                "post": null,
+                "areacode": "tangshanshi",
+                "province": "100",
+                "city": "125"
+            },
+            {
+                "area_id": "140",
+                "area_name": "秦皇岛市",
+                "area_level": "2",
+                "parent_id": "100",
+                "post": null,
+                "areacode": "qinhuangdaoshi",
+                "province": "100",
+                "city": "140"
+            },
+            {
+                "area_id": "148",
+                "area_name": "邯郸市",
+                "area_level": "2",
+                "parent_id": "100",
+                "post": null,
+                "areacode": "handanshi",
+                "province": "100",
+                "city": "148"
+            },
+            {
+                "area_id": "168",
+                "area_name": "邢台市",
+                "area_level": "2",
+                "parent_id": "100",
+                "post": null,
+                "areacode": "xingtaishi",
+                "province": "100",
+                "city": "168"
+            },
+            {
+                "area_id": "188",
+                "area_name": "保定市",
+                "area_level": "2",
+                "parent_id": "100",
+                "post": null,
+                "areacode": "baodingshi",
+                "province": "100",
+                "city": "188"
+            },
+            {
+                "area_id": "214",
+                "area_name": "张家口市",
+                "area_level": "2",
+                "parent_id": "100",
+                "post": null,
+                "areacode": "zhangjiakoushi",
+                "province": "100",
+                "city": "214"
+            },
+            {
+                "area_id": "232",
+                "area_name": "承德市",
+                "area_level": "2",
+                "parent_id": "100",
+                "post": null,
+                "areacode": "chengdeshi",
+                "province": "100",
+                "city": "232"
+            },
+            {
+                "area_id": "244",
+                "area_name": "沧州市",
+                "area_level": "2",
+                "parent_id": "100",
+                "post": null,
+                "areacode": "cangzhoushi",
+                "province": "100",
+                "city": "244"
+            },
+            {
+                "area_id": "261",
+                "area_name": "廊坊市",
+                "area_level": "2",
+                "parent_id": "100",
+                "post": null,
+                "areacode": "langfangshi",
+                "province": "100",
+                "city": "261"
+            },
+            {
+                "area_id": "272",
+                "area_name": "衡水市",
+                "area_level": "2",
+                "parent_id": "100",
+                "post": null,
+                "areacode": "hengshuishi",
+                "province": "100",
+                "city": "272"
+            }
+        ]
+    },
+    {
+        "area_id": "284",
+        "area_name": "山西省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "shanxisheng",
+        "province": "284",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "285",
+                "area_name": "太原市",
+                "area_level": "2",
+                "parent_id": "284",
+                "post": null,
+                "areacode": "taiyuanshi",
+                "province": "284",
+                "city": "285"
+            },
+            {
+                "area_id": "296",
+                "area_name": "大同市",
+                "area_level": "2",
+                "parent_id": "284",
+                "post": null,
+                "areacode": "datongshi",
+                "province": "284",
+                "city": "296"
+            },
+            {
+                "area_id": "308",
+                "area_name": "阳泉市",
+                "area_level": "2",
+                "parent_id": "284",
+                "post": null,
+                "areacode": "yangquanshi",
+                "province": "284",
+                "city": "308"
+            },
+            {
+                "area_id": "314",
+                "area_name": "长治市",
+                "area_level": "2",
+                "parent_id": "284",
+                "post": null,
+                "areacode": "changzhishi",
+                "province": "284",
+                "city": "314"
+            },
+            {
+                "area_id": "328",
+                "area_name": "晋城市",
+                "area_level": "2",
+                "parent_id": "284",
+                "post": null,
+                "areacode": "jinchengshi",
+                "province": "284",
+                "city": "328"
+            },
+            {
+                "area_id": "335",
+                "area_name": "朔州市",
+                "area_level": "2",
+                "parent_id": "284",
+                "post": null,
+                "areacode": "shuozhoushi",
+                "province": "284",
+                "city": "335"
+            },
+            {
+                "area_id": "342",
+                "area_name": "晋中市",
+                "area_level": "2",
+                "parent_id": "284",
+                "post": null,
+                "areacode": "jinzhongshi",
+                "province": "284",
+                "city": "342"
+            },
+            {
+                "area_id": "354",
+                "area_name": "运城市",
+                "area_level": "2",
+                "parent_id": "284",
+                "post": null,
+                "areacode": "yunchengshi",
+                "province": "284",
+                "city": "354"
+            },
+            {
+                "area_id": "368",
+                "area_name": "忻州市",
+                "area_level": "2",
+                "parent_id": "284",
+                "post": null,
+                "areacode": "xinzhoushi",
+                "province": "284",
+                "city": "368"
+            },
+            {
+                "area_id": "383",
+                "area_name": "临汾市",
+                "area_level": "2",
+                "parent_id": "284",
+                "post": null,
+                "areacode": "linfenshi",
+                "province": "284",
+                "city": "383"
+            },
+            {
+                "area_id": "401",
+                "area_name": "吕梁市",
+                "area_level": "2",
+                "parent_id": "284",
+                "post": null,
+                "areacode": "lvliangshi",
+                "province": "284",
+                "city": "401"
+            }
+        ]
+    },
+    {
+        "area_id": "415",
+        "area_name": "内蒙古自治区",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "neimengguzizhiqu",
+        "province": "415",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "416",
+                "area_name": "呼和浩特市",
+                "area_level": "2",
+                "parent_id": "415",
+                "post": null,
+                "areacode": "huhehaoteshi",
+                "province": "415",
+                "city": "416"
+            },
+            {
+                "area_id": "426",
+                "area_name": "包头市",
+                "area_level": "2",
+                "parent_id": "415",
+                "post": null,
+                "areacode": "baotoushi",
+                "province": "415",
+                "city": "426"
+            },
+            {
+                "area_id": "436",
+                "area_name": "乌海市",
+                "area_level": "2",
+                "parent_id": "415",
+                "post": null,
+                "areacode": "wuhaishi",
+                "province": "415",
+                "city": "436"
+            },
+            {
+                "area_id": "440",
+                "area_name": "赤峰市",
+                "area_level": "2",
+                "parent_id": "415",
+                "post": null,
+                "areacode": "chifengshi",
+                "province": "415",
+                "city": "440"
+            },
+            {
+                "area_id": "453",
+                "area_name": "通辽市",
+                "area_level": "2",
+                "parent_id": "415",
+                "post": null,
+                "areacode": "tongliaoshi",
+                "province": "415",
+                "city": "453"
+            },
+            {
+                "area_id": "462",
+                "area_name": "鄂尔多斯市",
+                "area_level": "2",
+                "parent_id": "415",
+                "post": null,
+                "areacode": "eerduosishi",
+                "province": "415",
+                "city": "462"
+            },
+            {
+                "area_id": "471",
+                "area_name": "呼伦贝尔市",
+                "area_level": "2",
+                "parent_id": "415",
+                "post": null,
+                "areacode": "hulunbeiershi",
+                "province": "415",
+                "city": "471"
+            },
+            {
+                "area_id": "485",
+                "area_name": "巴彦淖尔市",
+                "area_level": "2",
+                "parent_id": "415",
+                "post": null,
+                "areacode": "bayannaoershi",
+                "province": "415",
+                "city": "485"
+            },
+            {
+                "area_id": "493",
+                "area_name": "乌兰察布市",
+                "area_level": "2",
+                "parent_id": "415",
+                "post": null,
+                "areacode": "wulanchabushi",
+                "province": "415",
+                "city": "493"
+            },
+            {
+                "area_id": "505",
+                "area_name": "兴安盟",
+                "area_level": "2",
+                "parent_id": "415",
+                "post": null,
+                "areacode": "xinganmeng",
+                "province": "415",
+                "city": "505"
+            },
+            {
+                "area_id": "512",
+                "area_name": "锡林郭勒盟",
+                "area_level": "2",
+                "parent_id": "415",
+                "post": null,
+                "areacode": "xilinguolemeng",
+                "province": "415",
+                "city": "512"
+            },
+            {
+                "area_id": "525",
+                "area_name": "阿拉善盟",
+                "area_level": "2",
+                "parent_id": "415",
+                "post": null,
+                "areacode": "alashanmeng",
+                "province": "415",
+                "city": "525"
+            }
+        ]
+    },
+    {
+        "area_id": "529",
+        "area_name": "辽宁省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "liaoningsheng",
+        "province": "529",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "530",
+                "area_name": "沈阳市",
+                "area_level": "2",
+                "parent_id": "529",
+                "post": null,
+                "areacode": "shenyangshi",
+                "province": "529",
+                "city": "530"
+            },
+            {
+                "area_id": "544",
+                "area_name": "大连市",
+                "area_level": "2",
+                "parent_id": "529",
+                "post": null,
+                "areacode": "dalianshi",
+                "province": "529",
+                "city": "544"
+            },
+            {
+                "area_id": "555",
+                "area_name": "鞍山市",
+                "area_level": "2",
+                "parent_id": "529",
+                "post": null,
+                "areacode": "anshanshi",
+                "province": "529",
+                "city": "555"
+            },
+            {
+                "area_id": "563",
+                "area_name": "抚顺市",
+                "area_level": "2",
+                "parent_id": "529",
+                "post": null,
+                "areacode": "fushunshi",
+                "province": "529",
+                "city": "563"
+            },
+            {
+                "area_id": "571",
+                "area_name": "本溪市",
+                "area_level": "2",
+                "parent_id": "529",
+                "post": null,
+                "areacode": "benxishi",
+                "province": "529",
+                "city": "571"
+            },
+            {
+                "area_id": "578",
+                "area_name": "丹东市",
+                "area_level": "2",
+                "parent_id": "529",
+                "post": null,
+                "areacode": "dandongshi",
+                "province": "529",
+                "city": "578"
+            },
+            {
+                "area_id": "585",
+                "area_name": "锦州市",
+                "area_level": "2",
+                "parent_id": "529",
+                "post": null,
+                "areacode": "jinzhoushi",
+                "province": "529",
+                "city": "585"
+            },
+            {
+                "area_id": "593",
+                "area_name": "营口市",
+                "area_level": "2",
+                "parent_id": "529",
+                "post": null,
+                "areacode": "yingkoushi",
+                "province": "529",
+                "city": "593"
+            },
+            {
+                "area_id": "600",
+                "area_name": "阜新市",
+                "area_level": "2",
+                "parent_id": "529",
+                "post": null,
+                "areacode": "fuxinshi",
+                "province": "529",
+                "city": "600"
+            },
+            {
+                "area_id": "608",
+                "area_name": "辽阳市",
+                "area_level": "2",
+                "parent_id": "529",
+                "post": null,
+                "areacode": "liaoyangshi",
+                "province": "529",
+                "city": "608"
+            },
+            {
+                "area_id": "616",
+                "area_name": "盘锦市",
+                "area_level": "2",
+                "parent_id": "529",
+                "post": null,
+                "areacode": "panjinshi",
+                "province": "529",
+                "city": "616"
+            },
+            {
+                "area_id": "621",
+                "area_name": "铁岭市",
+                "area_level": "2",
+                "parent_id": "529",
+                "post": null,
+                "areacode": "tielingshi",
+                "province": "529",
+                "city": "621"
+            },
+            {
+                "area_id": "629",
+                "area_name": "朝阳市",
+                "area_level": "2",
+                "parent_id": "529",
+                "post": null,
+                "areacode": "chaoyangshi",
+                "province": "529",
+                "city": "629"
+            },
+            {
+                "area_id": "637",
+                "area_name": "葫芦岛市",
+                "area_level": "2",
+                "parent_id": "529",
+                "post": null,
+                "areacode": "huludaoshi",
+                "province": "529",
+                "city": "637"
+            }
+        ]
+    },
+    {
+        "area_id": "644",
+        "area_name": "吉林省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "jilinsheng",
+        "province": "644",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "645",
+                "area_name": "长春市",
+                "area_level": "2",
+                "parent_id": "644",
+                "post": null,
+                "areacode": "changchunshi",
+                "province": "644",
+                "city": "645"
+            },
+            {
+                "area_id": "656",
+                "area_name": "吉林市",
+                "area_level": "2",
+                "parent_id": "644",
+                "post": null,
+                "areacode": "jilinshi",
+                "province": "644",
+                "city": "656"
+            },
+            {
+                "area_id": "666",
+                "area_name": "四平市",
+                "area_level": "2",
+                "parent_id": "644",
+                "post": null,
+                "areacode": "sipingshi",
+                "province": "644",
+                "city": "666"
+            },
+            {
+                "area_id": "673",
+                "area_name": "辽源市",
+                "area_level": "2",
+                "parent_id": "644",
+                "post": null,
+                "areacode": "liaoyuanshi",
+                "province": "644",
+                "city": "673"
+            },
+            {
+                "area_id": "678",
+                "area_name": "通化市",
+                "area_level": "2",
+                "parent_id": "644",
+                "post": null,
+                "areacode": "tonghuashi",
+                "province": "644",
+                "city": "678"
+            },
+            {
+                "area_id": "686",
+                "area_name": "白山市",
+                "area_level": "2",
+                "parent_id": "644",
+                "post": null,
+                "areacode": "baishanshi",
+                "province": "644",
+                "city": "686"
+            },
+            {
+                "area_id": "693",
+                "area_name": "松原市",
+                "area_level": "2",
+                "parent_id": "644",
+                "post": null,
+                "areacode": "songyuanshi",
+                "province": "644",
+                "city": "693"
+            },
+            {
+                "area_id": "699",
+                "area_name": "白城市",
+                "area_level": "2",
+                "parent_id": "644",
+                "post": null,
+                "areacode": "baichengshi",
+                "province": "644",
+                "city": "699"
+            },
+            {
+                "area_id": "705",
+                "area_name": "延边朝鲜族自治州",
+                "area_level": "2",
+                "parent_id": "644",
+                "post": null,
+                "areacode": "yanbianchaoxianzuzizhizhou",
+                "province": "644",
+                "city": "705"
+            }
+        ]
+    },
+    {
+        "area_id": "714",
+        "area_name": "黑龙江省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "heilongjiangsheng",
+        "province": "714",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "715",
+                "area_name": "哈尔滨市",
+                "area_level": "2",
+                "parent_id": "714",
+                "post": null,
+                "areacode": "haerbinshi",
+                "province": "714",
+                "city": "715"
+            },
+            {
+                "area_id": "735",
+                "area_name": "齐齐哈尔市",
+                "area_level": "2",
+                "parent_id": "714",
+                "post": null,
+                "areacode": "qiqihaershi",
+                "province": "714",
+                "city": "735"
+            },
+            {
+                "area_id": "752",
+                "area_name": "鸡西市",
+                "area_level": "2",
+                "parent_id": "714",
+                "post": null,
+                "areacode": "jixishi",
+                "province": "714",
+                "city": "752"
+            },
+            {
+                "area_id": "762",
+                "area_name": "鹤岗市",
+                "area_level": "2",
+                "parent_id": "714",
+                "post": null,
+                "areacode": "hegangshi",
+                "province": "714",
+                "city": "762"
+            },
+            {
+                "area_id": "771",
+                "area_name": "双鸭山市",
+                "area_level": "2",
+                "parent_id": "714",
+                "post": null,
+                "areacode": "shuangyashanshi",
+                "province": "714",
+                "city": "771"
+            },
+            {
+                "area_id": "780",
+                "area_name": "大庆市",
+                "area_level": "2",
+                "parent_id": "714",
+                "post": null,
+                "areacode": "daqingshi",
+                "province": "714",
+                "city": "780"
+            },
+            {
+                "area_id": "790",
+                "area_name": "伊春市",
+                "area_level": "2",
+                "parent_id": "714",
+                "post": null,
+                "areacode": "yichunshi",
+                "province": "714",
+                "city": "790"
+            },
+            {
+                "area_id": "808",
+                "area_name": "佳木斯市",
+                "area_level": "2",
+                "parent_id": "714",
+                "post": null,
+                "areacode": "jiamusishi",
+                "province": "714",
+                "city": "808"
+            },
+            {
+                "area_id": "820",
+                "area_name": "七台河市",
+                "area_level": "2",
+                "parent_id": "714",
+                "post": null,
+                "areacode": "qitaiheshi",
+                "province": "714",
+                "city": "820"
+            },
+            {
+                "area_id": "825",
+                "area_name": "牡丹江市",
+                "area_level": "2",
+                "parent_id": "714",
+                "post": null,
+                "areacode": "mudanjiangshi",
+                "province": "714",
+                "city": "825"
+            },
+            {
+                "area_id": "836",
+                "area_name": "黑河市",
+                "area_level": "2",
+                "parent_id": "714",
+                "post": null,
+                "areacode": "heiheshi",
+                "province": "714",
+                "city": "836"
+            },
+            {
+                "area_id": "843",
+                "area_name": "绥化市",
+                "area_level": "2",
+                "parent_id": "714",
+                "post": null,
+                "areacode": "suihuashi",
+                "province": "714",
+                "city": "843"
+            },
+            {
+                "area_id": "854",
+                "area_name": "大兴安岭地区",
+                "area_level": "2",
+                "parent_id": "714",
+                "post": null,
+                "areacode": "daxinganlingdiqu",
+                "province": "714",
+                "city": "854"
+            }
+        ]
+    },
+    {
+        "area_id": "858",
+        "area_name": "江苏省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "jiangsusheng",
+        "province": "858",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "859",
+                "area_name": "南京市",
+                "area_level": "2",
+                "parent_id": "858",
+                "post": null,
+                "areacode": "nanjingshi",
+                "province": "858",
+                "city": "859"
+            },
+            {
+                "area_id": "873",
+                "area_name": "无锡市",
+                "area_level": "2",
+                "parent_id": "858",
+                "post": null,
+                "areacode": "wuxishi",
+                "province": "858",
+                "city": "873"
+            },
+            {
+                "area_id": "882",
+                "area_name": "徐州市",
+                "area_level": "2",
+                "parent_id": "858",
+                "post": null,
+                "areacode": "xuzhoushi",
+                "province": "858",
+                "city": "882"
+            },
+            {
+                "area_id": "894",
+                "area_name": "常州市",
+                "area_level": "2",
+                "parent_id": "858",
+                "post": null,
+                "areacode": "changzhoushi",
+                "province": "858",
+                "city": "894"
+            },
+            {
+                "area_id": "902",
+                "area_name": "苏州市",
+                "area_level": "2",
+                "parent_id": "858",
+                "post": null,
+                "areacode": "suzhoushi",
+                "province": "858",
+                "city": "902"
+            },
+            {
+                "area_id": "914",
+                "area_name": "南通市",
+                "area_level": "2",
+                "parent_id": "858",
+                "post": null,
+                "areacode": "nantongshi",
+                "province": "858",
+                "city": "914"
+            },
+            {
+                "area_id": "923",
+                "area_name": "连云港市",
+                "area_level": "2",
+                "parent_id": "858",
+                "post": null,
+                "areacode": "lianyungangshi",
+                "province": "858",
+                "city": "923"
+            },
+            {
+                "area_id": "931",
+                "area_name": "淮安市",
+                "area_level": "2",
+                "parent_id": "858",
+                "post": null,
+                "areacode": "huaianshi",
+                "province": "858",
+                "city": "931"
+            },
+            {
+                "area_id": "940",
+                "area_name": "盐城市",
+                "area_level": "2",
+                "parent_id": "858",
+                "post": null,
+                "areacode": "yanchengshi",
+                "province": "858",
+                "city": "940"
+            },
+            {
+                "area_id": "950",
+                "area_name": "扬州市",
+                "area_level": "2",
+                "parent_id": "858",
+                "post": null,
+                "areacode": "yangzhoushi",
+                "province": "858",
+                "city": "950"
+            },
+            {
+                "area_id": "958",
+                "area_name": "镇江市",
+                "area_level": "2",
+                "parent_id": "858",
+                "post": null,
+                "areacode": "zhenjiangshi",
+                "province": "858",
+                "city": "958"
+            },
+            {
+                "area_id": "965",
+                "area_name": "泰州市",
+                "area_level": "2",
+                "parent_id": "858",
+                "post": null,
+                "areacode": "taizhoushi",
+                "province": "858",
+                "city": "965"
+            },
+            {
+                "area_id": "972",
+                "area_name": "宿迁市",
+                "area_level": "2",
+                "parent_id": "858",
+                "post": null,
+                "areacode": "suqianshi",
+                "province": "858",
+                "city": "972"
+            }
+        ]
+    },
+    {
+        "area_id": "978",
+        "area_name": "浙江省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "zhejiangsheng",
+        "province": "978",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "979",
+                "area_name": "杭州市",
+                "area_level": "2",
+                "parent_id": "978",
+                "post": null,
+                "areacode": "hangzhoushi",
+                "province": "978",
+                "city": "979"
+            },
+            {
+                "area_id": "993",
+                "area_name": "宁波市",
+                "area_level": "2",
+                "parent_id": "978",
+                "post": null,
+                "areacode": "ningboshi",
+                "province": "978",
+                "city": "993"
+            },
+            {
+                "area_id": "1005",
+                "area_name": "温州市",
+                "area_level": "2",
+                "parent_id": "978",
+                "post": null,
+                "areacode": "wenzhoushi",
+                "province": "978",
+                "city": "1005"
+            },
+            {
+                "area_id": "1017",
+                "area_name": "嘉兴市",
+                "area_level": "2",
+                "parent_id": "978",
+                "post": null,
+                "areacode": "jiaxingshi",
+                "province": "978",
+                "city": "1017"
+            },
+            {
+                "area_id": "1025",
+                "area_name": "湖州市",
+                "area_level": "2",
+                "parent_id": "978",
+                "post": null,
+                "areacode": "huzhoushi",
+                "province": "978",
+                "city": "1025"
+            },
+            {
+                "area_id": "1031",
+                "area_name": "绍兴市",
+                "area_level": "2",
+                "parent_id": "978",
+                "post": null,
+                "areacode": "shaoxingshi",
+                "province": "978",
+                "city": "1031"
+            },
+            {
+                "area_id": "1038",
+                "area_name": "金华市",
+                "area_level": "2",
+                "parent_id": "978",
+                "post": null,
+                "areacode": "jinhuashi",
+                "province": "978",
+                "city": "1038"
+            },
+            {
+                "area_id": "1048",
+                "area_name": "衢州市",
+                "area_level": "2",
+                "parent_id": "978",
+                "post": null,
+                "areacode": "zhoushi",
+                "province": "978",
+                "city": "1048"
+            },
+            {
+                "area_id": "1055",
+                "area_name": "舟山市",
+                "area_level": "2",
+                "parent_id": "978",
+                "post": null,
+                "areacode": "zhoushanshi",
+                "province": "978",
+                "city": "1055"
+            },
+            {
+                "area_id": "1060",
+                "area_name": "台州市",
+                "area_level": "2",
+                "parent_id": "978",
+                "post": null,
+                "areacode": "taizhoushi",
+                "province": "978",
+                "city": "1060"
+            },
+            {
+                "area_id": "1070",
+                "area_name": "丽水市",
+                "area_level": "2",
+                "parent_id": "978",
+                "post": null,
+                "areacode": "lishuishi",
+                "province": "978",
+                "city": "1070"
+            }
+        ]
+    },
+    {
+        "area_id": "1080",
+        "area_name": "安徽省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "anhuisheng",
+        "province": "1080",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "1081",
+                "area_name": "合肥市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "hefeishi",
+                "province": "1080",
+                "city": "1081"
+            },
+            {
+                "area_id": "1089",
+                "area_name": "芜湖市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "wuhushi",
+                "province": "1080",
+                "city": "1089"
+            },
+            {
+                "area_id": "1097",
+                "area_name": "蚌埠市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "bangbushi",
+                "province": "1080",
+                "city": "1097"
+            },
+            {
+                "area_id": "1105",
+                "area_name": "淮南市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "huainanshi",
+                "province": "1080",
+                "city": "1105"
+            },
+            {
+                "area_id": "1112",
+                "area_name": "马鞍山市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "maanshanshi",
+                "province": "1080",
+                "city": "1112"
+            },
+            {
+                "area_id": "1117",
+                "area_name": "淮北市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "huaibeishi",
+                "province": "1080",
+                "city": "1117"
+            },
+            {
+                "area_id": "1122",
+                "area_name": "铜陵市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "tonglingshi",
+                "province": "1080",
+                "city": "1122"
+            },
+            {
+                "area_id": "1127",
+                "area_name": "安庆市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "anqingshi",
+                "province": "1080",
+                "city": "1127"
+            },
+            {
+                "area_id": "1139",
+                "area_name": "黄山市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "huangshanshi",
+                "province": "1080",
+                "city": "1139"
+            },
+            {
+                "area_id": "1147",
+                "area_name": "滁州市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "chuzhoushi",
+                "province": "1080",
+                "city": "1147"
+            },
+            {
+                "area_id": "1156",
+                "area_name": "阜阳市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "fuyangshi",
+                "province": "1080",
+                "city": "1156"
+            },
+            {
+                "area_id": "1165",
+                "area_name": "宿州市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "suzhoushi",
+                "province": "1080",
+                "city": "1165"
+            },
+            {
+                "area_id": "1171",
+                "area_name": "巢湖市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "chaohushi",
+                "province": "1080",
+                "city": "1171"
+            },
+            {
+                "area_id": "1177",
+                "area_name": "六安市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "liuanshi",
+                "province": "1080",
+                "city": "1177"
+            },
+            {
+                "area_id": "1185",
+                "area_name": "亳州市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "zhoushi",
+                "province": "1080",
+                "city": "1185"
+            },
+            {
+                "area_id": "1190",
+                "area_name": "池州市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "chizhoushi",
+                "province": "1080",
+                "city": "1190"
+            },
+            {
+                "area_id": "1195",
+                "area_name": "宣城市",
+                "area_level": "2",
+                "parent_id": "1080",
+                "post": null,
+                "areacode": "xuanchengshi",
+                "province": "1080",
+                "city": "1195"
+            }
+        ]
+    },
+    {
+        "area_id": "1203",
+        "area_name": "福建省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "fujiansheng",
+        "province": "1203",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "1204",
+                "area_name": "福州市",
+                "area_level": "2",
+                "parent_id": "1203",
+                "post": null,
+                "areacode": "fuzhoushi",
+                "province": "1203",
+                "city": "1204"
+            },
+            {
+                "area_id": "1218",
+                "area_name": "厦门市",
+                "area_level": "2",
+                "parent_id": "1203",
+                "post": null,
+                "areacode": "xiamenshi",
+                "province": "1203",
+                "city": "1218"
+            },
+            {
+                "area_id": "1225",
+                "area_name": "莆田市",
+                "area_level": "2",
+                "parent_id": "1203",
+                "post": null,
+                "areacode": "putianshi",
+                "province": "1203",
+                "city": "1225"
+            },
+            {
+                "area_id": "1231",
+                "area_name": "三明市",
+                "area_level": "2",
+                "parent_id": "1203",
+                "post": null,
+                "areacode": "sanmingshi",
+                "province": "1203",
+                "city": "1231"
+            },
+            {
+                "area_id": "1244",
+                "area_name": "泉州市",
+                "area_level": "2",
+                "parent_id": "1203",
+                "post": null,
+                "areacode": "quanzhoushi",
+                "province": "1203",
+                "city": "1244"
+            },
+            {
+                "area_id": "1257",
+                "area_name": "漳州市",
+                "area_level": "2",
+                "parent_id": "1203",
+                "post": null,
+                "areacode": "zhangzhoushi",
+                "province": "1203",
+                "city": "1257"
+            },
+            {
+                "area_id": "1269",
+                "area_name": "南平市",
+                "area_level": "2",
+                "parent_id": "1203",
+                "post": null,
+                "areacode": "nanpingshi",
+                "province": "1203",
+                "city": "1269"
+            },
+            {
+                "area_id": "1280",
+                "area_name": "龙岩市",
+                "area_level": "2",
+                "parent_id": "1203",
+                "post": null,
+                "areacode": "longyanshi",
+                "province": "1203",
+                "city": "1280"
+            },
+            {
+                "area_id": "1288",
+                "area_name": "宁德市",
+                "area_level": "2",
+                "parent_id": "1203",
+                "post": null,
+                "areacode": "ningdeshi",
+                "province": "1203",
+                "city": "1288"
+            }
+        ]
+    },
+    {
+        "area_id": "1298",
+        "area_name": "江西省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "jiangxisheng",
+        "province": "1298",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "1299",
+                "area_name": "南昌市",
+                "area_level": "2",
+                "parent_id": "1298",
+                "post": null,
+                "areacode": "nanchangshi",
+                "province": "1298",
+                "city": "1299"
+            },
+            {
+                "area_id": "1309",
+                "area_name": "景德镇市",
+                "area_level": "2",
+                "parent_id": "1298",
+                "post": null,
+                "areacode": "jingdezhenshi",
+                "province": "1298",
+                "city": "1309"
+            },
+            {
+                "area_id": "1314",
+                "area_name": "萍乡市",
+                "area_level": "2",
+                "parent_id": "1298",
+                "post": null,
+                "areacode": "pingxiangshi",
+                "province": "1298",
+                "city": "1314"
+            },
+            {
+                "area_id": "1320",
+                "area_name": "九江市",
+                "area_level": "2",
+                "parent_id": "1298",
+                "post": null,
+                "areacode": "jiujiangshi",
+                "province": "1298",
+                "city": "1320"
+            },
+            {
+                "area_id": "1333",
+                "area_name": "新余市",
+                "area_level": "2",
+                "parent_id": "1298",
+                "post": null,
+                "areacode": "xinyushi",
+                "province": "1298",
+                "city": "1333"
+            },
+            {
+                "area_id": "1336",
+                "area_name": "鹰潭市",
+                "area_level": "2",
+                "parent_id": "1298",
+                "post": null,
+                "areacode": "yingtanshi",
+                "province": "1298",
+                "city": "1336"
+            },
+            {
+                "area_id": "1340",
+                "area_name": "赣州市",
+                "area_level": "2",
+                "parent_id": "1298",
+                "post": null,
+                "areacode": "ganzhoushi",
+                "province": "1298",
+                "city": "1340"
+            },
+            {
+                "area_id": "1359",
+                "area_name": "吉安市",
+                "area_level": "2",
+                "parent_id": "1298",
+                "post": null,
+                "areacode": "jianshi",
+                "province": "1298",
+                "city": "1359"
+            },
+            {
+                "area_id": "1373",
+                "area_name": "宜春市",
+                "area_level": "2",
+                "parent_id": "1298",
+                "post": null,
+                "areacode": "yichunshi",
+                "province": "1298",
+                "city": "1373"
+            },
+            {
+                "area_id": "1384",
+                "area_name": "抚州市",
+                "area_level": "2",
+                "parent_id": "1298",
+                "post": null,
+                "areacode": "fuzhoushi",
+                "province": "1298",
+                "city": "1384"
+            },
+            {
+                "area_id": "1396",
+                "area_name": "上饶市",
+                "area_level": "2",
+                "parent_id": "1298",
+                "post": null,
+                "areacode": "shangraoshi",
+                "province": "1298",
+                "city": "1396"
+            }
+        ]
+    },
+    {
+        "area_id": "1409",
+        "area_name": "山东省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "shandongsheng",
+        "province": "1409",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "1410",
+                "area_name": "济南市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "jinanshi",
+                "province": "1409",
+                "city": "1410"
+            },
+            {
+                "area_id": "1421",
+                "area_name": "青岛市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "qingdaoshi",
+                "province": "1409",
+                "city": "1421"
+            },
+            {
+                "area_id": "1434",
+                "area_name": "淄博市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "ziboshi",
+                "province": "1409",
+                "city": "1434"
+            },
+            {
+                "area_id": "1443",
+                "area_name": "枣庄市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "zaozhuangshi",
+                "province": "1409",
+                "city": "1443"
+            },
+            {
+                "area_id": "1450",
+                "area_name": "东营市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "dongyingshi",
+                "province": "1409",
+                "city": "1450"
+            },
+            {
+                "area_id": "1456",
+                "area_name": "烟台市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "yantaishi",
+                "province": "1409",
+                "city": "1456"
+            },
+            {
+                "area_id": "1469",
+                "area_name": "潍坊市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "weifangshi",
+                "province": "1409",
+                "city": "1469"
+            },
+            {
+                "area_id": "1482",
+                "area_name": "济宁市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "jiningshi",
+                "province": "1409",
+                "city": "1482"
+            },
+            {
+                "area_id": "1495",
+                "area_name": "泰安市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "taianshi",
+                "province": "1409",
+                "city": "1495"
+            },
+            {
+                "area_id": "1502",
+                "area_name": "威海市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "weihaishi",
+                "province": "1409",
+                "city": "1502"
+            },
+            {
+                "area_id": "1507",
+                "area_name": "日照市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "rizhaoshi",
+                "province": "1409",
+                "city": "1507"
+            },
+            {
+                "area_id": "1512",
+                "area_name": "莱芜市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "laiwushi",
+                "province": "1409",
+                "city": "1512"
+            },
+            {
+                "area_id": "1515",
+                "area_name": "临沂市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "linyishi",
+                "province": "1409",
+                "city": "1515"
+            },
+            {
+                "area_id": "1528",
+                "area_name": "德州市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "dezhoushi",
+                "province": "1409",
+                "city": "1528"
+            },
+            {
+                "area_id": "1540",
+                "area_name": "聊城市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "liaochengshi",
+                "province": "1409",
+                "city": "1540"
+            },
+            {
+                "area_id": "1549",
+                "area_name": "滨州市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "binzhoushi",
+                "province": "1409",
+                "city": "1549"
+            },
+            {
+                "area_id": "1557",
+                "area_name": "荷泽市",
+                "area_level": "2",
+                "parent_id": "1409",
+                "post": null,
+                "areacode": "hezeshi",
+                "province": "1409",
+                "city": "1557"
+            }
+        ]
+    },
+    {
+        "area_id": "1567",
+        "area_name": "河南省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "henansheng",
+        "province": "1567",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "1568",
+                "area_name": "郑州市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "zhengzhoushi",
+                "province": "1567",
+                "city": "1568"
+            },
+            {
+                "area_id": "1581",
+                "area_name": "开封市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "kaifengshi",
+                "province": "1567",
+                "city": "1581"
+            },
+            {
+                "area_id": "1592",
+                "area_name": "洛阳市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "luoyangshi",
+                "province": "1567",
+                "city": "1592"
+            },
+            {
+                "area_id": "1608",
+                "area_name": "平顶山市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "pingdingshanshi",
+                "province": "1567",
+                "city": "1608"
+            },
+            {
+                "area_id": "1619",
+                "area_name": "安阳市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "anyangshi",
+                "province": "1567",
+                "city": "1619"
+            },
+            {
+                "area_id": "1629",
+                "area_name": "鹤壁市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "hebishi",
+                "province": "1567",
+                "city": "1629"
+            },
+            {
+                "area_id": "1635",
+                "area_name": "新乡市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "xinxiangshi",
+                "province": "1567",
+                "city": "1635"
+            },
+            {
+                "area_id": "1648",
+                "area_name": "焦作市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "jiaozuoshi",
+                "province": "1567",
+                "city": "1648"
+            },
+            {
+                "area_id": "1660",
+                "area_name": "濮阳市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "yangshi",
+                "province": "1567",
+                "city": "1660"
+            },
+            {
+                "area_id": "1667",
+                "area_name": "许昌市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "xuchangshi",
+                "province": "1567",
+                "city": "1667"
+            },
+            {
+                "area_id": "1674",
+                "area_name": "漯河市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "heshi",
+                "province": "1567",
+                "city": "1674"
+            },
+            {
+                "area_id": "1680",
+                "area_name": "三门峡市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "sanmenxiashi",
+                "province": "1567",
+                "city": "1680"
+            },
+            {
+                "area_id": "1687",
+                "area_name": "南阳市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "nanyangshi",
+                "province": "1567",
+                "city": "1687"
+            },
+            {
+                "area_id": "1701",
+                "area_name": "商丘市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "shangqiushi",
+                "province": "1567",
+                "city": "1701"
+            },
+            {
+                "area_id": "1711",
+                "area_name": "信阳市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "xinyangshi",
+                "province": "1567",
+                "city": "1711"
+            },
+            {
+                "area_id": "1722",
+                "area_name": "周口市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "zhoukoushi",
+                "province": "1567",
+                "city": "1722"
+            },
+            {
+                "area_id": "1733",
+                "area_name": "驻马店市",
+                "area_level": "2",
+                "parent_id": "1567",
+                "post": null,
+                "areacode": "zhumadianshi",
+                "province": "1567",
+                "city": "1733"
+            }
+        ]
+    },
+    {
+        "area_id": "1744",
+        "area_name": "湖北省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "hubeisheng",
+        "province": "1744",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "1745",
+                "area_name": "武汉市",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "wuhanshi",
+                "province": "1744",
+                "city": "1745"
+            },
+            {
+                "area_id": "1759",
+                "area_name": "黄石市",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "huangshishi",
+                "province": "1744",
+                "city": "1759"
+            },
+            {
+                "area_id": "1766",
+                "area_name": "十堰市",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "shiyanshi",
+                "province": "1744",
+                "city": "1766"
+            },
+            {
+                "area_id": "1775",
+                "area_name": "宜昌市",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "yichangshi",
+                "province": "1744",
+                "city": "1775"
+            },
+            {
+                "area_id": "1789",
+                "area_name": "襄樊市",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "xiangfanshi",
+                "province": "1744",
+                "city": "1789"
+            },
+            {
+                "area_id": "1799",
+                "area_name": "鄂州市",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "ezhoushi",
+                "province": "1744",
+                "city": "1799"
+            },
+            {
+                "area_id": "1803",
+                "area_name": "荆门市",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "jingmenshi",
+                "province": "1744",
+                "city": "1803"
+            },
+            {
+                "area_id": "1809",
+                "area_name": "孝感市",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "xiaoganshi",
+                "province": "1744",
+                "city": "1809"
+            },
+            {
+                "area_id": "1817",
+                "area_name": "荆州市",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "jingzhoushi",
+                "province": "1744",
+                "city": "1817"
+            },
+            {
+                "area_id": "1826",
+                "area_name": "黄冈市",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "huanggangshi",
+                "province": "1744",
+                "city": "1826"
+            },
+            {
+                "area_id": "1837",
+                "area_name": "咸宁市",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "xianningshi",
+                "province": "1744",
+                "city": "1837"
+            },
+            {
+                "area_id": "1844",
+                "area_name": "随州市",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "suizhoushi",
+                "province": "1744",
+                "city": "1844"
+            },
+            {
+                "area_id": "1847",
+                "area_name": "恩施土家族苗族自治州",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "enshitujiazumiaozuzizhizhou",
+                "province": "1744",
+                "city": "1847"
+            },
+            {
+                "area_id": "1856",
+                "area_name": "仙桃市",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "xiantaoshi",
+                "province": "1744",
+                "city": "1856"
+            },
+            {
+                "area_id": "1857",
+                "area_name": "潜江市",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "qianjiangshi",
+                "province": "1744",
+                "city": "1857"
+            },
+            {
+                "area_id": "1858",
+                "area_name": "天门市",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "tianmenshi",
+                "province": "1744",
+                "city": "1858"
+            },
+            {
+                "area_id": "1859",
+                "area_name": "神农架林区",
+                "area_level": "2",
+                "parent_id": "1744",
+                "post": null,
+                "areacode": "shennongjialinqu",
+                "province": "1744",
+                "city": "1859"
+            }
+        ]
+    },
+    {
+        "area_id": "1860",
+        "area_name": "湖南省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "hunansheng",
+        "province": "1860",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "1861",
+                "area_name": "长沙市",
+                "area_level": "2",
+                "parent_id": "1860",
+                "post": null,
+                "areacode": "changshashi",
+                "province": "1860",
+                "city": "1861"
+            },
+            {
+                "area_id": "1871",
+                "area_name": "株洲市",
+                "area_level": "2",
+                "parent_id": "1860",
+                "post": null,
+                "areacode": "zhuzhoushi",
+                "province": "1860",
+                "city": "1871"
+            },
+            {
+                "area_id": "1881",
+                "area_name": "湘潭市",
+                "area_level": "2",
+                "parent_id": "1860",
+                "post": null,
+                "areacode": "xiangtanshi",
+                "province": "1860",
+                "city": "1881"
+            },
+            {
+                "area_id": "1887",
+                "area_name": "衡阳市",
+                "area_level": "2",
+                "parent_id": "1860",
+                "post": null,
+                "areacode": "hengyangshi",
+                "province": "1860",
+                "city": "1887"
+            },
+            {
+                "area_id": "1900",
+                "area_name": "邵阳市",
+                "area_level": "2",
+                "parent_id": "1860",
+                "post": null,
+                "areacode": "shaoyangshi",
+                "province": "1860",
+                "city": "1900"
+            },
+            {
+                "area_id": "1913",
+                "area_name": "岳阳市",
+                "area_level": "2",
+                "parent_id": "1860",
+                "post": null,
+                "areacode": "yueyangshi",
+                "province": "1860",
+                "city": "1913"
+            },
+            {
+                "area_id": "1923",
+                "area_name": "常德市",
+                "area_level": "2",
+                "parent_id": "1860",
+                "post": null,
+                "areacode": "changdeshi",
+                "province": "1860",
+                "city": "1923"
+            },
+            {
+                "area_id": "1933",
+                "area_name": "张家界市",
+                "area_level": "2",
+                "parent_id": "1860",
+                "post": null,
+                "areacode": "zhangjiajieshi",
+                "province": "1860",
+                "city": "1933"
+            },
+            {
+                "area_id": "1938",
+                "area_name": "益阳市",
+                "area_level": "2",
+                "parent_id": "1860",
+                "post": null,
+                "areacode": "yiyangshi",
+                "province": "1860",
+                "city": "1938"
+            },
+            {
+                "area_id": "1945",
+                "area_name": "郴州市",
+                "area_level": "2",
+                "parent_id": "1860",
+                "post": null,
+                "areacode": "chenzhoushi",
+                "province": "1860",
+                "city": "1945"
+            },
+            {
+                "area_id": "1957",
+                "area_name": "永州市",
+                "area_level": "2",
+                "parent_id": "1860",
+                "post": null,
+                "areacode": "yongzhoushi",
+                "province": "1860",
+                "city": "1957"
+            },
+            {
+                "area_id": "1969",
+                "area_name": "怀化市",
+                "area_level": "2",
+                "parent_id": "1860",
+                "post": null,
+                "areacode": "huaihuashi",
+                "province": "1860",
+                "city": "1969"
+            },
+            {
+                "area_id": "1982",
+                "area_name": "娄底市",
+                "area_level": "2",
+                "parent_id": "1860",
+                "post": null,
+                "areacode": "loudishi",
+                "province": "1860",
+                "city": "1982"
+            },
+            {
+                "area_id": "1988",
+                "area_name": "湘西土家族苗族自治州",
+                "area_level": "2",
+                "parent_id": "1860",
+                "post": null,
+                "areacode": "xiangxitujiazumiaozuzizhizhou",
+                "province": "1860",
+                "city": "1988"
+            }
+        ]
+    },
+    {
+        "area_id": "1997",
+        "area_name": "广东省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "guangdongsheng",
+        "province": "1997",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "1998",
+                "area_name": "广州市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "guangzhoushi",
+                "province": "1997",
+                "city": "1998"
+            },
+            {
+                "area_id": "2011",
+                "area_name": "韶关市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "shaoguanshi",
+                "province": "1997",
+                "city": "2011"
+            },
+            {
+                "area_id": "2022",
+                "area_name": "深圳市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "shenshi",
+                "province": "1997",
+                "city": "2022"
+            },
+            {
+                "area_id": "2029",
+                "area_name": "珠海市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "zhuhaishi",
+                "province": "1997",
+                "city": "2029"
+            },
+            {
+                "area_id": "2033",
+                "area_name": "汕头市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "shantoushi",
+                "province": "1997",
+                "city": "2033"
+            },
+            {
+                "area_id": "2041",
+                "area_name": "佛山市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "foshanshi",
+                "province": "1997",
+                "city": "2041"
+            },
+            {
+                "area_id": "2047",
+                "area_name": "江门市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "jiangmenshi",
+                "province": "1997",
+                "city": "2047"
+            },
+            {
+                "area_id": "2055",
+                "area_name": "湛江市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "zhanjiangshi",
+                "province": "1997",
+                "city": "2055"
+            },
+            {
+                "area_id": "2065",
+                "area_name": "茂名市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "maomingshi",
+                "province": "1997",
+                "city": "2065"
+            },
+            {
+                "area_id": "2072",
+                "area_name": "肇庆市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "zhaoqingshi",
+                "province": "1997",
+                "city": "2072"
+            },
+            {
+                "area_id": "2081",
+                "area_name": "惠州市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "huizhoushi",
+                "province": "1997",
+                "city": "2081"
+            },
+            {
+                "area_id": "2087",
+                "area_name": "梅州市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "meizhoushi",
+                "province": "1997",
+                "city": "2087"
+            },
+            {
+                "area_id": "2096",
+                "area_name": "汕尾市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "shanweishi",
+                "province": "1997",
+                "city": "2096"
+            },
+            {
+                "area_id": "2101",
+                "area_name": "河源市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "heyuanshi",
+                "province": "1997",
+                "city": "2101"
+            },
+            {
+                "area_id": "2108",
+                "area_name": "阳江市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "yangjiangshi",
+                "province": "1997",
+                "city": "2108"
+            },
+            {
+                "area_id": "2113",
+                "area_name": "清远市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "qingyuanshi",
+                "province": "1997",
+                "city": "2113"
+            },
+            {
+                "area_id": "2122",
+                "area_name": "东莞市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "dongshi",
+                "province": "1997",
+                "city": "2122"
+            },
+            {
+                "area_id": "2123",
+                "area_name": "中山市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "zhongshanshi",
+                "province": "1997",
+                "city": "2123"
+            },
+            {
+                "area_id": "2124",
+                "area_name": "潮州市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "chaozhoushi",
+                "province": "1997",
+                "city": "2124"
+            },
+            {
+                "area_id": "2128",
+                "area_name": "揭阳市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "jieyangshi",
+                "province": "1997",
+                "city": "2128"
+            },
+            {
+                "area_id": "2134",
+                "area_name": "云浮市",
+                "area_level": "2",
+                "parent_id": "1997",
+                "post": null,
+                "areacode": "yunfushi",
+                "province": "1997",
+                "city": "2134"
+            }
+        ]
+    },
+    {
+        "area_id": "2140",
+        "area_name": "广西壮族自治区",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "guangxizhuangzuzizhiqu",
+        "province": "2140",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "2141",
+                "area_name": "南宁市",
+                "area_level": "2",
+                "parent_id": "2140",
+                "post": null,
+                "areacode": "nanningshi",
+                "province": "2140",
+                "city": "2141"
+            },
+            {
+                "area_id": "2154",
+                "area_name": "柳州市",
+                "area_level": "2",
+                "parent_id": "2140",
+                "post": null,
+                "areacode": "liuzhoushi",
+                "province": "2140",
+                "city": "2154"
+            },
+            {
+                "area_id": "2165",
+                "area_name": "桂林市",
+                "area_level": "2",
+                "parent_id": "2140",
+                "post": null,
+                "areacode": "guilinshi",
+                "province": "2140",
+                "city": "2165"
+            },
+            {
+                "area_id": "2183",
+                "area_name": "梧州市",
+                "area_level": "2",
+                "parent_id": "2140",
+                "post": null,
+                "areacode": "wuzhoushi",
+                "province": "2140",
+                "city": "2183"
+            },
+            {
+                "area_id": "2191",
+                "area_name": "北海市",
+                "area_level": "2",
+                "parent_id": "2140",
+                "post": null,
+                "areacode": "beihaishi",
+                "province": "2140",
+                "city": "2191"
+            },
+            {
+                "area_id": "2196",
+                "area_name": "防城港市",
+                "area_level": "2",
+                "parent_id": "2140",
+                "post": null,
+                "areacode": "fangchenggangshi",
+                "province": "2140",
+                "city": "2196"
+            },
+            {
+                "area_id": "2201",
+                "area_name": "钦州市",
+                "area_level": "2",
+                "parent_id": "2140",
+                "post": null,
+                "areacode": "qinzhoushi",
+                "province": "2140",
+                "city": "2201"
+            },
+            {
+                "area_id": "2206",
+                "area_name": "贵港市",
+                "area_level": "2",
+                "parent_id": "2140",
+                "post": null,
+                "areacode": "guigangshi",
+                "province": "2140",
+                "city": "2206"
+            },
+            {
+                "area_id": "2212",
+                "area_name": "玉林市",
+                "area_level": "2",
+                "parent_id": "2140",
+                "post": null,
+                "areacode": "yulinshi",
+                "province": "2140",
+                "city": "2212"
+            },
+            {
+                "area_id": "2219",
+                "area_name": "百色市",
+                "area_level": "2",
+                "parent_id": "2140",
+                "post": null,
+                "areacode": "baiseshi",
+                "province": "2140",
+                "city": "2219"
+            },
+            {
+                "area_id": "2232",
+                "area_name": "贺州市",
+                "area_level": "2",
+                "parent_id": "2140",
+                "post": null,
+                "areacode": "hezhoushi",
+                "province": "2140",
+                "city": "2232"
+            },
+            {
+                "area_id": "2237",
+                "area_name": "河池市",
+                "area_level": "2",
+                "parent_id": "2140",
+                "post": null,
+                "areacode": "hechishi",
+                "province": "2140",
+                "city": "2237"
+            },
+            {
+                "area_id": "2249",
+                "area_name": "来宾市",
+                "area_level": "2",
+                "parent_id": "2140",
+                "post": null,
+                "areacode": "laibinshi",
+                "province": "2140",
+                "city": "2249"
+            },
+            {
+                "area_id": "2256",
+                "area_name": "崇左市",
+                "area_level": "2",
+                "parent_id": "2140",
+                "post": null,
+                "areacode": "chongzuoshi",
+                "province": "2140",
+                "city": "2256"
+            }
+        ]
+    },
+    {
+        "area_id": "2264",
+        "area_name": "海南省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "hainansheng",
+        "province": "2264",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "2265",
+                "area_name": "海口市",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "haikoushi",
+                "province": "2264",
+                "city": "2265"
+            },
+            {
+                "area_id": "2270",
+                "area_name": "三亚市",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "sanyashi",
+                "province": "2264",
+                "city": "2270"
+            },
+            {
+                "area_id": "2271",
+                "area_name": "五指山市",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "wuzhishanshi",
+                "province": "2264",
+                "city": "2271"
+            },
+            {
+                "area_id": "2272",
+                "area_name": "琼海市",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "qionghaishi",
+                "province": "2264",
+                "city": "2272"
+            },
+            {
+                "area_id": "2273",
+                "area_name": "儋州市",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "zhoushi",
+                "province": "2264",
+                "city": "2273"
+            },
+            {
+                "area_id": "2274",
+                "area_name": "文昌市",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "wenchangshi",
+                "province": "2264",
+                "city": "2274"
+            },
+            {
+                "area_id": "2275",
+                "area_name": "万宁市",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "wanningshi",
+                "province": "2264",
+                "city": "2275"
+            },
+            {
+                "area_id": "2276",
+                "area_name": "东方市",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "dongfangshi",
+                "province": "2264",
+                "city": "2276"
+            },
+            {
+                "area_id": "2277",
+                "area_name": "定安县",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "dinganxian",
+                "province": "2264",
+                "city": "2277"
+            },
+            {
+                "area_id": "2278",
+                "area_name": "屯昌县",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "tunchangxian",
+                "province": "2264",
+                "city": "2278"
+            },
+            {
+                "area_id": "2279",
+                "area_name": "澄迈县",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "chengmaixian",
+                "province": "2264",
+                "city": "2279"
+            },
+            {
+                "area_id": "2280",
+                "area_name": "临高县",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "lingaoxian",
+                "province": "2264",
+                "city": "2280"
+            },
+            {
+                "area_id": "2281",
+                "area_name": "白沙黎族自治县",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "baishalizuzizhixian",
+                "province": "2264",
+                "city": "2281"
+            },
+            {
+                "area_id": "2282",
+                "area_name": "昌江黎族自治县",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "changjianglizuzizhixian",
+                "province": "2264",
+                "city": "2282"
+            },
+            {
+                "area_id": "2283",
+                "area_name": "乐东黎族自治县",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "ledonglizuzizhixian",
+                "province": "2264",
+                "city": "2283"
+            },
+            {
+                "area_id": "2284",
+                "area_name": "陵水黎族自治县",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "lingshuilizuzizhixian",
+                "province": "2264",
+                "city": "2284"
+            },
+            {
+                "area_id": "2285",
+                "area_name": "保亭黎族苗族自治县",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "baotinglizumiaozuzizhixian",
+                "province": "2264",
+                "city": "2285"
+            },
+            {
+                "area_id": "2286",
+                "area_name": "琼中黎族苗族自治县",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "qiongzhonglizumiaozuzizhixian",
+                "province": "2264",
+                "city": "2286"
+            },
+            {
+                "area_id": "2287",
+                "area_name": "西沙群岛",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "xishaqundao",
+                "province": "2264",
+                "city": "2287"
+            },
+            {
+                "area_id": "2288",
+                "area_name": "南沙群岛",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "nanshaqundao",
+                "province": "2264",
+                "city": "2288"
+            },
+            {
+                "area_id": "2289",
+                "area_name": "中沙群岛的岛礁及其海域",
+                "area_level": "2",
+                "parent_id": "2264",
+                "post": null,
+                "areacode": "zhongshaqundaodedaojiaojiqihaiyu",
+                "province": "2264",
+                "city": "2289"
+            }
+        ]
+    },
+    {
+        "area_id": "2290",
+        "area_name": "四川省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "sichuansheng",
+        "province": "2290",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "2291",
+                "area_name": "成都市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "chengdushi",
+                "province": "2290",
+                "city": "2291"
+            },
+            {
+                "area_id": "2311",
+                "area_name": "自贡市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "zigongshi",
+                "province": "2290",
+                "city": "2311"
+            },
+            {
+                "area_id": "2318",
+                "area_name": "攀枝花市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "panzhihuashi",
+                "province": "2290",
+                "city": "2318"
+            },
+            {
+                "area_id": "2324",
+                "area_name": "泸州市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "zhoushi",
+                "province": "2290",
+                "city": "2324"
+            },
+            {
+                "area_id": "2332",
+                "area_name": "德阳市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "deyangshi",
+                "province": "2290",
+                "city": "2332"
+            },
+            {
+                "area_id": "2339",
+                "area_name": "绵阳市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "mianyangshi",
+                "province": "2290",
+                "city": "2339"
+            },
+            {
+                "area_id": "2349",
+                "area_name": "广元市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "guangyuanshi",
+                "province": "2290",
+                "city": "2349"
+            },
+            {
+                "area_id": "2357",
+                "area_name": "遂宁市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "suiningshi",
+                "province": "2290",
+                "city": "2357"
+            },
+            {
+                "area_id": "2363",
+                "area_name": "内江市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "neijiangshi",
+                "province": "2290",
+                "city": "2363"
+            },
+            {
+                "area_id": "2369",
+                "area_name": "乐山市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "leshanshi",
+                "province": "2290",
+                "city": "2369"
+            },
+            {
+                "area_id": "2381",
+                "area_name": "南充市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "nanchongshi",
+                "province": "2290",
+                "city": "2381"
+            },
+            {
+                "area_id": "2391",
+                "area_name": "眉山市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "meishanshi",
+                "province": "2290",
+                "city": "2391"
+            },
+            {
+                "area_id": "2398",
+                "area_name": "宜宾市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "yibinshi",
+                "province": "2290",
+                "city": "2398"
+            },
+            {
+                "area_id": "2409",
+                "area_name": "广安市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "guanganshi",
+                "province": "2290",
+                "city": "2409"
+            },
+            {
+                "area_id": "2415",
+                "area_name": "达州市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "dazhoushi",
+                "province": "2290",
+                "city": "2415"
+            },
+            {
+                "area_id": "2423",
+                "area_name": "雅安市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "yaanshi",
+                "province": "2290",
+                "city": "2423"
+            },
+            {
+                "area_id": "2432",
+                "area_name": "巴中市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "bazhongshi",
+                "province": "2290",
+                "city": "2432"
+            },
+            {
+                "area_id": "2437",
+                "area_name": "资阳市",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "ziyangshi",
+                "province": "2290",
+                "city": "2437"
+            },
+            {
+                "area_id": "2442",
+                "area_name": "阿坝藏族羌族自治州",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "abacangzuqiangzuzizhizhou",
+                "province": "2290",
+                "city": "2442"
+            },
+            {
+                "area_id": "2456",
+                "area_name": "甘孜藏族自治州",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "ganzicangzuzizhizhou",
+                "province": "2290",
+                "city": "2456"
+            },
+            {
+                "area_id": "2475",
+                "area_name": "凉山彝族自治州",
+                "area_level": "2",
+                "parent_id": "2290",
+                "post": null,
+                "areacode": "liangshanyizuzizhizhou",
+                "province": "2290",
+                "city": "2475"
+            }
+        ]
+    },
+    {
+        "area_id": "2493",
+        "area_name": "贵州省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "guizhousheng",
+        "province": "2493",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "2494",
+                "area_name": "贵阳市",
+                "area_level": "2",
+                "parent_id": "2493",
+                "post": null,
+                "areacode": "guiyangshi",
+                "province": "2493",
+                "city": "2494"
+            },
+            {
+                "area_id": "2505",
+                "area_name": "六盘水市",
+                "area_level": "2",
+                "parent_id": "2493",
+                "post": null,
+                "areacode": "liupanshuishi",
+                "province": "2493",
+                "city": "2505"
+            },
+            {
+                "area_id": "2510",
+                "area_name": "遵义市",
+                "area_level": "2",
+                "parent_id": "2493",
+                "post": null,
+                "areacode": "zunyishi",
+                "province": "2493",
+                "city": "2510"
+            },
+            {
+                "area_id": "2525",
+                "area_name": "安顺市",
+                "area_level": "2",
+                "parent_id": "2493",
+                "post": null,
+                "areacode": "anshunshi",
+                "province": "2493",
+                "city": "2525"
+            },
+            {
+                "area_id": "2532",
+                "area_name": "铜仁地区",
+                "area_level": "2",
+                "parent_id": "2493",
+                "post": null,
+                "areacode": "tongrendiqu",
+                "province": "2493",
+                "city": "2532"
+            },
+            {
+                "area_id": "2543",
+                "area_name": "黔西南布依族苗族自治州",
+                "area_level": "2",
+                "parent_id": "2493",
+                "post": null,
+                "areacode": "qianxinanbuyizumiaozuzizhizhou",
+                "province": "2493",
+                "city": "2543"
+            },
+            {
+                "area_id": "2552",
+                "area_name": "毕节地区",
+                "area_level": "2",
+                "parent_id": "2493",
+                "post": null,
+                "areacode": "bijiediqu",
+                "province": "2493",
+                "city": "2552"
+            },
+            {
+                "area_id": "2561",
+                "area_name": "黔东南苗族侗族自治州",
+                "area_level": "2",
+                "parent_id": "2493",
+                "post": null,
+                "areacode": "qiandongnanmiaozudongzuzizhizhou",
+                "province": "2493",
+                "city": "2561"
+            },
+            {
+                "area_id": "2578",
+                "area_name": "黔南布依族苗族自治州",
+                "area_level": "2",
+                "parent_id": "2493",
+                "post": null,
+                "areacode": "qiannanbuyizumiaozuzizhizhou",
+                "province": "2493",
+                "city": "2578"
+            }
+        ]
+    },
+    {
+        "area_id": "2591",
+        "area_name": "云南省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "yunnansheng",
+        "province": "2591",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "2592",
+                "area_name": "昆明市",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "kunmingshi",
+                "province": "2591",
+                "city": "2592"
+            },
+            {
+                "area_id": "2607",
+                "area_name": "曲靖市",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "qujingshi",
+                "province": "2591",
+                "city": "2607"
+            },
+            {
+                "area_id": "2617",
+                "area_name": "玉溪市",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "yuxishi",
+                "province": "2591",
+                "city": "2617"
+            },
+            {
+                "area_id": "2627",
+                "area_name": "保山市",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "baoshanshi",
+                "province": "2591",
+                "city": "2627"
+            },
+            {
+                "area_id": "2633",
+                "area_name": "昭通市",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "zhaotongshi",
+                "province": "2591",
+                "city": "2633"
+            },
+            {
+                "area_id": "2645",
+                "area_name": "丽江市",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "lijiangshi",
+                "province": "2591",
+                "city": "2645"
+            },
+            {
+                "area_id": "2651",
+                "area_name": "思茅市",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "simaoshi",
+                "province": "2591",
+                "city": "2651"
+            },
+            {
+                "area_id": "2662",
+                "area_name": "临沧市",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "lincangshi",
+                "province": "2591",
+                "city": "2662"
+            },
+            {
+                "area_id": "2670",
+                "area_name": "楚雄彝族自治州",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "chuxiongyizuzizhizhou",
+                "province": "2591",
+                "city": "2670"
+            },
+            {
+                "area_id": "2682",
+                "area_name": "红河哈尼族彝族自治州",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "honghehanizuyizuzizhizhou",
+                "province": "2591",
+                "city": "2682"
+            },
+            {
+                "area_id": "2696",
+                "area_name": "文山壮族苗族自治州",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "wenshanzhuangzumiaozuzizhizhou",
+                "province": "2591",
+                "city": "2696"
+            },
+            {
+                "area_id": "2705",
+                "area_name": "西双版纳傣族自治州",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "xishuangbannadaizuzizhizhou",
+                "province": "2591",
+                "city": "2705"
+            },
+            {
+                "area_id": "2709",
+                "area_name": "大理白族自治州",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "dalibaizuzizhizhou",
+                "province": "2591",
+                "city": "2709"
+            },
+            {
+                "area_id": "2722",
+                "area_name": "德宏傣族景颇族自治州",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "dehongdaizujingpozuzizhizhou",
+                "province": "2591",
+                "city": "2722"
+            },
+            {
+                "area_id": "2728",
+                "area_name": "怒江傈僳族自治州",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "nujianglisuzuzizhizhou",
+                "province": "2591",
+                "city": "2728"
+            },
+            {
+                "area_id": "2733",
+                "area_name": "迪庆藏族自治州",
+                "area_level": "2",
+                "parent_id": "2591",
+                "post": null,
+                "areacode": "diqingcangzuzizhizhou",
+                "province": "2591",
+                "city": "2733"
+            }
+        ]
+    },
+    {
+        "area_id": "2737",
+        "area_name": "西藏自治区",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "xicangzizhiqu",
+        "province": "2737",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "2738",
+                "area_name": "拉萨市",
+                "area_level": "2",
+                "parent_id": "2737",
+                "post": null,
+                "areacode": "lasashi",
+                "province": "2737",
+                "city": "2738"
+            },
+            {
+                "area_id": "2747",
+                "area_name": "昌都地区",
+                "area_level": "2",
+                "parent_id": "2737",
+                "post": null,
+                "areacode": "changdudiqu",
+                "province": "2737",
+                "city": "2747"
+            },
+            {
+                "area_id": "2759",
+                "area_name": "山南地区",
+                "area_level": "2",
+                "parent_id": "2737",
+                "post": null,
+                "areacode": "shannandiqu",
+                "province": "2737",
+                "city": "2759"
+            },
+            {
+                "area_id": "2772",
+                "area_name": "日喀则地区",
+                "area_level": "2",
+                "parent_id": "2737",
+                "post": null,
+                "areacode": "rikazediqu",
+                "province": "2737",
+                "city": "2772"
+            },
+            {
+                "area_id": "2791",
+                "area_name": "那曲地区",
+                "area_level": "2",
+                "parent_id": "2737",
+                "post": null,
+                "areacode": "naqudiqu",
+                "province": "2737",
+                "city": "2791"
+            },
+            {
+                "area_id": "2802",
+                "area_name": "阿里地区",
+                "area_level": "2",
+                "parent_id": "2737",
+                "post": null,
+                "areacode": "alidiqu",
+                "province": "2737",
+                "city": "2802"
+            },
+            {
+                "area_id": "2810",
+                "area_name": "林芝地区",
+                "area_level": "2",
+                "parent_id": "2737",
+                "post": null,
+                "areacode": "linzhidiqu",
+                "province": "2737",
+                "city": "2810"
+            }
+        ]
+    },
+    {
+        "area_id": "2818",
+        "area_name": "陕西省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "shanxisheng",
+        "province": "2818",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "2819",
+                "area_name": "西安市",
+                "area_level": "2",
+                "parent_id": "2818",
+                "post": null,
+                "areacode": "xianshi",
+                "province": "2818",
+                "city": "2819"
+            },
+            {
+                "area_id": "2833",
+                "area_name": "铜川市",
+                "area_level": "2",
+                "parent_id": "2818",
+                "post": null,
+                "areacode": "tongchuanshi",
+                "province": "2818",
+                "city": "2833"
+            },
+            {
+                "area_id": "2838",
+                "area_name": "宝鸡市",
+                "area_level": "2",
+                "parent_id": "2818",
+                "post": null,
+                "areacode": "baojishi",
+                "province": "2818",
+                "city": "2838"
+            },
+            {
+                "area_id": "2851",
+                "area_name": "咸阳市",
+                "area_level": "2",
+                "parent_id": "2818",
+                "post": null,
+                "areacode": "xianyangshi",
+                "province": "2818",
+                "city": "2851"
+            },
+            {
+                "area_id": "2866",
+                "area_name": "渭南市",
+                "area_level": "2",
+                "parent_id": "2818",
+                "post": null,
+                "areacode": "weinanshi",
+                "province": "2818",
+                "city": "2866"
+            },
+            {
+                "area_id": "2878",
+                "area_name": "延安市",
+                "area_level": "2",
+                "parent_id": "2818",
+                "post": null,
+                "areacode": "yananshi",
+                "province": "2818",
+                "city": "2878"
+            },
+            {
+                "area_id": "2892",
+                "area_name": "汉中市",
+                "area_level": "2",
+                "parent_id": "2818",
+                "post": null,
+                "areacode": "hanzhongshi",
+                "province": "2818",
+                "city": "2892"
+            },
+            {
+                "area_id": "2904",
+                "area_name": "榆林市",
+                "area_level": "2",
+                "parent_id": "2818",
+                "post": null,
+                "areacode": "yulinshi",
+                "province": "2818",
+                "city": "2904"
+            },
+            {
+                "area_id": "2917",
+                "area_name": "安康市",
+                "area_level": "2",
+                "parent_id": "2818",
+                "post": null,
+                "areacode": "ankangshi",
+                "province": "2818",
+                "city": "2917"
+            },
+            {
+                "area_id": "2928",
+                "area_name": "商洛市",
+                "area_level": "2",
+                "parent_id": "2818",
+                "post": null,
+                "areacode": "shangluoshi",
+                "province": "2818",
+                "city": "2928"
+            }
+        ]
+    },
+    {
+        "area_id": "2936",
+        "area_name": "甘肃省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "gansusheng",
+        "province": "2936",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "2937",
+                "area_name": "兰州市",
+                "area_level": "2",
+                "parent_id": "2936",
+                "post": null,
+                "areacode": "lanzhoushi",
+                "province": "2936",
+                "city": "2937"
+            },
+            {
+                "area_id": "2946",
+                "area_name": "嘉峪关市",
+                "area_level": "2",
+                "parent_id": "2936",
+                "post": null,
+                "areacode": "jiayuguanshi",
+                "province": "2936",
+                "city": "2946"
+            },
+            {
+                "area_id": "2947",
+                "area_name": "金昌市",
+                "area_level": "2",
+                "parent_id": "2936",
+                "post": null,
+                "areacode": "jinchangshi",
+                "province": "2936",
+                "city": "2947"
+            },
+            {
+                "area_id": "2950",
+                "area_name": "白银市",
+                "area_level": "2",
+                "parent_id": "2936",
+                "post": null,
+                "areacode": "baiyinshi",
+                "province": "2936",
+                "city": "2950"
+            },
+            {
+                "area_id": "2956",
+                "area_name": "天水市",
+                "area_level": "2",
+                "parent_id": "2936",
+                "post": null,
+                "areacode": "tianshuishi",
+                "province": "2936",
+                "city": "2956"
+            },
+            {
+                "area_id": "2964",
+                "area_name": "武威市",
+                "area_level": "2",
+                "parent_id": "2936",
+                "post": null,
+                "areacode": "wuweishi",
+                "province": "2936",
+                "city": "2964"
+            },
+            {
+                "area_id": "2969",
+                "area_name": "张掖市",
+                "area_level": "2",
+                "parent_id": "2936",
+                "post": null,
+                "areacode": "zhangyeshi",
+                "province": "2936",
+                "city": "2969"
+            },
+            {
+                "area_id": "2976",
+                "area_name": "平凉市",
+                "area_level": "2",
+                "parent_id": "2936",
+                "post": null,
+                "areacode": "pingliangshi",
+                "province": "2936",
+                "city": "2976"
+            },
+            {
+                "area_id": "2984",
+                "area_name": "酒泉市",
+                "area_level": "2",
+                "parent_id": "2936",
+                "post": null,
+                "areacode": "jiuquanshi",
+                "province": "2936",
+                "city": "2984"
+            },
+            {
+                "area_id": "2992",
+                "area_name": "庆阳市",
+                "area_level": "2",
+                "parent_id": "2936",
+                "post": null,
+                "areacode": "qingyangshi",
+                "province": "2936",
+                "city": "2992"
+            },
+            {
+                "area_id": "3001",
+                "area_name": "定西市",
+                "area_level": "2",
+                "parent_id": "2936",
+                "post": null,
+                "areacode": "dingxishi",
+                "province": "2936",
+                "city": "3001"
+            },
+            {
+                "area_id": "3009",
+                "area_name": "陇南市",
+                "area_level": "2",
+                "parent_id": "2936",
+                "post": null,
+                "areacode": "longnanshi",
+                "province": "2936",
+                "city": "3009"
+            },
+            {
+                "area_id": "3019",
+                "area_name": "临夏回族自治州",
+                "area_level": "2",
+                "parent_id": "2936",
+                "post": null,
+                "areacode": "linxiahuizuzizhizhou",
+                "province": "2936",
+                "city": "3019"
+            },
+            {
+                "area_id": "3028",
+                "area_name": "甘南藏族自治州",
+                "area_level": "2",
+                "parent_id": "2936",
+                "post": null,
+                "areacode": "gannancangzuzizhizhou",
+                "province": "2936",
+                "city": "3028"
+            }
+        ]
+    },
+    {
+        "area_id": "3037",
+        "area_name": "青海省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "qinghaisheng",
+        "province": "3037",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "3038",
+                "area_name": "西宁市",
+                "area_level": "2",
+                "parent_id": "3037",
+                "post": null,
+                "areacode": "xiningshi",
+                "province": "3037",
+                "city": "3038"
+            },
+            {
+                "area_id": "3046",
+                "area_name": "海东地区",
+                "area_level": "2",
+                "parent_id": "3037",
+                "post": null,
+                "areacode": "haidongdiqu",
+                "province": "3037",
+                "city": "3046"
+            },
+            {
+                "area_id": "3053",
+                "area_name": "海北藏族自治州",
+                "area_level": "2",
+                "parent_id": "3037",
+                "post": null,
+                "areacode": "haibeicangzuzizhizhou",
+                "province": "3037",
+                "city": "3053"
+            },
+            {
+                "area_id": "3058",
+                "area_name": "黄南藏族自治州",
+                "area_level": "2",
+                "parent_id": "3037",
+                "post": null,
+                "areacode": "huangnancangzuzizhizhou",
+                "province": "3037",
+                "city": "3058"
+            },
+            {
+                "area_id": "3063",
+                "area_name": "海南藏族自治州",
+                "area_level": "2",
+                "parent_id": "3037",
+                "post": null,
+                "areacode": "hainancangzuzizhizhou",
+                "province": "3037",
+                "city": "3063"
+            },
+            {
+                "area_id": "3069",
+                "area_name": "果洛藏族自治州",
+                "area_level": "2",
+                "parent_id": "3037",
+                "post": null,
+                "areacode": "guoluocangzuzizhizhou",
+                "province": "3037",
+                "city": "3069"
+            },
+            {
+                "area_id": "3076",
+                "area_name": "玉树藏族自治州",
+                "area_level": "2",
+                "parent_id": "3037",
+                "post": null,
+                "areacode": "yushucangzuzizhizhou",
+                "province": "3037",
+                "city": "3076"
+            },
+            {
+                "area_id": "3083",
+                "area_name": "海西蒙古族藏族自治州",
+                "area_level": "2",
+                "parent_id": "3037",
+                "post": null,
+                "areacode": "haiximengguzucangzuzizhizhou",
+                "province": "3037",
+                "city": "3083"
+            }
+        ]
+    },
+    {
+        "area_id": "3089",
+        "area_name": "宁夏回族自治区",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "ningxiahuizuzizhiqu",
+        "province": "3089",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "3090",
+                "area_name": "银川市",
+                "area_level": "2",
+                "parent_id": "3089",
+                "post": null,
+                "areacode": "yinchuanshi",
+                "province": "3089",
+                "city": "3090"
+            },
+            {
+                "area_id": "3097",
+                "area_name": "石嘴山市",
+                "area_level": "2",
+                "parent_id": "3089",
+                "post": null,
+                "areacode": "shizuishanshi",
+                "province": "3089",
+                "city": "3097"
+            },
+            {
+                "area_id": "3101",
+                "area_name": "吴忠市",
+                "area_level": "2",
+                "parent_id": "3089",
+                "post": null,
+                "areacode": "wuzhongshi",
+                "province": "3089",
+                "city": "3101"
+            },
+            {
+                "area_id": "3106",
+                "area_name": "固原市",
+                "area_level": "2",
+                "parent_id": "3089",
+                "post": null,
+                "areacode": "guyuanshi",
+                "province": "3089",
+                "city": "3106"
+            },
+            {
+                "area_id": "3112",
+                "area_name": "中卫市",
+                "area_level": "2",
+                "parent_id": "3089",
+                "post": null,
+                "areacode": "zhongweishi",
+                "province": "3089",
+                "city": "3112"
+            }
+        ]
+    },
+    {
+        "area_id": "3116",
+        "area_name": "新疆维吾尔自治区",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "xinjiangweiwuerzizhiqu",
+        "province": "3116",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "3117",
+                "area_name": "乌鲁木齐市",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "wulumuqishi",
+                "province": "3116",
+                "city": "3117"
+            },
+            {
+                "area_id": "3126",
+                "area_name": "克拉玛依市",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "kelamayishi",
+                "province": "3116",
+                "city": "3126"
+            },
+            {
+                "area_id": "3131",
+                "area_name": "吐鲁番地区",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "tulufandiqu",
+                "province": "3116",
+                "city": "3131"
+            },
+            {
+                "area_id": "3135",
+                "area_name": "哈密地区",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "hamidiqu",
+                "province": "3116",
+                "city": "3135"
+            },
+            {
+                "area_id": "3139",
+                "area_name": "昌吉回族自治州",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "changjihuizuzizhizhou",
+                "province": "3116",
+                "city": "3139"
+            },
+            {
+                "area_id": "3148",
+                "area_name": "博尔塔拉蒙古自治州",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "boertalamengguzizhizhou",
+                "province": "3116",
+                "city": "3148"
+            },
+            {
+                "area_id": "3152",
+                "area_name": "巴音郭楞蒙古自治州",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "bayinguolengmengguzizhizhou",
+                "province": "3116",
+                "city": "3152"
+            },
+            {
+                "area_id": "3162",
+                "area_name": "阿克苏地区",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "akesudiqu",
+                "province": "3116",
+                "city": "3162"
+            },
+            {
+                "area_id": "3172",
+                "area_name": "克孜勒苏柯尔克孜自治州",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "kezilesukeerkezizizhizhou",
+                "province": "3116",
+                "city": "3172"
+            },
+            {
+                "area_id": "3177",
+                "area_name": "喀什地区",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "kashidiqu",
+                "province": "3116",
+                "city": "3177"
+            },
+            {
+                "area_id": "3190",
+                "area_name": "和田地区",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "hetiandiqu",
+                "province": "3116",
+                "city": "3190"
+            },
+            {
+                "area_id": "3199",
+                "area_name": "伊犁哈萨克自治州",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "yilihasakezizhizhou",
+                "province": "3116",
+                "city": "3199"
+            },
+            {
+                "area_id": "3210",
+                "area_name": "塔城地区",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "tachengdiqu",
+                "province": "3116",
+                "city": "3210"
+            },
+            {
+                "area_id": "3218",
+                "area_name": "阿勒泰地区",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "aletaidiqu",
+                "province": "3116",
+                "city": "3218"
+            },
+            {
+                "area_id": "3226",
+                "area_name": "石河子市",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "shihezishi",
+                "province": "3116",
+                "city": "3226"
+            },
+            {
+                "area_id": "3227",
+                "area_name": "阿拉尔市",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "alaershi",
+                "province": "3116",
+                "city": "3227"
+            },
+            {
+                "area_id": "3228",
+                "area_name": "图木舒克市",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "tumushukeshi",
+                "province": "3116",
+                "city": "3228"
+            },
+            {
+                "area_id": "3229",
+                "area_name": "五家渠市",
+                "area_level": "2",
+                "parent_id": "3116",
+                "post": null,
+                "areacode": "wujiaqushi",
+                "province": "3116",
+                "city": "3229"
+            }
+        ]
+    },
+    {
+        "area_id": "3230",
+        "area_name": "台湾省",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "taiwansheng",
+        "province": "3230",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "3231",
+                "area_name": "台北市",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "taibeishi",
+                "province": "3230",
+                "city": "3231"
+            },
+            {
+                "area_id": "3232",
+                "area_name": "高雄市",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "gaoxiongshi",
+                "province": "3230",
+                "city": "3232"
+            },
+            {
+                "area_id": "3233",
+                "area_name": "基隆市",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "jilongshi",
+                "province": "3230",
+                "city": "3233"
+            },
+            {
+                "area_id": "3234",
+                "area_name": "新竹市",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "xinzhushi",
+                "province": "3230",
+                "city": "3234"
+            },
+            {
+                "area_id": "3235",
+                "area_name": "台中市",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "taizhongshi",
+                "province": "3230",
+                "city": "3235"
+            },
+            {
+                "area_id": "3236",
+                "area_name": "嘉义市",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "jiayishi",
+                "province": "3230",
+                "city": "3236"
+            },
+            {
+                "area_id": "3237",
+                "area_name": "台南市",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "tainanshi",
+                "province": "3230",
+                "city": "3237"
+            },
+            {
+                "area_id": "3238",
+                "area_name": "台北县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "taibeixian",
+                "province": "3230",
+                "city": "3238"
+            },
+            {
+                "area_id": "3239",
+                "area_name": "桃园县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "taoyuanxian",
+                "province": "3230",
+                "city": "3239"
+            },
+            {
+                "area_id": "3240",
+                "area_name": "新竹县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "xinzhuxian",
+                "province": "3230",
+                "city": "3240"
+            },
+            {
+                "area_id": "3241",
+                "area_name": "苗栗县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "miaolixian",
+                "province": "3230",
+                "city": "3241"
+            },
+            {
+                "area_id": "3242",
+                "area_name": "台中县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "taizhongxian",
+                "province": "3230",
+                "city": "3242"
+            },
+            {
+                "area_id": "3243",
+                "area_name": "彰化县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "zhanghuaxian",
+                "province": "3230",
+                "city": "3243"
+            },
+            {
+                "area_id": "3244",
+                "area_name": "南投县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "nantouxian",
+                "province": "3230",
+                "city": "3244"
+            },
+            {
+                "area_id": "3245",
+                "area_name": "云林县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "yunlinxian",
+                "province": "3230",
+                "city": "3245"
+            },
+            {
+                "area_id": "3246",
+                "area_name": "嘉义县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "jiayixian",
+                "province": "3230",
+                "city": "3246"
+            },
+            {
+                "area_id": "3247",
+                "area_name": "台南县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "tainanxian",
+                "province": "3230",
+                "city": "3247"
+            },
+            {
+                "area_id": "3248",
+                "area_name": "高雄县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "gaoxiongxian",
+                "province": "3230",
+                "city": "3248"
+            },
+            {
+                "area_id": "3249",
+                "area_name": "屏东县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "pingdongxian",
+                "province": "3230",
+                "city": "3249"
+            },
+            {
+                "area_id": "3250",
+                "area_name": "宜兰县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "yilanxian",
+                "province": "3230",
+                "city": "3250"
+            },
+            {
+                "area_id": "3251",
+                "area_name": "花莲县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "hualianxian",
+                "province": "3230",
+                "city": "3251"
+            },
+            {
+                "area_id": "3252",
+                "area_name": "台东县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "taidongxian",
+                "province": "3230",
+                "city": "3252"
+            },
+            {
+                "area_id": "3253",
+                "area_name": "澎湖县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "penghuxian",
+                "province": "3230",
+                "city": "3253"
+            },
+            {
+                "area_id": "3254",
+                "area_name": "金门县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "jinmenxian",
+                "province": "3230",
+                "city": "3254"
+            },
+            {
+                "area_id": "3255",
+                "area_name": "连江县",
+                "area_level": "2",
+                "parent_id": "3230",
+                "post": null,
+                "areacode": "lianjiangxian",
+                "province": "3230",
+                "city": "3255"
+            }
+        ]
+    },
+    {
+        "area_id": "3292",
+        "area_name": "北京",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "beijing",
+        "province": "3292",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "1",
+                "area_name": "北京市",
+                "area_level": "2",
+                "parent_id": "3292",
+                "post": null,
+                "areacode": "beijingshi",
+                "province": "3292",
+                "city": "1"
+            }
+        ]
+    },
+    {
+        "area_id": "3293",
+        "area_name": "上海",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "shanghai",
+        "province": "3293",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "20",
+                "area_name": "上海市",
+                "area_level": "2",
+                "parent_id": "3293",
+                "post": null,
+                "areacode": "shanghaishi",
+                "province": "3293",
+                "city": "20"
+            }
+        ]
+    },
+    {
+        "area_id": "3294",
+        "area_name": "天津",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "tianjin",
+        "province": "3294",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "40",
+                "area_name": "天津市",
+                "area_level": "2",
+                "parent_id": "3294",
+                "post": null,
+                "areacode": "tianjinshi",
+                "province": "3294",
+                "city": "40"
+            }
+        ]
+    },
+    {
+        "area_id": "3295",
+        "area_name": "重庆",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "zhongqing",
+        "province": "3295",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "59",
+                "area_name": "重庆市",
+                "area_level": "2",
+                "parent_id": "3295",
+                "post": null,
+                "areacode": "chongqingshi",
+                "province": "3295",
+                "city": "59"
+            }
+        ]
+    },
+    {
+        "area_id": "3296",
+        "area_name": "香港",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "xianggang",
+        "province": "3296",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "3256",
+                "area_name": "香港特别行政区",
+                "area_level": "2",
+                "parent_id": "3296",
+                "post": null,
+                "areacode": "xianggangtebiexingzhengqu",
+                "province": "3296",
+                "city": null
+            }
+        ]
+    },
+    {
+        "area_id": "3297",
+        "area_name": "澳门",
+        "area_level": "1",
+        "parent_id": "3305",
+        "post": null,
+        "areacode": "aomen",
+        "province": "3297",
+        "city": null,
+        "citys": [
+            {
+                "area_id": "3275",
+                "area_name": "澳门特别行政区",
+                "area_level": "2",
+                "parent_id": "3297",
+                "post": null,
+                "areacode": "aomentebiexingzhengqu",
+                "province": "3297",
+                "city": null
+            }
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/page_bg"
+    android:orientation="vertical" >
+	<com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+    <com.huizhuang.zxsq.widget.XListView
+        android:id="@+id/xlv_solution"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/line_bg_color"
+        android:dividerHeight="0.5dp"
+        android:footerDividersEnabled="false"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="vertical" 
+        android:layout_below="@id/common_action_bar">
+    </com.huizhuang.zxsq.widget.XListView>
+
+    <com.huizhuang.zxsq.widget.DataLoadingLayout
+        android:id="@+id/data_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar"
+        android:visibility="gone" >
+    </com.huizhuang.zxsq.widget.DataLoadingLayout>
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <!-- 总数据显示区域 -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@color/color_ebebeb"
+                    android:padding="12dp" >
+
+                    <TextView
+                        android:id="@+id/bill_title_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:text="@string/txt_bill_main_total_count_info"
+                        android:textColor="@color/color_4c4c4c"
+                        android:textSize="@dimen/txt_size_15" />
+
+                    <ImageView
+                        android:layout_width="23dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="btnBillShareOnClick"
+                        android:src="@drawable/ic_bill_report_share" />
+
+                    <TextView
+                        android:id="@+id/bill_total_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/bill_title_info"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/txt_bill_none"
+                        android:textColor="@color/color_ff6c38"
+                        android:textSize="@dimen/txt_size_34" />
+
+                    <TextView
+                        android:id="@+id/bill_txt_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/bill_total_money"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="@string/txt_bill_none_info"
+                        android:textColor="@color/color_4c4c4c"
+                        android:textSize="@dimen/txt_size_18" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="34dp"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+                    android:contentDescription="@string/app_name"
+                    android:onClick="btnStartRecordOnClick"
+                    android:src="@drawable/ic_bill_start_record" />
+
+                <LinearLayout
+                    android:id="@+id/ll_chart_zone"
+                    android:layout_width="match_parent"
+                    android:layout_height="217dp"
+                    android:layout_marginTop="34dp"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <com.huizhuang.zxsq.widget.DataLoadingLayout
+            android:id="@+id/bill_main_data_loading_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </com.huizhuang.zxsq.widget.DataLoadingLayout>
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_user_marker_popwoindow">
+    <TextView
+        android:id="@+id/tv_user_marker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/orange_light"
+        android:textSize="15sp"
+        android:text="dddddddd"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_pop_user_location"
+        android:drawableRight="@drawable/ic_user_marker_popwoindow_arrow"
+        android:drawablePadding="11dp"/>   
+</LinearLayout>

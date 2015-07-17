@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:background="#ebebeb"
+        android:paddingBottom="8dp"
+        android:paddingLeft="11dp"
+        android:paddingRight="17dp"
+        android:paddingTop="8dp" >
+
+        <EditText
+            android:id="@+id/tv_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/tv_cancel"
+            android:background="@drawable/bg_quote"
+            android:gravity="center_vertical"
+            android:hint="请输入您的小区"
+            android:paddingLeft="11dp"
+            android:textColorHint="#999999"
+            android:textSize="14sp" >
+
+            <requestFocus />
+        </EditText>
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="19dp"
+            android:text="@string/cancel"
+            android:textColor="#ff6c38"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#d9d9d9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="17dp"
+        android:text="附近小区"
+        android:textColor="@color/gray_80" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5px"
+        android:background="#d9d9d9" />
+
+    <ListView
+        android:id="@+id/list_house"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:listSelector="#00000000" >
+    </ListView>
+
+</LinearLayout>

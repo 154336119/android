@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <View
+        android:id="@+id/lin_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar"
+        android:background="@drawable/bg_share_money" />
+
+    <LinearLayout
+        android:id="@+id/lin_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_share_bottom"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="18dp" >
+
+        <TextView
+            android:id="@+id/tv_wchat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/icon_share_wchat"
+            android:gravity="center"
+            android:text="微信"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_16" />
+
+        <TextView
+            android:id="@+id/tv_weib"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/icon_share_weib"
+            android:gravity="center"
+            android:text="微博"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_16" />
+
+        <TextView
+            android:id="@+id/tv_friends"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/icon_share_friends"
+            android:gravity="center"
+            android:text="朋友圈"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_16" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_share_money"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_above="@id/lin_bottom"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:background="@drawable/bg_share_center"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_18" />
+
+    <com.huizhuang.zxsq.widget.DataLoadingLayout
+        android:id="@+id/data_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar"
+        android:visibility="gone" >
+    </com.huizhuang.zxsq.widget.DataLoadingLayout>
+
+</RelativeLayout>

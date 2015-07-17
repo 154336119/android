@@ -1,0 +1,234 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/page_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/et_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/diary_content_bg"
+                android:gravity="top"
+                android:hint="这一刻的想法..."
+                android:minHeight="120dp"
+                android:padding="8dp"
+                android:textColorHint="@color/gray_disabled"
+                android:textSize="@dimen/txt_size_16" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp" >
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_toLeftOf="@+id/btn_add_weather"
+                    android:scrollbars="none" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <com.huizhuang.zxsq.widget.MyGridView
+                            android:id="@+id/gv"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:cacheColorHint="@android:color/transparent"
+                            android:horizontalSpacing="4dp"
+                            android:listSelector="@android:color/transparent"
+                            android:numColumns="7"
+                            android:verticalSpacing="4dp" >
+                        </com.huizhuang.zxsq.widget.MyGridView>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <ImageView
+                    android:id="@+id/btn_add_weather"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="16dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/diary_add_weather" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_select_bill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:background="@drawable/global_list_corner_round_middle_selector"
+                    android:drawableLeft="@drawable/diary_union_list"
+                    android:drawablePadding="16dp"
+                    android:gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="关联记账清单"
+                    android:textColor="@color/gray_80"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_union_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:drawablePadding="8dp"
+                    android:drawableRight="@drawable/arrow_right_gray_big"
+                    android:text="未关联"
+                    android:textColor="@color/gray_64"
+                    android:textSize="@dimen/txt_size_16" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_select_friend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/global_list_corner_round_middle_selector" >
+
+                <TextView
+                    android:id="@+id/tv_tips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="58dp"
+                    android:drawableLeft="@drawable/diary_add_frend"
+                    android:drawablePadding="16dp"
+                    android:gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="提醒谁看"
+                    android:textColor="@color/gray_80"
+                    android:textSize="16sp" />
+
+                <com.huizhuang.zxsq.widget.MyGridView
+                    android:id="@+id/my_gv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/img2"
+                    android:layout_toRightOf="@+id/tv_tips"
+                    android:horizontalSpacing="8dp"
+                    android:listSelector="#00000000"
+                    android:numColumns="5" />
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/arrow_right_gray_big" />
+            </RelativeLayout>
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="8dp"
+                android:button="@drawable/diary_secrecy_icon"
+                android:checked="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:text="分享到"
+                android:textColor="@color/gray_80"
+                android:textSize="@dimen/txt_size_16" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:background="@drawable/global_list_corner_round_middle_selector"
+                    android:drawableLeft="@drawable/diary_qq"
+                    android:drawablePadding="16dp"
+                    android:gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="腾讯微博"
+                    android:textColor="@color/gray_80"
+                    android:textSize="16sp" />
+
+                <ToggleButton
+                    android:id="@+id/switch_qq"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/switch_inner_holo_dark"
+                    android:clickable="true"
+                    android:textOff=""
+                    android:textOn="" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:background="@drawable/global_list_corner_round_middle_selector"
+                    android:drawableLeft="@drawable/diary_sina"
+                    android:drawablePadding="16dp"
+                    android:gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="新浪微博"
+                    android:textColor="@color/gray_80"
+                    android:textSize="16sp" />
+
+                <ToggleButton
+                    android:id="@+id/switch_sina"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/switch_inner_holo_dark"
+                    android:clickable="true"
+                    android:textOff=""
+                    android:textOn="" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/guessLike_rlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/guessLike_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name" />
+
+        <CheckBox
+            android:id="@+id/guessLike_check_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/guessLike_icon"
+            android:layout_alignRight="@id/guessLike_icon"
+            android:background="@drawable/guesslike_button_selector"
+            android:button="@null"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/guessLike_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textSize="@dimen/txt_size_16" />
+
+</LinearLayout>

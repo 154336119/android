@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="23dp"
+    android:layout_marginRight="23dp"
+    android:background="@drawable/bg_common_dialog"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:singleLine="true"
+        android:textColor="@color/color_333333"
+        android:textSize="@dimen/txt_size_18"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txt_dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="135dp"
+        android:padding="16dp"
+        android:textColor="@color/color_808080"
+        android:textSize="@dimen/txt_size_16" 
+        android:gravity="center"/>
+
+    <View
+        android:id="@+id/v_dialog_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_ff6c38" >
+    </View>
+
+    <LinearLayout
+        android:id="@+id/ll_dialog_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@android:color/transparent" >
+
+        <Button
+            android:id="@+id/btn_dialog_negative"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="-1dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dialog_btn_negative"
+            android:singleLine="true"
+            android:textColor="@color/color_4c4c4c"
+            android:textSize="@dimen/txt_size_18" >
+        </Button>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="29dp"
+            android:layout_gravity="center"
+            android:background="@color/color_d9d9d9" >
+        </View>
+
+        <Button
+            android:id="@+id/btn_dialog_positive"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-1dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dialog_btn_positive"
+            android:singleLine="true"
+            android:textColor="@color/color_ff6c38"
+            android:textSize="@dimen/txt_size_18" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

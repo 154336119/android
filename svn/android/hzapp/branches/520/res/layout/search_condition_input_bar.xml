@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/rl_container"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/color_e2e2e2"
+        android:minHeight="46dp"
+        tools:ignore="UselessParent" >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="45dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:background="@android:color/transparent"
+            android:text="@string/txt_cancel"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_16"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_toLeftOf="@id/btn_cancel"
+            android:background="@drawable/edittext_bg"
+            android:minHeight="36dp" >
+
+            <ImageView
+                android:id="@+id/iv_search_icon"
+                android:layout_width="13dp"
+                android:layout_height="18dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:clickable="false"
+                android:contentDescription="@string/app_name"
+                android:focusable="false"
+                android:src="@drawable/icon_search_gray" />
+
+            <com.huizhuang.zxsq.widget.ClearEditText
+                android:id="@+id/edt_keywork"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@+id/iv_search_icon"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:hint="@string/txt_common_search_hint"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="@color/color_b3b3b3"
+                android:textColorHint="@color/color_b3b3b3"
+                android:textSize="@dimen/txt_size_13" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

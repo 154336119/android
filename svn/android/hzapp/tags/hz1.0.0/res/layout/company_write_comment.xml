@@ -1,0 +1,214 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/layout_bg" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/common_action_bar"
+        android:paddingBottom="18dp"
+        android:scrollbars="none" >
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_4c"
+                android:textSize="@dimen/txt_size_15" 
+                android:text="@string/txt_comment_totality"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="23dp"/>
+
+            <View
+                android:id="@+id/line01"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5px"
+                android:layout_below="@id/rb_score"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="23dp"
+                android:background="#d9d9d9" />
+
+            <EditText
+                android:id="@+id/et_write"
+                android:layout_width="fill_parent"
+                android:layout_height="72dp"
+                android:layout_below="@id/line01"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="11dp"
+                android:background="@null"
+                android:gravity="top"
+                android:hint="@string/txt_write_somthing"
+                android:textColorHint="#b2b2b2"
+                android:textSize="@dimen/txt_size_16" />
+			<TextView 
+			    android:id="@+id/tv_least_comment"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_below="@id/et_write"
+			    android:layout_alignParentRight="true"
+			    android:layout_marginRight="23dp"
+			    android:layout_marginBottom="6dp"
+			    android:textColorHint="#b2b2b2"
+			    android:text="至少评论"
+			    android:textSize="13sp"/>
+            <View
+                android:id="@+id/line02"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/tv_least_comment"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:background="#d9d9d9" />
+
+            <TextView
+                android:id="@+id/tv_text01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line02"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="29dp"
+                android:text="@string/share_to"
+                android:textColor="@color/gray_4c"
+                android:textSize="@dimen/txt_size_16" />
+
+            <RelativeLayout
+                android:id="@+id/rl01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_text01"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="23dp" >
+
+                <ImageView
+                    android:id="@+id/iv_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/xlweibo_icon" />
+
+                <CheckBox
+                    android:id="@+id/cb_xlweibo"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/iv_01"
+                    android:layout_marginTop="10dp"
+                    style="@style/green_ck"/>
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line03"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/rl01"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="18dp"
+                android:background="#d9d9d9" />
+
+            <RelativeLayout
+                android:id="@+id/rl02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line03"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/iv_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/wechat_icon" />
+
+                <CheckBox
+                    android:id="@+id/cb_wechat"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/iv_02"
+                    android:layout_marginTop="10dp"
+                    style="@style/green_ck"
+                    />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line05"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/rl02"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="18dp"
+                android:background="#d9d9d9" />
+
+            <RelativeLayout
+                android:id="@+id/rl03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line05"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/iv_03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/qzone_icon" />
+
+                <CheckBox
+                    android:id="@+id/cb_qzone"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/iv_03"
+                    android:layout_marginTop="10dp"
+                    style="@style/green_ck"/>
+            </RelativeLayout>            
+            
+            <View
+                android:id="@+id/line04"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/rl02"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="18dp"
+                android:background="#d9d9d9" />
+
+            <Button
+                android:id="@+id/btn_submit"
+                style="@style/ButtonLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line04"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/btn_orange"
+                android:text="@string/txt_publish" />
+
+            <RatingBar
+                android:id="@+id/rb_score"
+                style="@style/ratingbar_style"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_below="@+id/tv_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="29dp"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:progressDrawable="@drawable/rating_bar_big"
+                android:stepSize="0.5" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

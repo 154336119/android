@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/page_bg"
+        android:contentDescription="@string/app_name"/>
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/app_name"/>
+	<com.huizhuang.zxsq.widget.XListView
+        android:id="@+id/xlv_fragment_zxbd_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="false"
+        android:focusable="true"
+        android:layoutAnimation="@anim/layout_animation_for_listview"
+        android:listSelector="#00000000"
+        android:scrollbars="vertical" 
+        android:paddingLeft="20dp"/>
+	</LinearLayout>
+	<com.huizhuang.zxsq.widget.DataLoadingLayout
+            android:id="@+id/data_load_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:visibility="gone" >
+        </com.huizhuang.zxsq.widget.DataLoadingLayout>
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/page_header_height"
+    android:background="@color/actionbar_bg"
+    android:minHeight="@dimen/page_header_height" >
+
+    <Button
+        android:id="@+id/btn_left"
+        style="@style/ActionbarBtnStyle"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/img_btn_left"
+        style="@style/ActionbarImgBtnStyle"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/app_name"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_20" />
+
+    <Button
+        android:id="@+id/btn_right"
+        style="@style/ActionbarBtnStyle"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/img_btn_right"
+        style="@style/ActionbarImgBtnStyle"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/app_name"
+        android:visibility="gone" />
+
+</RelativeLayout>

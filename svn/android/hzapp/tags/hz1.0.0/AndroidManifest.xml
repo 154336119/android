@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huizhuang.hz"
+    android:versionCode="6"
+    android:versionName="1.1.3" >
+
+    <!-- 在SD卡中创建和删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 向SD卡中写入东西权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 使用网络功能所需权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 获取设置信息和详情页直接拨打电话需要以下权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <!-- shareSDK所需全新 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:name="com.huizhuang.zxsq.ZxsqApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme" >
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.SplashActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="huizhuangzxsq" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.UserGuideActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.StartActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.image.ImageSelectActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActionSheetDialogStyle" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.image.ImageCropActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.diary.ImageEffectsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.company.CompanySearchActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.company.CompanyDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.company.CompanyOrderActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.company.CompanyMap"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.WebActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.company.CompanyDiscussListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.company.CompanyArticlesActicity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.company.CompanyArticleDetailsActicity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.company.CompanyWriteCommentActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.company.CompanyCityList"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.AtlasBrowseActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.ImageSimpleBrowseActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.ArticleDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.PersonalHomepageActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.diary.DiaryEditActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.diary.RelBillListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.diary.SelectFriendsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.diary.DiaryDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.diary.DiaryDiscussListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.diary.DiaryDiscussEditActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.diary.TipsFriendsOnlookersActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.SearchActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <!-- 装修宝典 -->
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.zxbd.ZxbdIntroActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.zxbd.ZxbdListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.zxbd.ZxbdQAActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.zxbd.ZxbdHousingCheckActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.zxbd.ApplySuccessActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <!-- 个人中心 -->
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.AccountBalanceActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />  
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.QuoteDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />          
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.MessageListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />        
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.EnsuredTradeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.TradeSuccessActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />                 
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.WorksiteSupervisionOrderActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.WorksiteSupervisionOrderSuccessActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.WorksiteSupervisionNodeListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.WorksiteManagerActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.WorksiteSupervisionReportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.common.OrderListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.WorksiteSupervisionGradeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.AccountDataEditorActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.MyDiaryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.AccountAttentionActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.AccountBeAttentionActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.ChatListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />        
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.SettingActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.LoveFamilyProfileActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.SettingPassword"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.SettingBindActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.SettingPushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.SettingEditionActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.MyMessagesActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.FavoritePicturesActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.FavoriteCompanyActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.FavoriteArticlesActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.AccountActivistListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.WorksiteSupervisionReportDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.WorksiteGalleryListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.MyFavoriteActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.SupervisionOrderListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+		<activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.WorksiteSupervisionerListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.AllorderListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.WorksiteSupervisionerDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.MyOrderActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.ScreenImgActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.OrderDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <!-- 用户相关 -->
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.user.UserLoginActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.user.UserCheckPhoneActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.user.UserRegisterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.user.UserCheckCodeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.user.UserForgetActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.user.GuessULikeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.user.UserSelectFriendActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.user.UserRegisterAgreementActicity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <!-- 账单相关 -->
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.bill.BillMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.bill.ChooseCategoryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <!-- BillTotalDetailActivity需要在记账页面需要重复显示的launchModes设置为singleTask -->
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.bill.BillTotalDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.bill.BillAccountingActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.bill.BillMonthDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.ContractRecordActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.account.CommentsHistoryListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <!-- 找装修相关 -->
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.decoration.DesignSchemeListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.decoration.ConstructionSiteListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <!-- 测试帅选列表页面 -->
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.test.TestFilterBarActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <!-- 订单相关 -->
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.order.OrderCheckPhoneActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />        
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.order.OrderVerifyPhoneNumerActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.order.OrderVerifyPhoneNumerRegisterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.order.OrderEditorInfoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.order.OrderAppointmentTimeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.order.OrderEditRemarkActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.order.OrderRecommendCompanyActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.order.OrderSuccessActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.SelectHousingActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.common.FilterActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <!-- 找工长 -->
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.foreman.ForemanDetailsActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.foreman.ForemanPriceListActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.foreman.ForemanConstructionSiteActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.foreman.SupportServicesActivity"
+            android:configChanges="orientation|keyboardHidden"/>
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.foreman.PublicCommentsActivity"
+            android:configChanges="orientation|keyboardHidden"/>
+        <!-- 投诉反馈 -->
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.complaints.ComplaintsFeedbackChoiceActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.complaints.ComplaintsFeedbackOrderListActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.complaints.ComplaintsFeedbackOrdeChoiceActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.complaints.ComplaintsFeedbackActivity"
+            android:configChanges="orientation|keyboardHidden" />
+
+        <receiver android:name="com.huizhuang.zxsq.receiver.NetworkStateReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="lgmshare.android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="cn.sharesdk.framework.ShareSDKUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <data android:scheme="tencent1103510880" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 微信分享回调 -->
+        <activity
+            android:name="com.huizhuang.zxsq.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.huizhuang.zxsq.ui.activity.ShareShowActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActionSheetDialogStyle" />
+        <!-- 友盟 -->
+        <activity
+            android:name="com.umeng.fb.ConversationActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.umeng.fb.ContactActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" />
+
+        <receiver
+            android:name="com.umeng.message.NotificationProxyBroadcastReceiver"
+            android:exported="false" />
+        <receiver android:name="com.umeng.message.RegistrationReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.umeng.message.UmengBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RECEIVE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huizhuang.zxsq.intent.action.COMMAND" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RE_ELECTION_V2" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.umeng.message.UmengService"
+            android:exported="true"
+            android:process=":umengService_v1" >
+            <intent-filter>
+                <action android:name="com.huizhuang.zxsq.intent.action.START" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huizhuang.zxsq.intent.action.COCKROACH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.PING" />
+            </intent-filter>
+        </service>
+        <service android:name="com.huizhuang.zxsq.service.UMengPushIntentService" />
+        <service
+            android:name="org.android.agoo.service.ElectionService"
+            android:exported="true"
+            android:process=":umengService_v1" >
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.ELECTION_V2" />
+            </intent-filter>
+        </service>
+        <service android:name="com.umeng.message.UmengIntentService" />
+        <!-- V1.3.0添加的service，负责下载通知的资源 -->
+        <service android:name="com.umeng.message.UmengDownloadResourceService" />
+
+        <meta-data android:name="UMENG_APPKEY" android:value="5514b789fd98c5d9c80009f3"/>
+        <!-- 友盟消息推送的secret -->
+        <meta-data android:name="UMENG_MESSAGE_SECRET" android:value="77bb514b1f84093ea2caec0d68d10d98"/>
+        <meta-data android:name="UMENG_CHANNEL" android:value="lenovo" />
+        <meta-data android:name="com.baidu.lbsapi.API_KEY" android:value="lHcOABPP2FFVw1LqHevZc7fx" />
+		<meta-data android:name="INDEX_TYPE" android:value="4"/>
+		
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+    </application>
+
+</manifest>

@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/page_bg" >
+	<com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+	
+    <RelativeLayout
+        android:id="@+id/rl_housing_input"
+        android:layout_width="wrap_content"
+	    android:layout_height="55dp"
+	    android:layout_below="@id/common_action_bar"
+	    android:paddingTop="8dp"
+	    android:paddingBottom="8dp"
+	    android:paddingRight="17dp"
+	    android:paddingLeft="11dp"
+	    android:background="#ebebeb">
+
+        <EditText
+            android:id="@+id/et_housing_name"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/bg_quote"
+	        android:textColorHint="#999999"
+	        android:gravity="center_vertical"
+	        android:layout_toLeftOf="@+id/tv_cancel"
+	        android:textSize="14sp"
+	        android:paddingLeft="11dp"
+	        android:hint="请输入您的小区">
+	         <requestFocus />
+         </EditText>
+        <ImageView 
+            android:id="@+id/iv_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cancel"
+            android:layout_alignRight="@+id/et_housing_name"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="11dp"/>
+	    <TextView
+	        android:id="@+id/tv_cancel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/cancel"
+	        android:textSize="17sp"
+	        android:textColor="#ff6c38"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true" 
+	        android:layout_marginLeft="19dp"/>       
+    </RelativeLayout>
+
+    <!-- <TextView
+        android:id="@+id/tv_tips_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rl_housing_input"
+        android:background="@color/color_f0f0f0"
+        android:padding="8dp"
+        android:textColor="@color/color_808080"
+        android:text="TextView"
+        android:textSize="@dimen/txt_size_16" /> -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_housing_input" >
+
+        <ListView
+            android:id="@+id/lv_solution"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@color/line_bg_color"
+            android:dividerHeight="1dp"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="vertical" />
+
+        <com.huizhuang.zxsq.widget.DataLoadingLayout
+            android:id="@+id/data_loading_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+        </com.huizhuang.zxsq.widget.DataLoadingLayout>
+    </FrameLayout>
+
+</RelativeLayout>

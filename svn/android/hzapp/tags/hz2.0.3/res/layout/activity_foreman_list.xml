@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_appointment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/bg_btn_appointment_selector"
+            android:text="@string/txt_appointment"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_choice_foreman"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn_choice_foreman_selector"
+            android:text="@string/txt_map_model"
+            android:textColor="@color/color_ff5e5e"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <com.huizhuang.zxsq.widget.XListView
+        android:id="@+id/xlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="false"
+        android:layout_above="@id/ll_bottom"
+        android:layout_below="@id/common_action_bar"
+        android:focusable="true"
+        android:layoutAnimation="@anim/layout_animation_for_listview"
+        android:listSelector="#00000000"
+        android:scrollbars="vertical" />
+    <com.huizhuang.zxsq.widget.DataLoadingLayout
+        android:id="@+id/data_load_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar">
+    </com.huizhuang.zxsq.widget.DataLoadingLayout>
+</RelativeLayout>

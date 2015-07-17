@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">惠装</string>
+    <string name="menu_settings">Settings</string>
+    <!-- common -->
+    <string name="txt_bottom_tab_home">首页</string>
+    <string name="txt_bottom_tab_decoration">找装修</string>
+    <string name="txt_bottom_tab_diary">日记</string>
+    <string name="txt_bottom_tab_design_sketch">效果图</string>
+    <string name="txt_bottom_tab_me">我</string>
+    <string name="txt_visit_count_format">%1$s人来过</string>
+    <string name="submit">提交</string>
+    <string name="ensure">确定</string>
+    <string name="give_up">放弃</string>
+    <string name="back">返回</string>
+    <string name="next_step">下一步</string>
+    <string name="txt_restrict_clicks">亲，请明天再来吧</string>
+    <string name="txt_quit_app">退出应用</string>
+    <string name="txt_are_you_sure_to_quit">您确定要退出吗？</string>
+    <string name="txt_quit">退出</string>
+    <string name="txt_cancel">取消</string>
+    <string name="txt_focus_success">关注成功</string>
+    <string name="txt_select_friends">选择好友</string>
+    <string name="txt_apply_success">申请成功</string>
+    <string name="txt_unit_of_area">㎡</string>
+    <string name="txt_common_search_hint">查找：例如“龙发装饰”</string>
+    <string name="txt_relative_bill_detail">相关清单</string>
+    <string name="txt_format_number_people_see">等%1$d人看过</string>
+    <string name="txt_format_number_people_see_less_than_5">%1$d人看过</string>
+    <string name="txt_diary_upload_limit">亲，你最多只能选择%1$d张图</string>
+    <string name="txt_version_info">当前版本：v%1$s</string>
+    <string name="txt_company_info">惠装网   © huizhuang.com</string>
+    <string name="txt_filter_key_name">筛选</string>
+    <!-- 图片选择 -->
+    <string name="image_select_from_camera">拍照</string>
+    <string name="image_select_from_album">选择本地图片</string>
+    <string name="image_select_crop_img">正在剪切图片&#8230;</string>
+    <string name="title_user_login">账号登录</string>
+    <string name="search">搜索</string>
+    <string name="back_home">返回首页</string>
+    <string name="sure_exit">确定退出</string>
+    <string name="next">验证</string>
+    <string name="skip">跳过</string>
+    <string name="sure_logout">确定注销</string>
+    <string name="reset_load">重新加载</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="timeout">超时</string>
+    <string name="save">保存</string>
+    <string name="guess_like">猜你喜欢</string>
+    <string name="look_store">商家查询</string>
+    <string name="recommend_friends">推荐好友</string>
+    <!-- 猜你喜欢 -->
+    <string name="title_guess_like">猜你喜欢</string>
+    <string name="select_least_one">至少选择一种您感兴趣的风格类型</string>
+    <string name="ok_laike_this">OK!  我喜欢这些风格</string>
+    <!-- 推荐好友 -->
+    <string name="title_select_friends">推荐好友</string>
+    <string name="basis_of_location">我们根据您的地理位置和爱好作以下推荐</string>
+    <string name="open_my_artifact">开启我的惠装</string>
+    <!-- 检查短信 -->
+    <string name="title_check_code">账号注册</string>
+    <string name="sented">已发送</string>
+    <string name="code_message">验证码短信</string>
+    <string name="this_phone">到这个号码</string>
+    <string name="not_get">收不到验证码？</string>
+    <!-- 手机验证 -->
+    <string name="title_check_phone">手机号验证</string>
+    <string name="sent_verify">发送验证码</string>
+    <string name="phone_email_username">手机号/邮箱/用户名</string>
+    <!-- 设置个人信息 -->
+    <string name="title_user_data_editor">个人资料</string>
+    <string name="txt_nickname">我的昵称</string>
+    <string name="txt_bename">取个洋气的名字吧~</string>
+    <string name="txt_sex">我的性别</string>
+    <string name="txt_host_city">所在城市</string>
+    <string name="txt_cd">成都</string>
+    <string name="txt_phone">手机号码</string>
+    <string name="txt_only_visit">仅作为活动报名回访</string>
+    <!-- 施工现场详情 -->
+    <string name="txt_construction_free_visit">免费申请参观</string> 
+	<string name="txt_construction_progress">施工进度</string>  
+	<string name="txt_construction_scheme">施工方案</string>	     
+    <!-- 公司列表 -->
+    <string name="input_code">输入验证码</string>
+    <!-- 公司城市列表 -->
+    <string name="title_city_list">城市列表</string>
+    <!-- 公司列表 -->
+    <string name="txt_contract_average">合同均价</string>
+    <string name="txt_appointment_immediately">马上预约</string>
+    <string name="txt_tv_order_statoc">位业主预约</string>
+    <string name="txt_tag_zjb">家装宝签约</string>
+    <string name="txt_tag_coupon">优惠券</string>
+    <string name="txt_comment_num">条口碑</string>
+    <string name="txt_diary_num">篇日记提及</string>
+    <string name="txt_company_search_empty">没有找到合适的惠装喔，请更改筛选条件</string>
+    <string name="txt_company_appointment">位业主预约</string>
+    <string name="txt_company_distance">距离</string>
+    <string name="txt_company_design_scheme">套设计方案</string>
+    <string name="txt_company_complete">成交</string>
+    <!-- 公司地图 -->
+    <string name="txt_title_company_map">公司地图</string>
+    <!-- 公司详情 -->
+    <string name="txt_title_select_company_detail">店铺详情</string>
+    <string name="txt_company_appointment_num">业主预约</string>
+    <string name="txt_company_address">店铺地址</string>
+    <string name="txt_recommended_levels">推荐指数</string>
+    <string name="txt_service_attitude">服务态度</string>
+    <string name="txt_professional_ability">专业能力</string>
+    <string name="txt_issues_coordinate">问题协调</string>
+    <string name="txt_job_schedule">工程进度</string>
+    <string name="txt_shop_comments">店铺评论</string>
+    <string name="txt_genus_diary">所属日记</string>
+    <string name="txt_supervision_diary">监理日记</string>
+    <string name="txt_renovation_diary">装修日记</string>
+    <string name="txt_company_introduction">公司简介</string>
+    <string name="txt_company_aera">展厅面积：</string>
+    <string name="txt_company_auth">认证</string>    
+    <string name="txt_read_all">阅读全部</string>
+    <string name="txt_put_away">收起</string>
+    <string name="txt_company_average_price">人均价</string>     
+    <string name="txt_company_undertake_price">承接价</string>    
+    <string name="txt_company_setup_time">成立时间</string>
+    <string name="txt_company_support_services">支持服务</string>
+    <string name="txt_company_services_free_design">免费设计</string>
+    <string name="txt_company_services_third_testing">第三方质量检测</string>
+    <string name="txt_company_services_ecured_transactions">担保交易</string>
+    <string name="txt_company_services_zero">预算0增项</string>
+    <string name="txt_company_design_scheme_appointment">我要预约</string>             
+    <!-- 收藏公司 -->
+    <string name="txt_title_favorite_company">收藏公司</string>
+    <!-- 评论列表 -->
+    <string name="title_discusslist">口碑评价</string>
+    <string name="title_company_discuss">我要评论</string>    
+    <!-- 我关注 -->
+    <string name="title_attention">我关注</string>
+    <!-- 我关注 -->
+    <string name="title_be_attention">关注我</string>
+    <!-- 质量报告-->
+    <string name="txt_quality_report_last_question">上阶段不合格整改</string>
+    <string name="txt_quality_report_last_original_question">检查原有质量问题</string>   
+    <!-- 评论 -->
+    <string name="title_comment">新评论</string>
+    <string name="txt_comment_totality">总体评价</string>    
+    <string name="txt_write_somthing">写满15字，即有机会赢免单及iPhone6</string>
+    <string name="txt_share_to">分享到</string>
+    <string name="txt_publish">发布</string>
+    <!-- 设置 -->
+    <string name="title_setting">设置</string>
+    <string name="txt_bind_setting">绑定设置</string>
+    <string name="txt_push_setting">推送设置</string>
+    <string name="txt_no_load_image">3G/2G环境下不加载图片</string>
+    <string name="txt_clear_cache">清除缓存</string>
+    <string name="txt_feedback">意见反馈</string>
+    <string name="txt_give_praise">给个好评</string>
+    <string name="txt_version_information">版本信息</string>
+    <string name="txt_Logout">退出登录</string>
+    <string name="txt_qq_login">QQ登录</string>
+    <string name="txt_weibo_login">微博登录</string>
+    <string name="txt_phone_login">手机登录</string>
+    <string name="txt_register_now">立即注册</string>
+    <string name="txt_look_around">随便逛逛</string>
+    <!-- 绑定设置 -->
+    <string name="txt_bind_qq">绑定腾讯QQ</string>
+    <string name="txt_bind_sina">绑定新浪微博</string>
+    <string name="txt_bind_douban">绑定豆瓣</string>
+    <string name="txt_bind_renren">绑定人人</string>
+    <!-- 密码修改 -->
+    <string name="title_setting_passwrod">密码修改</string>
+    <string name="txt_original_pw">请输入原密码</string>
+    <string name="txt_new_pw">请输入新密码</string>
+    <string name="txt_again_new_pw">请重复输入一次新密码</string>
+    <!-- 推送设置 -->
+    <string name="txt_push_content">推送内容</string>
+    <string name="txt_system_message">系统消息</string>
+    <string name="txt_push_time">推送时间</string>
+    <string name="txt_receive_time">推送接收时间</string>
+    <string name="txt_time">6:00-0:00</string>
+    <string name="txt_date">每日</string>
+    <!-- 版本信息 -->
+    <string name="txt_about_edition">版本：</string>
+    <string name="txt_aboud_version">正式版</string>
+    <string name="title_about">关于惠装</string>
+    <!-- 筛选公司 -->
+    <string name="title_search">筛选条件</string>
+    <string name="txt_search_completed">完成</string>
+    <string name="txt_search_hint">查找：例如“地中海”</string>
+    <string name="txt_decoration_types">装修类型</string>
+    <string name="txt_renovation_ways">装修方式</string>
+    <string name="txt_storeorder_options">装修预算</string>
+    <string name="txt_cost_ranges">智能排序</string>
+    <!-- 预约公司 -->
+    <string name="title_company_order">我要预约</string>
+    <string name="txt_company_order_name">姓名</string>
+    <string name="txt_company_order_visit">用于客服电话回访</string>
+    <string name="txt_contact">联系人</string>
+    <string name="txt_company_order_phone">手机</string>
+    <string name="txt_company_order_visit_time">回访时间</string>
+    <!-- 下拉列表 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开后刷新</string>
+    <string name="xlistview_header_hint_refreshing">正在刷新\u2026</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开后加载</string>
+    <string name="xlistview_footer_hint_loading">正在加载\u2026</string>
+    <string name="xlistview_footer_newest_time">1分钟前</string>
+    <!-- 图片选择 -->
+    <string name="picture_from_camera">拍照</string>
+    <string name="picture_from_album">选择本地图片</string>
+    <string name="crop_img_tips">正在剪切图片&#8230;</string>
+    <!-- 更多 -->
+    <string name="more_menu_setting">密码修改</string>
+    <string name="more_menu_feedback">意见反馈</string>
+    <string name="more_menu_clear">清除缓存</string>
+    <string name="more_menu_update">检测更新</string>
+    <string name="more_menu_about">关于我们</string>
+    <string name="more_menu_exit">退出应用</string>
+    <string name="about_company">公司信息</string>
+    <string name="technology_support">技术支持：lgmshare@gmail.com</string>
+    <string name="cropright">版权信息Cropright:lgmshare</string>
+    <string name="about_service_phone">客服热线：999999</string>
+    <string name="update_start_download">开始下载</string>
+    <string name="update_stop_download">停止下载</string>
+    <!-- EMPTY LINELAYOUT -->
+    <string name="empty_message">No items yet</string>
+    <string name="loading_message">Please wait</string>
+    <string name="error_message">Oops! Something wrong happened</string>
+    <string name="empty_button">Try again</string>
+    <string name="loading_button">Cancel</string>
+    <string name="error_button">Try again</string>
+    <!-- user login/register -->
+    <string name="following_way_login">用以下方式互联登录</string>
+    <string name="title_login">账号登录</string>
+    <string name="username">用户名：</string>
+    <string name="password">密码：</string>
+    <string name="account">账户</string>
+    <string name="mobile_phone">手机号</string>
+    <string name="login_password">登录密码</string>
+    <string name="txt_check_code">验证码</string>
+    <string name="input_username">仅支持手机、邮箱登陆</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_password_12">请输入6到12位专属密码</string>
+    <string name="input_check_code">请输入验证码</string>
+    <string name="argin_input_password">请再次输入密码</string>
+    <string name="feedback">意见反馈</string>
+    <string name="thank_feedback">感谢您提供的宝贵意见</string>
+    <string name="start_other_login">其他登录</string>
+    <string name="start_go_registe">立即注册</string>
+    <string name="start_go_see">随便看看</string>
+    <string name="uc_create_account">创建惠装账户</string>
+    <string name="title_register">账号注册</string>
+    <string name="title_protocol">惠装服务协议</string>
+    <string name="please_enter_phone">请输入手机号码</string>
+    <string name="readed">我已阅读并遵守</string>
+    <string name="protocol">《惠装服务协议》</string>
+    <string name="create_decoration_artifact_account">创建惠装账户</string>
+
+    <string-array name="option_area">
+        <item>全部</item>
+        <item>金牛区</item>
+        <item>锦江区</item>
+        <item>成华区</item>
+        <item>武侯区</item>
+        <item>青羊区</item>
+    </string-array>
+    <string-array name="option_way">
+        <item>全部</item>
+        <item>全包</item>
+        <item>半包</item>
+    </string-array>
+    <string-array name="option_way_key">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="option_intelligent">
+        <item>全部</item>
+        <item>预约人数优先</item>
+        <item>服务质量优先</item>
+        <item>家装宝商家优先</item>
+    </string-array>
+    <string-array name="option_intelligent_key">
+        <item>all</item>
+        <item>order</item>
+        <item>score</item>
+        <item>zjb</item>
+    </string-array>
+
+    <string name="none">None</string>
+    <string name="autofix">Autofix</string>
+    <string name="bw">Min/Max Color Intensity</string>
+    <string name="brightness">Brightness</string>
+    <string name="contrast">Contrast</string>
+    <string name="crossprocess">Cross Process</string>
+    <string name="documentary">Documentary</string>
+    <string name="duotone">Duo Tone</string>
+    <string name="filllight">Fill Light</string>
+    <string name="fisheye">Fish Eye</string>
+    <string name="flipvert">Flip Vertical</string>
+    <string name="fliphor">Flip Horizontal</string>
+    <string name="grain">Grain</string>
+    <string name="grayscale">Grayscale</string>
+    <string name="lomoish">Lomoish</string>
+    <string name="negative">Negative</string>
+    <string name="posterize">Posterize</string>
+    <string name="rotate">Rotate</string>
+    <string name="saturate">Saturate</string>
+    <string name="sepia">Sepia</string>
+    <string name="sharpen">Sharpen</string>
+    <string name="temperature">Temperature</string>
+    <string name="tint">Tint</string>
+    <string name="vignette">Vignette</string>
+
+    <!-- 爱家档案 -->
+    <string name="title_love_famliy_profile">爱家档案</string>
+    <string name="btn_finish">完成</string>
+    <!-- 房屋信息 -->
+    <string name="tab_txt_house_info">房屋信息</string>
+    <string name="tab_txt_decoration_list">装修清单</string>
+    <string name="txt_house_type_graph">房型图</string>
+    <string name="txt_house_design_graph">设计图</string>
+    <string name="txt_house_effect_graph">效果图</string>
+    <string name="txt_house_type">户型</string>
+    <string name="txt_budget_format">￥%1$.2f</string>
+    <string name="txt_budget_percentage">%1$.2f%%</string>
+    <string name="txt_year_and_month_format">%1$d年%2$d月</string>
+    <string name="txt_house_square">面积</string>
+    <string name="txt_house_style">风格</string>
+    <string name="txt_house_decorate_time">装修时间</string>
+    <string name="txt_house_decorate_company">惠装</string>
+    <string name="txt_house_designer">设计师</string>
+    <string name="txt_house_decorate_budget">装修预算</string>
+    <string name="txt_house_square_hint">请输入房屋的面积</string>
+    <string name="txt_house_decorate_company_hint">请输入惠装</string>
+    <string name="txt_house_designer_hint">请输入设计师</string>
+    <string name="txt_house_decorate_budget_hint">请输入预算价格</string>
+    <!-- 我的消息 -->
+    <string name="title_my_messages">我的消息</string>
+    <!-- 收藏图片 -->
+    <string name="title_favorite_pictures">收藏图片</string>
+    <string name="txt_format_number_people_read">等%1$d人品过</string>
+    <string name="txt_format_number_people_read_string">等%1$s人品过</string>
+    <!-- 收藏文章 -->
+    <string name="title_favorite_articles">收藏文章</string>
+    <string name="txt_cancel_favorite">取消收藏</string>
+    <!-- 默认数据 -->
+    <string name="txt_default_number">0</string>
+    <string name="txt_default_time">2014&#8211;10&#8211;30</string>
+    <!-- 装修记账 -->
+    <string name="title_decorate_bill_report">账单报告</string>
+    <string name="title_choose_bill_category">选择分类</string>
+    <string name="title_bill_total_detail">账单详情</string>
+    <string name="txt_choose_category_info">记录您的装修开资</string>
+    <string name="txt_bill_total_title">月份合计</string>
+    <string name="txt_bill_left_title">剩余余额</string>
+    <string name="txt_bill_label_total_title">标签合计</string>
+    <string name="txt_bill_choose_date">选择日期</string>
+    <string name="txt_bill_photo_remark">拍照备注</string>
+    <string name="txt_bill_main_total_count_info">截至今日您的总计消费</string>
+    <string name="txt_bill_main_rate_more_than_70_percent">我战胜了%1$s的人，\n成功完成屌丝的逆袭，完胜！</string>
+    <string name="txt_bill_main_rate_less_than_30_percent">我战胜了%1$s的人，\n勤俭持家才是硬道理！</string>
+    <string name="txt_bill_main_rate_between_30_and_70_percent">我战胜了%1$s的人，很快就要完成屌丝的逆袭啦，加油！</string>
+    <string name="txt_bill_none">￥0.00</string>
+    <string name="txt_bill_none_info">开启装修记账模式，看我怎么精打细算装新家！</string>
+    <string name="txt_upload_failed">上传失败</string>
+    <!-- 日记列表 -->
+    <string name="title_company_renovation_articles">装修日记</string>
+    <string name="title_company_supervisor_articles">监理日记</string>
+    <string name="txt_btn_cancel">取消</string>
+    <string name="txt_btn_save">保存</string>
+    <string name="txt_hint_photo_remark">记录下这笔开支的详细情况吧&#8230;</string>
+    <!-- 计算器 -->
+    <string name="txt_cal_1">1</string>
+    <string name="txt_cal_2">2</string>
+    <string name="txt_cal_3">3</string>
+    <string name="txt_cal_4">4</string>
+    <string name="txt_cal_5">5</string>
+    <string name="txt_cal_6">6</string>
+    <string name="txt_cal_7">7</string>
+    <string name="txt_cal_8">8</string>
+    <string name="txt_cal_9">9</string>
+    <string name="txt_cal_0">0</string>
+    <string name="txt_cal_ok">OK</string>
+    <string name="txt_cal_simbol_express">!</string>
+    <string name="txt_cal_simbol_dot">.</string>
+    <string name="txt_cal_simbol_add">+</string>
+    <string name="txt_cal_simbol_rmb">￥</string>
+    <string name="txt_cal_simbol_express_info">非必要支出</string>
+    <!-- 页面加载中视图 -->
+    <string name="txt_click_here_to_reload">点击这里重新加载</string>
+    <string name="txt_network_ungelivable">网络不给力呀！</string>
+    <string name="txt_layout_empty">暂时还没有相关内容，看看别的？</string>
+    <string name="txt_list_view_empty">暂时没有数据</string>
+    <string name="txt_on_waiting">亲，请稍等&#8230;</string>
+    <string name="txt_update_success">更新成功</string>
+    <!-- 工地模块 -->
+    <string name="txt_read_report">查看质量报告</string>
+    <string name="txt_grade">请为我打分</string>
+    <string name="txt_order_no">订单号:</string>
+    <string name="txt_order_date">下单时间:</string>
+    <string name="txt_area_name">装修小区:</string>
+    <string name="txt_worksite_manager">工地管理</string>
+    <string name="txt_p1">开工</string>
+    <string name="txt_p2">土木</string>
+    <string name="txt_p3">泥瓦</string>
+    <string name="txt_p4">油漆</string>
+    <string name="txt_p5">竣工</string>
+    <string name="txt_wjs_grade">为监理师打分</string>
+    <string name="txt_company_grade">为惠装打分</string>
+    <string name="txt_prov_problem">上节点发现问题</string>
+    <string name="txt_curr_problem_edit">本节点已整改问题</string>
+    <string name="txt_score_name">分</string>
+    <string name="txt_js_result">综合监理结果</string>
+    <string name="txt_check_date">请选择日期</string>
+    <string name="txt_check_time">请选择时间</string>
+    <string name="btn_submit_score">提交评分</string>
+    <string name="txt_week_1">星期一</string>
+    <string name="txt_week_2">星期二</string>
+    <string name="txt_week_3">星期三</string>
+    <string name="txt_week_4">星期四</string>
+    <string name="txt_week_5">星期五</string>
+    <string name="txt_week_6">星期六</string>
+    <string name="txt_week_7">星期日</string>
+    <string name="txt_jls_name">监理师:%1$s</string>
+    <string name="txt_my_activist">我的维权</string>
+    <string name="txt_activist_start">发起维权</string>
+    <string name="txt_activist_started">已发起维权</string>
+    <string name="txt_activist_colse">已关闭</string>
+    <string name="txt_start_activist">发起维权中&#8230;</string>
+    <string name="txt_activist_success">维权发起成功</string>
+    <string name="txt_none_data">没有数据</string>
+    <string name="txt_zx_order_head">装修订单</string>
+    <string name="txt_jls_score">监理师反馈</string>
+    <string name="txt_submit_ing">提交中&#8230;</string>
+    <string name="txt_score_des">感谢体验惠装网监理服务</string>
+    <string name="txt_score_success">评分成功</string>
+    <string name="txt_user_name">亲爱的%1$s:</string>
+    <string name="txt_yuyue_sucees_result">\t\t 你以成功预约%1$s%2$s%3$s节点监理，接下来监理师会与您确认预约信息，请保持通话畅通，谢谢您对惠装网的支持 。"</string>
+    <string name="txt_yuyue_success">预约成功</string>
+    <string name="txt_check_in">验收中&#8230;</string>
+    <string name="txt_check_success">验收成功</string>
+    <string name="txt_prov_problem_count">%1$s个</string>
+    <string name="txt_curr_problem_count">发现%1$s个问题</string>
+    <string name="txt_jl_time">该监理大概需要耗时%1$s1.5%2$s小时，请您确定您的时间是否充裕，如需变更预约时间，请您提前与监理师电话沟通。</string>
+    <string name="txt_yuyue_lj_head">预约监理</string>
+    <string name="txt_check_yuyue_node">请选择预约监理节点</string>
+    <string name="txt_check_yuyue_order">请选择预约订单</string>
+    <string name="txt_none_yuyue_order">没有可预约的订单</string>
+    <string name="txt_none_yuyue_in">预约中&#8230;</string>
+    <string name="txt_load_in">加载中&#8230;</string>
+    <string name="txt_check_jl_time">选择监理时间</string>
+    <string name="ev_hint">写点评价吧</string>
+    <string name="btn_back_account_home">返回个人中心首页</string>
+    <string name="btn_yuyue_name">我要预约</string>
+    <string name="btn_see_name">我了解啦</string>
+    <string name="btn_invite_friend_name">邀请好友围观</string>
+    <string name="btn_contract_records">合同备案</string>
+    <string name="btn_subscribe_supervisor">预约监理</string>
+    <!-- 装修宝典 -->
+    <string name="zxbd_title">装修宝典</string>
+    <string name="zxbd_fkdq">防坑大全</string>
+    <string name="zxbd_reset_moment">重选阶段</string>
+    <!-- 日记 -->
+    <string name="diary_discuss_edit">编辑评论</string>
+    <string name="diary_discuss_edit_submit">发表</string>
+    <!-- 拍照备注对话框 -->
+    <string name="txt_dialog_title_notice">温馨提示</string>
+    <string name="txt_dialog_btn_no">否</string>
+    <string name="txt_dialog_btn_yes">是</string>
+    <string name="txt_dialog_need_to_remark_photo">是否需要添加拍照备注信息</string>
+    <!-- sex -->
+    <string name="txt_fmale">女</string>
+    <string name="txt_male">男</string>
+    <string name="none_vistor">暂时还没有人来过，快来抢沙发吧！</string>
+
+    <!-- 合同备案 -->
+    <string name="txt_title_contract_record">合同备案</string>
+    <string name="txt_contract_record_top_info">合同备案审核通过 才能预约监理哟</string>
+    <string name="txt_contract_record_commit">提交</string>
+    <string name="txt_contract_record_re_upload">重新上传</string>
+    <string name="txt_contract_record_checking">审核中</string>
+    <string name="txt_contract_record_check_failed">未通过</string>
+    <string name="txt_contract_record_check_failed_tip">请重新上传</string>
+    <string name="txt_contract_record_check_success">已通过</string>
+    <string name="txt_contract_record_take_photo_1">上传合同封面</string>
+    <string name="txt_contract_record_take_photo_2">上传合同金额</string>
+    <string name="txt_contract_record_take_photo_3">上传合同封底</string>
+    <string name="txt_contract_record_take_photo_tip">在合同上找到像左边一样的那一页拍照上传吧</string>
+    <string name="txt_contract_record_upload_photo_success">上传合同图片成功</string>
+    <string name="txt_contract_record_quit_title">温馨提示</string>
+    <string name="txt_contract_record_quit_message">您还有图片没有上传，你确定要退出此页面吗？</string>
+    <string name="txt_contract_record_sure">确定</string>
+    <string name="txt_contract_record_cancel">取消</string>
+
+    <!-- 装修宝典申请成功页面 -->
+    <string name="txt_zxbd_apply_success_top_title">恭喜您，申请成功~</string>
+    <string name="txt_zxbd_apply_success_title_1">三家惠装比价</string>
+    <string name="txt_zxbd_apply_success_title_sub_1">免费量房 设计 预算</string>
+    <string name="txt_zxbd_apply_success_title_2">签订合约</string>
+    <string name="txt_zxbd_apply_success_title_sub_2">选择惠装家装宝，拒绝装修质量问题</string>
+    <string name="txt_zxbd_apply_success_title_3">监理上门把关</string>
+    <string name="txt_zxbd_apply_success_title_sub_3">开工、隐蔽、泥木、油漆、竣工5个节点，免费检测装修质量</string>
+    <string name="txt_zxbd_apply_success_title_4">不满意不付款</string>
+    <string name="txt_zxbd_apply_success_title_sub_4">竣工1个月后，满意后付款</string>
+    <string name="txt_zxbd_apply_success_bottom_info">为了详细了解您的装修需求，网站客服将于工作时间2小时内与您电话联系，客户电话：</string>
+    <string name="txt_zxbd_apply_success_service_tel">400-607-0035</string>
+    <!-- 分享文字 -->
+    <string name="txt_share_zxrj">#惠装#我正在看装修日记，记录很实用，图片超赞的，需要装修的小伙伴们速速来围观学习吧，不然怎么天天向上呢！</string>
+    <string name="txt_share_xgt">"#惠装#我正在看惠装“%1$s”，计简约独特，整体效果图美呆了，要是自己家能装成这样就好啦！"</string>
+    <string name="txt_share_fkdq">我正在查看#惠装APP#上的装修日记，学习到了很多装修的知识。装修的人都在用这个软件，比传统装修节省40%的费用！强烈推荐你试试~</string>
+    <string name="txt_share_zxgs">#惠装#我正在看“$%1$s”，经典装修案例、知名设计师、业主装修日记、装修点评应有尽有，足够全面了解对比，挑选满意的惠装。</string>
+    <string name="txt_share_zxwz">#惠装#我正在看“$%1$s”，装修开工-水电-泥木-油漆-竣工全部节点免费监理，发现问题不整改不付款，妈妈再也不用担心我的装修啦！</string>
+    <string name="txt_share_bmcg">#惠装#我在使用惠装，体验装修不满意不付款服务，你也来下载试试吧！</string>
+    <string name="txt_share_gzxq">我在#惠装APP#上找到了一个非常靠谱的工长“%1$s”，人品好服务棒！装修的人都在用这个软件，比传统装修节省40%%的费用！强烈推荐你试试~</string>
+    <!-- 预约量房 -->
+    <string name="txt_appointment_measure">预约量房</string>
+    <string name="txt_check_phone">验证手机号</string>
+    <string name="txt_phone_name">手机:</string>
+    <string name="txt_code_name">验证码:</string>
+    <string name="txt_send_code_name">发送验证码</string>
+    <string name="txt_des">我们承诺:您的隐私将被严格保密,请您放心用.</string>
+    <!-- 预约设计师上门设计 -->
+    <string name="txt_call">*称呼</string>
+    <string name="txt_call_hint">请填写您的称呼</string>
+    <string name="txt_community">*小区</string>
+    <string name="txt_community_hint">请填写您的小区名称</string>
+    <string name="txt_budget">*预算</string>
+    <string name="txt_budget_hint">请选择您的装修预算</string>
+    <string name="txt_decoration_style">*装修方式</string>
+    <string name="txt_decoration_style_hint">请选择您的装修方式</string>
+    <string name="txt_add_appointment_time">*添加量房时间</string>
+    <string name="txt_remark">备注</string>
+    <string name="txt_inout_housing_name">输入小区名称</string>
+    <string name="txt_select_housing">选择小区</string>
+    <string name="txt_order_tips">温馨提示：惠装工长现场量房，帮您规划最合理的采光和空间布局，量房时间请尽量准确，工长也很辛苦的，预约后请不要轻易取消</string>
+    <!-- home -->
+    <string name="txt_hz_app">惠装*惠装</string>
+    <string name="txt_city">城市</string>
+    <!-- account -->
+    <string name="txt_supervision_node">监理节点</string>
+    <string name="txt_supervisioner_list">监理师列表</string>
+    <string name="txt_supervisioner_detail">监理师详情</string>
+    <string name="txt_service_owner_count">服务业主%1$s户</string>
+    <string name="txt_supervision_year">从事监理%1$s年</string>
+    <string name="txt_supervisioner_arrangement">监理安排</string>
+    <string name="txt_reservations">已被预约</string>
+    <string name="txt_customers_gauge">客户评价(口碑值89%)</string>
+    <string name="txt_expertise">专业能力：</string>
+    <string name="txt_service_attitude1">服务态度：</string>
+    <string name="txt_problem_solver">问题解决：</string>
+    <string name="txt_all_order">全部订单</string>
+    <string name="btn_supervisioner_priority">优先安排此监理师</string>
+
+    <!-- 综合筛选 -->
+    <string name="txt_title_integrate_filter">综合筛选</string>
+    <string name="txt_btn_filter_reset">重置</string>
+    <string name="txt_info_filter_way_tip">半包：仅包辅料，不含主材\n全包：包辅料、含主材</string>
+    <string name="txt_btn_filter_complete">筛选惠装</string>
+    <string name="txt_btn_filter_common_search">搜索</string>
+	<string name="txt_question_des">请提供更详细的问题描述，以便我们的及时跟踪和处理。我们将在您发起投诉后３０分钟内与您联系。</string>
+	<string name="txt_question_prompt">描述您的问题</string>
+	<string name="txt_more_info">请提供更多信息</string>
+	<string name="txt_question_what_help">请问需要什么类型的反馈？</string>
+	<string name="txt_question_check">选择问题</string>
+    <string name="txt_item_privilege_1">优惠活动</string>
+    <string name="txt_item_privilege_2">商家支持服务</string>
+	<!-- 个人中心 -->
+	<string name="txt_account_balance">账户余额</string>
+	<string name="txt_comments">点评</string>
+	<string name="txt_attention">关注</string>
+	<string name="txt_fans">粉丝</string>
+	<string name="txt_my_orders">我的订单</string>
+	<string name="txt_trading_guaranteed">交易担保</string>
+	<string name="txt_my_complaint">我的投诉</string>
+	<string name="txt_my_collection">我的收藏</string>
+	<string name="txt_none_comments">待点评</string>
+	<string name="txt_my_diary">我的日记</string>
+	<!-- 消息中心-->
+	<string name="txt_title_chat">消息中心</string>
+	<string name="txt_new_message">您有新消息</string>
+    <string name="txt_delect_chat">删除该会话</string>	
+    <string name="txt_are_you_sure_to_delect_chat">您确定要删除吗？</string>
+	<!-- 推送报价-->       
+	<string name="txt_title_push_quote">报价清单</string>
+	<!-- 订单详情-->       
+	<string name="txt_tell_me_order_progress">请告诉我现在的进度</string>
+	<string name="txt_measurement_over">TA已为我量房</string>
+	<string name="txt_appointment_sign">预约服务站签约</string>	
+	<string name="txt_order_cancel">该订单已取消</string>
+	<string name="txt_order_delect">删除该订单</string>
+	<string name="txt_rob_order">工长争相抢单中...</string>
+	<string name="txt_measurement">量房</string>
+	<string name="txt_appointment">预约</string>		
+	<string name="txt_measurement_hint">请坚定的告诉我，你已经完成了这项进度</string>
+	<string name="txt_title_order_statue">订单状态</string>	
+	    <!-- 交易担保--> 
+    <string name="txt_title_transaction_security">在线担保交易</string>
+    <string name="txt_order_number">订单编号</string>
+    <string name="txt_appointment_information">预约信息</string>
+    <string name="txt_order_time">下单时间</string>
+    <string name="txt_payment_node">支付节点</string>
+    <string name="txt_order_money">订单金额</string>
+    <string name="txt_escrow_deposit">托管金额</string>
+    <string name="txt_use_coupons">使用优惠券</string>
+    <string name="txt_coupons">优惠券</string>
+    <string name="txt_need_to_pay">还需支付</string>
+    <string name="txt_confirmation_of_payment">确认支付</string>
+    <string name="txt_choosepayment_method">选择支付方式</string>
+    <string name="txt_alipay">支付宝支付</string>
+    <string name="txt_recommend_alipay">推荐支付宝用户使用</string>
+    <string name="txt_wechat">微信支付</string>
+    <string name="txt_recommend_wechat">推荐已安装微信的用户使用</string>
+    <string name="txt_unionpay">银联支付</string>
+    <string name="txt_recommend_unionpay">支持使用信用卡储值卡，无需开通网银</string>
+    <string name="txt_pos">POS机上门收款</string>
+    <string name="txt_recommend_pos">为证明你的权益，不支持现金支付</string>
+    <string name="txt_read_agreement">我已阅读并同意《惠装支付协议》</string>
+    <string name="txt_pay_over">支付完成</string>
+    <string name="txt_pos_pay_over">到服务站完成支付，享受惠装极致服务</string>
+    <string name="txt_poy_order">订单号</string>
+    <string name="txt_all_money">总金额</string>
+    <string name="txt_back_account">返回个人中心</string>
+    
+    <string name="txt_commtent_history">已点评</string>
+    <string name="txt_comment_node">监理节点:</string>
+</resources>

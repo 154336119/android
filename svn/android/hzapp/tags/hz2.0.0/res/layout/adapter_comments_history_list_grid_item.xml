@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/page_bg"
+    android:orientation="horizontal" 
+    android:gravity="left">
+
+    <TextView
+        android:id="@+id/tv_score_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_808080"
+        android:textSize="@dimen/txt_size_12" />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/color_ff6c38"
+        android:textSize="@dimen/txt_size_12" />
+
+</LinearLayout>

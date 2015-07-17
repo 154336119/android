@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d9d9d9"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/search_friend_et_edge"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ib_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:padding="8dp"
+            android:src="@drawable/search_friend_icon" />
+
+        <com.huizhuang.zxsq.widget.ClearEditText
+            android:id="@+id/etSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/ib_search"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="请输入类别或备注"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:textColor="@color/gray_99"
+            android:textColorHint="@color/gray_99"
+            android:textSize="@dimen/txt_size_16" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d9d9d9" >
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/gray_4c"
+            android:textSize="@dimen/txt_size_18" />
+
+        <ImageView
+            android:id="@+id/btn_prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="16dp"
+            android:src="@drawable/diary_date_arrow_left" />
+
+        <ImageView
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:padding="16dp"
+            android:src="@drawable/diary_date_arrow_right" />
+    </RelativeLayout>
+
+    <com.huizhuang.zxsq.widget.PinnedSectionListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/layout_bg"
+        android:cacheColorHint="#00000000"
+        android:divider="#cecece"
+        android:dividerHeight="1dp"
+        android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="false"
+        android:focusable="true"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:listSelector="#00000000"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

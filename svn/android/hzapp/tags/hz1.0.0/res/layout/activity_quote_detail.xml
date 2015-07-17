@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<!--     <com.huizhuang.foreman.view.widget.DataLoadingLayout
+        android:id="@+id/data_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" >
+    </com.huizhuang.foreman.view.widget.DataLoadingLayout> -->
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/ll_img_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="171dp"
+        android:background="@drawable/bg_quote_image"
+        android:orientation="vertical"
+        android:paddingBottom="17dp"
+        android:paddingLeft="17dp"
+        android:paddingRight="17dp"
+        android:paddingTop="17dp" 
+        android:layout_below="@id/common_action_bar">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/bg_quote"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_marginTop="24dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="总价"
+                        android:textColor="#4C4C4C"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tv_total_price"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="21dp"
+                        android:text="13万"
+                        android:textColor="@color/color_ff6c38"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img_center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/quote_center" />
+                
+                <LinearLayout 
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                     <TextView
+                    android:id="@+id/tv_average_price_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:text="均价"
+                    android:textColor="#4C4C4C"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/tv_average_price"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="21dp"
+                    android:text="520/平米"
+                    android:textColor="@color/color_ff6c38"
+                    android:textSize="17sp" />
+                    
+                </LinearLayout>
+
+               
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/exp_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/ll_img_bar"
+        android:dividerHeight="0.5px"
+        android:divider="@color/color_d9d9d9"
+         android:childDivider="@color/color_d9d9d9"  
+        android:groupIndicator="@drawable/quote_expand_arr" />
+
+    
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar" >
+
+        <com.huizhuang.zxsq.widget.XListView
+            android:id="@+id/coupon_list_view"
+   		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_f5f5f5"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="20dp"
+            android:listSelector="@drawable/bg_listview_selector_default"
+            android:scrollbars="vertical" 
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"/>
+
+        <com.huizhuang.zxsq.widget.DataLoadingLayout
+            android:id="@+id/common_dl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+        </com.huizhuang.zxsq.widget.DataLoadingLayout>
+     
+    </RelativeLayout>
+
+</RelativeLayout>

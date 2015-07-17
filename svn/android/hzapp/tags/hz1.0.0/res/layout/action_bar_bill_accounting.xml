@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/page_header_height"
+    android:background="@color/actionbar_bg"
+    android:minHeight="@dimen/page_header_height" >
+
+    <ImageButton
+        android:id="@+id/img_btn_back"
+        android:layout_width="@dimen/page_header_height"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/global_back_selector" />
+
+    <LinearLayout
+        android:id="@+id/ll_choose_date_zone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="13dp"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables" >
+
+        <ImageView
+            android:id="@+id/img_choose_data"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="6dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_bill_uncheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_bill_choose_date"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_20" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_photo_remark_zone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="23dp"
+        android:layout_toLeftOf="@id/ll_choose_date_zone"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables" >
+
+        <ImageView
+            android:id="@+id/img_photo_remark"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="6dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_bill_uncheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_bill_photo_remark"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_20" />
+    </LinearLayout>
+
+</RelativeLayout>

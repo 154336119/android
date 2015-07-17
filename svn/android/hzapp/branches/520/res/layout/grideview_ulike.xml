@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/layout_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <LinearLayout
+        android:id="@+id/rl"
+        android:layout_width="fill_parent"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/tv_guessLike_off"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/guesslike_edge"
+            android:gravity="center"
+            android:text="@string/select_least_one"
+            android:textColor="@color/gray_80"
+            android:textSize="@dimen/txt_size_18" />
+
+        <Button
+            android:id="@+id/tv_guessLike_on"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/orange_bottom_selector"
+            android:gravity="center"
+            android:text="@string/ok_laike_this"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_18"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gv_guessLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rl"
+        android:layout_below="@id/common_action_bar"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:padding="12dp"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="24dp" >
+    </GridView>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp" >
+
+    <CheckBox
+        android:id="@+id/cb_select"
+        style="@style/Checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:button="@drawable/diary_checkbox_icon"
+        android:gravity="center" />
+
+    <com.huizhuang.zxsq.widget.CircleImageView
+        android:id="@+id/cv_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/cb_select"
+        android:src="@drawable/uc_head_img" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/cv_icon"
+        android:text="dddddddddd"
+        android:textColor="@color/gray_4c"
+        android:textSize="@dimen/txt_size_14" />
+
+    <TextView
+        android:id="@+id/tv_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_name"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@id/cv_icon"
+        android:text="dddddddddd"
+        android:textColor="@color/gray_4c"
+        android:textSize="@dimen/txt_size_12" />
+
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_sex"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@id/tv_sex"
+        android:text="dddddddddd"
+        android:textColor="@color/gray_4c"
+        android:textSize="@dimen/txt_size_12" />
+
+</RelativeLayout>

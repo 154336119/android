@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/ll_submit"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_foreman_details_construction_btn"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yuyue_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/btn_yuyue_solution"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <com.huizhuang.zxsq.widget.XListView
+        android:id="@+id/xlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_submit"
+        android:layout_below="@+id/common_action_bar"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="false"
+        android:focusable="true"
+        android:listSelector="#00000000"
+        android:scrollbars="vertical" />
+
+    <include
+        android:id="@+id/foreman_constructions_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/common_action_bar"
+        layout="@layout/foreman_constructions_header"
+        android:visibility="gone" /> <!-- 在向上滑动的过程中不需要显示工地信息了 所以这个布局不需要再显示 -->
+
+    <com.huizhuang.zxsq.widget.DataLoadingLayout
+        android:id="@+id/data_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar"
+        android:visibility="gone" >
+    </com.huizhuang.zxsq.widget.DataLoadingLayout>
+
+</RelativeLayout>

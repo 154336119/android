@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f5f5f5"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <LinearLayout
+        android:id="@+id/tab_famliy_profile"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@id/common_action_bar"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:paddingTop="26dp" >
+
+        <TextView
+            android:id="@+id/tv_tab_house"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:text="@string/tab_txt_house_info"
+            android:textColor="@drawable/tab_family_profile_txt_selector"
+            android:textSize="@dimen/txt_size_20" />
+
+        <TextView
+            android:id="@+id/tv_tab_decoration"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:text="@string/tab_txt_decoration_list"
+            android:textColor="@drawable/tab_family_profile_txt_selector"
+            android:textSize="@dimen/txt_size_20" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_select_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/tab_famliy_profile"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" >
+
+        <View
+            android:id="@+id/v_tab_house_line"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_ff6c38"
+            android:visibility="visible" />
+
+        <View
+            android:id="@+id/v_tab_decoration_line"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_ff6c38"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/tab_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tab_select_line"
+        android:background="@color/color_cccccc" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/famliy_profile_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab_line"
+        android:background="@color/color_f5f5f5"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" >
+    </android.support.v4.view.ViewPager>
+
+    <com.huizhuang.zxsq.widget.DataLoadingLayout
+        android:id="@+id/love_famliy_profile_data_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar" >
+    </com.huizhuang.zxsq.widget.DataLoadingLayout>
+
+</RelativeLayout>

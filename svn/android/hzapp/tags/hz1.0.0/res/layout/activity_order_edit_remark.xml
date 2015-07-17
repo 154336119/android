@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                android:layout_margin="16dp"
+                android:gravity="top"
+                android:padding="8dp"
+                android:textColor="@color/color_4c4c4c"
+                android:textSize="@dimen/txt_size_16"
+                android:background="@drawable/global_list_corner_round_d"
+                android:textColorHint="@color/color_cccccc"
+                android:id="@+id/et_remark" />
+
+            <com.huizhuang.zxsq.widget.MyGridView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="2"
+                android:paddingLeft="16dp"
+                android:listSelector="@color/transparent"
+                android:paddingRight="16dp"
+                android:horizontalSpacing="8dp"
+                android:verticalSpacing="8dp"
+                android:id="@+id/gv_tags" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="添加户型图"
+                android:textColor="@color/color_666666"
+                android:textSize="@dimen/txt_size_16"
+                android:layout_height="wrap_content"
+                android:padding="16dp" />
+
+
+            <com.huizhuang.zxsq.widget.MyGridView
+                android:id="@+id/gv_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="@android:color/transparent"
+                android:horizontalSpacing="8dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="4"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:verticalSpacing="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="上传户型图或现场照，以便工长参考。户型图为选填项（最多4张）"
+                android:textColor="@color/color_999999"
+                android:textSize="@dimen/txt_size_14"
+                android:layout_height="wrap_content"
+                android:padding="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

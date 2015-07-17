@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huizhuang.zxsq.widget.slidingmenu.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slidingmenu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:rightPadding="100dp" xmlns:app="http://schemas.android.com/apk/res/com.huizhuang.hz"
+    android:background="@drawable/ic_account_bg01">
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:orientation="horizontal" >
+	
+		<include layout="@layout/view_account" />
+		<include layout="@layout/view_home" />
+
+	</LinearLayout>
+</com.huizhuang.zxsq.widget.slidingmenu.SlidingMenu>

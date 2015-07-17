@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="horizontal"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/iv_item_foreman_constructioncase_line"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="#ffd2c3"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/iv_item_foreman_constructioncase_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/foreman_constructionsite_stage_start_big" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/actionsheet_single_normal"
+        android:orientation="vertical"
+        android:padding="10dip">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_item_foreman_constructioncase_stage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开工阶段"
+                android:textColor="#4c4c4c"
+                android:textSize="13sp" />
+            <TextView
+	            android:id="@+id/tv_item_foreman_constructioncase_datetime"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="11/5  19:27"
+	            android:textColor="#808080"
+	            android:textSize="13sp" 
+	            android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_item_foreman_constructioncase_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="描述图片描述图片描述图片描述图片描述图片描述图片描述图片描述图片描述图片描述图片描述描述图片描述图片描述图片描述图片描述图片描述图片描述图片描述图片描述图片描述图片描述"
+            android:textColor="#808080"
+            android:textSize="13sp" />
+
+        <FrameLayout
+            android:id="@+id/fl_item_foreman_constructioncase_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip">
+            <ImageView
+                 android:id="@+id/iv_item_foreman_constructioncase_image"
+                 android:layout_width="match_parent"
+                 android:layout_height="160dip"
+                 android:background="@drawable/bg_photo_default"
+                 android:contentDescription="@string/app_name"
+                 android:scaleType="centerCrop"/>
+			<ImageView 
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/item_foreman_constructioncase_corner"
+			    android:layout_gravity="right|bottom"
+			    android:contentDescription="@string/app_name"/>
+			<TextView 
+			    android:id="@+id/tv_item_foreman_constructioncase_image_count"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="0张"
+			    android:textSize="@dimen/txt_size_11"
+			    android:textColor="@color/orange_drak"
+			    android:layout_gravity="right|bottom"
+			    android:layout_marginRight="2dp"
+			    android:layout_marginBottom="6dp"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

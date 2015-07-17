@@ -1,0 +1,74 @@
+[
+    {
+        "dispute_node_id": 1,
+        "dispute_node_name": "跪求好评"
+    },
+    {
+        "dispute_node_id": 4,
+        "dispute_node_name": "预约签约"
+    },
+    {
+        "dispute_node_id": 6,
+        "dispute_node_name": "成功预约签约"
+    },
+    {
+        "dispute_node_id": 8,
+        "dispute_node_name": "等待开工验收"
+    },
+    {
+        "dispute_node_id": 10,
+        "dispute_node_name": "开工验收整改中"
+    },
+    {
+        "dispute_node_id": 12,
+        "dispute_node_name": "开工验收整改确认"
+    },
+    {
+        "dispute_node_id": 14,
+        "dispute_node_name": "等待水电验收"
+    },
+    {
+        "dispute_node_id": 16,
+        "dispute_node_name": "水电验收整改中"
+    },
+    {
+        "dispute_node_id": 18,
+        "dispute_node_name": "水电验收整改确认"
+    },
+    {
+        "dispute_node_id": 20,
+        "dispute_node_name": "等待泥木验收"
+    },
+    {
+        "dispute_node_id": 22,
+        "dispute_node_name": "泥木验收整改中"
+    },
+    {
+        "dispute_node_id": 24,
+        "dispute_node_name": "泥木验收整改确认"
+    },
+    {
+        "dispute_node_id": 26,
+        "dispute_node_name": "等待油漆验收"
+    },
+    {
+        "dispute_node_id": 28,
+        "dispute_node_name": "油漆验收整改中"
+    },
+    {
+        "dispute_node_id": 30,
+        "dispute_node_name": "油漆验收整改确认"
+    },
+    {
+        "dispute_node_id": 32,
+        "dispute_node_name": "等待竣工验收"
+    },
+    {
+        "dispute_node_id": 34,
+        "dispute_node_name": "竣工验收整改中"
+    },
+    {
+        "dispute_node_id": 36,
+        "dispute_node_name": "竣工验收整改确认"
+    }
+]

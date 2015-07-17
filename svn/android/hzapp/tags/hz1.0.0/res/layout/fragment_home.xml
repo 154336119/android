@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar"
+        android:background="@color/activity_bg" >
+
+        <com.huizhuang.zxsq.widget.TouchListView
+            android:id="@id/android:list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@color/color_f5f5f5"
+            android:dividerHeight="8dp"
+            android:drawSelectorOnTop="false"
+            android:fastScrollEnabled="false"
+            android:focusable="true"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+
+        <com.huizhuang.zxsq.widget.DataLoadingLayout
+            android:id="@+id/home_data_loading_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+</RelativeLayout>

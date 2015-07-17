@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <com.huizhuang.zxsq.widget.XListView
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/common_action_bar"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="false"
+        android:focusable="true"
+        android:layoutAnimation="@anim/layout_animation_for_listview"
+        android:listSelector="#00000000"
+        android:scrollbars="vertical" />
+
+    <com.huizhuang.zxsq.widget.DataLoadingLayout
+        android:id="@+id/data_load_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/common_action_bar" >
+    </com.huizhuang.zxsq.widget.DataLoadingLayout>
+
+    <TextView
+        android:id="@+id/btn_discuss"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="#d0E54D17"
+        android:gravity="center"
+        android:text="我要评论"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_18" />
+
+</RelativeLayout>

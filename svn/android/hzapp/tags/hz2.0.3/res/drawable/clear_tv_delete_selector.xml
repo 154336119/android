@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">  
+  
+    <item android:drawable="@drawable/clear_tv_delete_item_selected_wh" android:state_checked="true"/>  
+    <item android:drawable="@drawable/clear_tv_delete_item_selected_wh" android:state_enabled="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/clear_tv_delete_item_wh" android:state_checked="false"/>  
+    <item android:drawable="@drawable/clear_tv_delete_item_wh"/>  
+  
+</selector>

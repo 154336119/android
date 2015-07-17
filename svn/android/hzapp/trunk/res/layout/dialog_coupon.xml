@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent">
+	<View
+	    android:id="@+id/v_bg"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/dialog_bg_coupon"/>
+    <ImageView 
+        android:id="@+id/iv_cancel"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_close"
+        android:layout_alignParentRight="true"/>
+    <TextView 
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/txt_size_20"
+        android:textColor="@color/white"
+        android:lineSpacingExtra="5dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="25dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="25dp"/>
+</RelativeLayout>

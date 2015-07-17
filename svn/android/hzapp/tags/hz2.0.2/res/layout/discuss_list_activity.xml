@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/layout_bg" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+<!--      <com.huizhuang.zxsq.widget.DataLoadingLayout
+        android:id="@+id/favorite_pictures_data_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar" >
+    </com.huizhuang.zxsq.widget.DataLoadingLayout> -->
+    <FrameLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent">
+    
+    <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+	      android:orientation="vertical">
+	    <com.huizhuang.zxsq.widget.XListView 
+	       xmlns:android="http://schemas.android.com/apk/res/android"
+	       android:id="@id/android:list"
+	       android:layout_width="match_parent"
+	       android:layout_height="match_parent"
+	       android:cacheColorHint="#00000000"
+	       android:divider="#00000000"
+	       android:dividerHeight="1dp"
+	       android:drawSelectorOnTop="false"
+	       android:fastScrollEnabled="false"
+	       android:focusable="true"
+	       android:layoutAnimation="@anim/layout_animation_for_listview"
+	       android:listSelector="#00000000"
+	       android:scrollbars="vertical"
+	       android:layout_marginBottom="70dp"/> 
+   </LinearLayout>
+   
+    <Button
+         android:id="@+id/btn_comment"
+	     android:layout_height="72dp"
+	     android:layout_width="fill_parent"
+	     android:orientation="horizontal"
+	     android:layout_gravity="bottom"
+	     android:textColor="@color/white"
+	     android:textSize="18sp"
+	     android:text="@string/title_company_discuss"
+	     android:background="@color/ff6c38_transparent"/>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+
+    <dimen name="page_header_height">52dp</dimen>
+    <dimen name="common_line_size">0.5dp</dimen>
+    
+    <dimen name="txt_size_56">56sp</dimen>
+    <dimen name="txt_size_45">45sp</dimen>
+    <dimen name="txt_size_34">34sp</dimen>
+    <dimen name="txt_size_30">30sp</dimen>
+    <dimen name="txt_size_28">28sp</dimen>
+    <!-- For headline(大字标题) -->
+    <dimen name="txt_size_24">24sp</dimen>
+    <!-- For buttons,title(标题 ) -->
+    <dimen name="txt_size_20">20sp</dimen>
+    <!-- For list texts (top line),subhead(副标题) -->
+    <dimen name="txt_size_18">18sp</dimen>
+    <dimen name="txt_size_16">16sp</dimen>
+    <dimen name="txt_size_17">17sp</dimen>
+    <!-- For list texts (bottom line), summary texts, icon texts, descriptions, tag texts -->
+    <dimen name="txt_size_15">15sp</dimen>
+    <!-- For body, menu -->
+    <dimen name="txt_size_14">14sp</dimen>
+    <dimen name="txt_size_13">13sp</dimen>
+    <dimen name="txt_size_12">12sp</dimen>
+    <dimen name="txt_size_10">10sp</dimen>
+    <dimen name="txt_size_11">11sp</dimen>
+
+</resources>

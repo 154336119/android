@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lin_history_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:background="@color/gray_disabled" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="历史验收报告"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_14" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:background="@color/gray_disabled" />
+    </LinearLayout>
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+	    android:background="@drawable/bg_top_bottom_border_disabled"
+	    android:padding="10dp">
+	    <TextView
+            android:id="@+id/tv_node_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="泥木阶段\n(待验收)"
+            android:gravity="center"
+            android:lineSpacingExtra="5dp"
+            android:textColor="@color/gray_4c"
+            android:textSize="@dimen/txt_size_20" />
+	    <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv_node_name"
+            android:text="100"
+            android:gravity="bottom"
+            android:textColor="@color/color_ff6c38"
+            android:textSize="@dimen/txt_size_30" />
+	    <View
+	        android:id="@+id/v_line"
+            android:layout_width="1px"
+            android:layout_height="55dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv_score"
+            android:layout_marginLeft="17dp"
+            android:background="@color/gray_disabled" />
+	    <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/v_line"
+            android:text="报告提交时间\n2015-01-14"
+            android:lineSpacingExtra="8dp"
+            android:gravity="center"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_14" />
+	</RelativeLayout>
+</LinearLayout>

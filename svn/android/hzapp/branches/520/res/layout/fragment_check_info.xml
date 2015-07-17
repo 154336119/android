@@ -1,0 +1,161 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/page_bg">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="70dp" >
+
+        <LinearLayout
+            android:id="@+id/lin_cost_change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_top_bottom_border_disabled"
+            android:orientation="horizontal"
+            android:padding="20dp" 
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_cost_change_report"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="· 《费用变更单》"
+                android:textColor="@color/gray_4c"
+                android:textSize="@dimen/txt_size_14" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/icon_foreman_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_site_delays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_top_bottom_border_disabled"
+            android:orientation="horizontal"
+            android:padding="20dp" 
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_site_delays_report"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="·《工程延期单》"
+                android:textColor="@color/gray_4c"
+                android:textSize="@dimen/txt_size_14" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/icon_foreman_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp" 
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/rl_a"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bg_photo_default" />
+
+                <TextView
+                    android:id="@+id/tv_a_report"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#40000000"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:singleLine="true"
+                    android:text="甲供需求单(2张)"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt_size_12" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_b"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/iv_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bg_photo_default" />
+
+                <TextView
+                    android:id="@+id/tv_b_report"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#40000000"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:singleLine="true"
+                    android:text="乙供需求单(2张)"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt_size_12" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:background="@color/color_ebebeb" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.huizhuang.zxsq.widget.MyListView
+                android:id="@+id/lv_site_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="17dp"
+                android:cacheColorHint="#00000000"
+                android:divider="@null"
+                android:drawSelectorOnTop="false"
+                android:fastScrollEnabled="false"
+                android:focusable="true"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/bg_item_click"
+              android:orientation="vertical"
+              android:paddingBottom="1dip">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+
+        <com.huizhuang.zxsq.widget.CircleImageView
+            android:id="@+id/item_foreman_head"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="15dip"
+            android:layout_marginBottom="15dip"
+            android:background="@drawable/ic_default_header"
+            android:contentDescription="@string/app_name"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/item_foreman_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="李伟伟伟伟"
+                    android:ems="5"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#4c4c4c"
+                    android:textSize="20sp"/>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/item_foreman_free"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_privilege_3"
+                        android:contentDescription="@string/app_name"/>
+
+                    <ImageView
+                        android:id="@+id/item_foreman_insurance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:background="@drawable/ic_privilege_5"
+                        android:contentDescription="@string/app_name"/>
+
+                    <ImageView
+                        android:id="@+id/item_foreman_zeroincrease"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:background="@drawable/ic_privilege_6"
+                        android:contentDescription="@string/app_name"/>
+
+                    <ImageView
+                        android:id="@+id/item_foreman_compensation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:background="@drawable/ic_compensation"
+                        android:contentDescription="@string/app_name"/>
+
+                    <ImageView
+                        android:id="@+id/item_foreman_qualit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:background="@drawable/ic_company_quality"
+                        android:contentDescription="@string/app_name"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/item_foreman_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="right"
+                    android:text="980m"
+                    android:textColor="#b2b2b2"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginTop="8dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RatingBar
+                    android:id="@+id/item_foreman_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dip"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progress="90"
+                    android:progressDrawable="@drawable/rating_bar_yellow_new"
+                    android:stepSize="0.5"/>
+
+                <TextView
+                    android:id="@+id/item_foreman_score_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="4.5"
+                    android:textColor="#ff6c38"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/item_foreman_score_persons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="(26人评价)"
+                    android:textColor="#808080"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/item_foreman_appointment_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1024"
+                    android:textColor="#ff6c38"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/item_foreman_appointment_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:text="预约"
+                    android:textColor="#808080"
+                    android:textSize="15sp"/>
+
+                <ImageView
+                    android:id="@+id/item_foreman_count_line1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:background="@drawable/home_page_dividing_line_v"
+                    android:contentDescription="@string/app_name"/>
+
+                <TextView
+                    android:id="@+id/item_foreman_quotation_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="#ff6c38"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/item_foreman_quotation_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:text="报价"
+                    android:textColor="#808080"
+                    android:textSize="15sp"/>
+
+                <ImageView
+                    android:id="@+id/item_foreman_count_line2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:background="@drawable/home_page_dividing_line_v"
+                    android:contentDescription="@string/app_name"/>
+
+                <TextView
+                    android:id="@+id/item_foreman_construactionsite_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:textColor="#ff6c38"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/item_foreman_construactionsite_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:text="施工现场"
+                    android:textColor="#808080"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_page_dividing_line_h"
+        android:contentDescription="@string/app_name"/>
+
+</LinearLayout>

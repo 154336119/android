@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <item type="id" name="btn_right">false</item>
+     <item type="id" name="btn_back">false</item>
+     <item type="id" name="tv_title">false</item>
+     <item type="id" name="tag_first">false</item>
+     <item type="id" name="tag_second">false</item>
+</resources>

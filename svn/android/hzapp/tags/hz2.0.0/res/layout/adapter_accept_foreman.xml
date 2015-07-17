@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <com.huizhuang.zxsq.widget.CircleImageView
+            android:id="@+id/iv_head"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/bg_photo_default" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/iv_head"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/icon_rz"
+            android:singleLine="true"
+            android:text="王大锤"
+            android:textColor="@color/color_4c4c4c"
+            android:textSize="@dimen/txt_size_16" />
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/iv_head"
+            android:singleLine="true"
+            android:text="四川.成都 "
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_14" />
+
+        <View
+            android:id="@+id/v_line"
+            android:layout_width="1sp"
+            android:layout_height="@dimen/txt_size_14"
+            android:layout_below="@id/tv_name"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/tv_city"
+            android:background="@color/gray_disabled" />
+
+        <TextView
+            android:id="@+id/tv_order_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_marginLeft="4dip"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/v_line"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="25"
+            android:textColor="@color/color_ff6c38"
+            android:textSize="@dimen/txt_size_14" />
+
+        <TextView
+            android:id="@+id/tv_order_count_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_marginLeft="3dip"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tv_order_count"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="订单"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_14" />
+       
+        <RatingBar
+            android:id="@+id/rb_score"
+            android:layout_width="wrap_content"
+            android:layout_height="18dip"
+            android:layout_below="@id/tv_city"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/iv_head"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressDrawable="@drawable/rating_bar_yellow_new"
+            android:stepSize="0.1" />
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_city"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/rb_score"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="4分"
+            android:textColor="@color/color_ff6c38"
+            android:textSize="@dimen/txt_size_14" />
+		<TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="已量房"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_14"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray_disabled" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ib_send_message"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/icon_order_message"
+            android:background="@null" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:background="@color/gray_disabled"/>
+
+        <ImageButton
+            android:id="@+id/ib_to_call"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" 
+            android:src="@drawable/icon_order_phone"
+            android:background="@null" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray_disabled" />
+</LinearLayout>

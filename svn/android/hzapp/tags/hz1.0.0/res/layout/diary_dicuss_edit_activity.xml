@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/edittext_bg"
+        android:gravity="top"
+        android:hint="说说你的感受吧"
+        android:inputType="textMultiLine"
+        android:paddingLeft="6dp"
+        android:paddingTop="6dp"
+        android:singleLine="false"
+        android:textColor="@color/gray_light"
+        android:textColorHint="@color/gray_disabled"
+        android:textSize="@dimen/txt_size_16" />
+
+</LinearLayout>

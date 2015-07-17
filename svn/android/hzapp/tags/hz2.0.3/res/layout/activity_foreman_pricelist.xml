@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ExpandableListView
+        android:id="@+id/elist"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:groupIndicator="@drawable/expandablelistview_icon"
+        android:listSelector="#00000000" >
+    </ExpandableListView>
+
+    <TextView
+        android:id="@+id/foreman_pricelist_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_foreman_details_construction_btn"
+        android:gravity="center"
+        android:padding="15dip"
+        android:text="免费找我施工，省40%"
+        android:textColor="#ffffff"
+        android:textSize="20sp" 
+        android:visibility="gone"/>
+
+</LinearLayout>

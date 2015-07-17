@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.huizhuang.hz"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/color_f5f5f5" >
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:background="#ffffff" >
+
+        <com.huizhuang.zxsq.widget.ViewFlow
+            android:id="@+id/viewflow_home"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </com.huizhuang.zxsq.widget.ViewFlow>
+
+        <LinearLayout
+            android:id="@+id/lunbo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:padding="3dip" >
+
+            <com.huizhuang.zxsq.widget.CircleFlowIndicator
+                android:id="@+id/viewflowindic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:padding="2dip"
+                app:activeColor="#feb49a"
+                app:activeType="fill"
+                app:inactiveColor="#e4e4e4"
+                app:inactiveType="fill"
+                app:radius="4dip"
+                app:spacing="20dip" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" >
+
+        <TextView
+            android:id="@+id/btn_zxbd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:drawablePadding="6dp"
+            android:drawableTop="@drawable/home_zxbd"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/zxbd_title"
+            android:textColor="@color/gray_80"
+            android:textSize="@dimen/txt_size_16" />
+
+        <TextView
+            android:id="@+id/btn_atlas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:drawablePadding="6dp"
+            android:drawableTop="@drawable/home_atlas"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="找装修"
+            android:textColor="@color/gray_80"
+            android:textSize="@dimen/txt_size_16" />
+
+        <TextView
+            android:id="@+id/btn_zxjz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:drawablePadding="6dp"
+            android:drawableTop="@drawable/home_zxjz"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="装修记账"
+            android:textColor="@color/gray_80"
+            android:textSize="@dimen/txt_size_16" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_zxrj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/org_border_btn_bg"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:text="+记录爱家每一天"
+        android:textColor="@color/orange_light"
+        android:textSize="@dimen/txt_size_16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="精品装修日记"
+        android:textColor="@color/orange_light"
+        android:textSize="@dimen/txt_size_16" />
+
+</LinearLayout>

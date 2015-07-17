@@ -1,0 +1,7 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_img_header"
+    android:layout_width="34dp"
+    android:layout_height="34dp"
+    android:contentDescription="@string/app_name"
+    android:scaleType="centerCrop"
+    android:src="@drawable/ic_default_header" />

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_item_click"
+    android:orientation="vertical"
+    android:paddingBottom="1dip" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip">
+
+        <com.huizhuang.zxsq.widget.CircleImageView
+            android:id="@+id/item_foreman_head"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_default_header"
+            android:contentDescription="@string/app_name" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/item_foreman_head"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" 
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/item_foreman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="12dp"
+                android:drawableRight="@drawable/icon_rz"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="刘正国"
+                android:textColor="#4c4c4c"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/item_foreman_appointment_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff6c38"
+                    android:textSize="15sp"
+                    android:text="1024" />
+
+                <TextView
+                    android:id="@+id/item_foreman_appointment_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:text="@string/txt_appointment1"
+                    android:textColor="#808080"
+                    android:textSize="15sp" />
+				<View 
+				    android:layout_width="1px"
+				    android:layout_height="14dp"
+				    android:background="@color/gray_disabled"
+				    android:layout_marginLeft="7dp"
+				    android:layout_marginRight="5dp"/>
+                <TextView
+                    android:id="@+id/item_foreman_quotation_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff6c38"
+                    android:textSize="15sp" 
+                    android:text="10年"/>
+
+                <TextView
+                    android:id="@+id/item_foreman_quotation_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:textColor="#808080"
+                    android:textSize="15sp"
+                    android:text="工龄"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginTop="8dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <RatingBar
+                    android:id="@+id/item_foreman_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dip"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressDrawable="@drawable/rating_bar_yellow_new"
+                    android:stepSize="0.1" />
+
+                <TextView
+                    android:id="@+id/item_foreman_score_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="4分"
+                    android:textColor="#ff6c38"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/item_dis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="880m"
+                    android:gravity="right"
+                    android:textColor="#808080"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.huizhuang.zxsq.widget.TextViewRotate
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_foreman_right"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="10dip"
+            android:text="均价\n255.5万"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_page_dividing_line_h"
+        android:contentDescription="@string/app_name" />
+
+</LinearLayout>

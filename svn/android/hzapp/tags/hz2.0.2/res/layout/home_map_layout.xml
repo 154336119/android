@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.huizhuang.hz"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_f5f5f5"
+    android:orientation="vertical" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clickable="false" >
+    </com.baidu.mapapi.map.MapView>
+
+    <LinearLayout
+        android:id="@+id/ll_home_guarantee"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/activity_bg"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/btn_lowest_price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_home_low_price" />
+
+        <ImageView
+            android:id="@+id/btn_most_secure"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_home_secure" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_above="@id/ll_home_guarantee"
+        android:background="@color/black_transparent"
+        android:src="@drawable/ic_home_bg_02" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="61dp"
+        android:layout_marginRight="11dp" 
+        android:layout_above="@id/iv_image">
+
+        <Button
+            android:id="@+id/btn_ser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_my_location"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="11dp"
+            android:background="@drawable/ic_home_search_foreman"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_my_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_to_my_location" />
+    </RelativeLayout>
+
+</RelativeLayout>

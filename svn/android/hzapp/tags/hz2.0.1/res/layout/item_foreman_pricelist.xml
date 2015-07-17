@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="1dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dip"
+            android:layout_weight="1"
+            android:background="@null"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/item_foreman_pricelist_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="墙顶面刮腻子（60/m²） "
+                    android:textColor="#999999"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/item_foreman_pricelist_unitprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="20dip"
+                    android:text="12平米"
+                    android:textColor="#ff6c38"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/item_foreman_pricelist_explain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:maxLines="2"
+                android:text="标准配置为都芳漆配置为都芳漆配置为都芳漆"
+                android:textColor="#999999"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/foreman_pricelist_arrow"
+            android:contentDescription="@string/app_name" 
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/item_foreman_pricelist_child_s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:background="@drawable/home_page_dividing_line_h"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/item_foreman_pricelist_child_l"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_page_dividing_line_h"
+        android:contentDescription="@string/app_name" />
+
+</LinearLayout>

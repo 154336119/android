@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 边框颜色值 -->
+    <item>
+        <shape>
+            <solid android:color="@color/gray_disabled" />
+        </shape>
+    </item>
+    <!-- 主体背景颜色值 -->
+    <item
+        android:top="1dp">
+        <shape>
+            <solid android:color="@color/page_bg" />
+            <stroke
+                android:width="0dp"
+                android:color="#ffffff" />
+        </shape>
+    </item>
+</layer-list>

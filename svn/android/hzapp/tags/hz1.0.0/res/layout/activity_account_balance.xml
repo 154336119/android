@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.huizhuang.zxsq.widget.DataLoadingLayout
+        android:id="@+id/data_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" >
+    </com.huizhuang.zxsq.widget.DataLoadingLayout>
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/ll_img_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="171dp"
+        android:background="@drawable/bg_account_balance"
+        android:orientation="vertical"
+        android:paddingBottom="17dp"
+        android:paddingLeft="17dp"
+        android:paddingRight="17dp"
+        android:paddingTop="17dp" 
+        android:layout_below="@id/common_action_bar">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/bg_account_balance02"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_marginTop="24dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="账户余额"
+                        android:textColor="#4C4C4C"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tv_account_blanace"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="21dp"
+                        android:textColor="@color/color_ff6c38"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img_center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/quote_center" />
+                
+                <LinearLayout 
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                     <TextView
+                    android:id="@+id/tv_average_price_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:text="已支付资金（元）"
+                    android:textColor="#4C4C4C"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/tv_over_payed"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="21dp"
+                    android:textColor="@color/color_ff6c38"
+                    android:textSize="17sp" />
+                    
+                </LinearLayout>
+
+               
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView 
+        android:id="@+id/tv_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="支付流水"
+        android:textSize="13sp"
+        android:textColor="@color/color_808080"
+        android:paddingTop="23dp"
+        android:paddingLeft="11dp"
+        android:paddingBottom="6dp"
+        android:layout_below="@id/ll_img_bar"/>
+	<View
+	    android:id="@+id/line" 
+	    android:layout_width="match_parent"
+	    android:layout_height="0.5dp"
+	    android:background="@color/color_d9d9d9"
+	    android:layout_below="@id/tv_01"/>   
+    <com.huizhuang.zxsq.widget.XListView
+        android:id="@+id/flow_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="vertical" 
+        android:layout_below="@id/line">
+    </com.huizhuang.zxsq.widget.XListView>
+    
+
+</RelativeLayout>

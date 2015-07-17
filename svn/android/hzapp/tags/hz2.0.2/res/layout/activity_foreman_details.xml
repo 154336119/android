@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <com.huizhuang.zxsq.widget.MyScrollView
+        android:id="@+id/my_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/activity_foreman_detail_head" />
+
+            <LinearLayout
+                android:id="@+id/lin_more"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp" >
+
+                <LinearLayout
+                    android:id="@+id/lin_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="常驻地址:"
+                        android:textColor="@color/color_4c4c4c"
+                        android:textSize="@dimen/txt_size_14" />
+
+                    <TextView
+                        android:id="@+id/tv_addr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="成都市所有区域成都市所有区域成都市所有区域成都市所有区域"
+                        android:textColor="@color/color_4c4c4c"
+                        android:textSize="@dimen/txt_size_14" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lin_experience"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="从业经历:"
+                        android:textColor="@color/color_4c4c4c"
+                        android:textSize="@dimen/txt_size_14" />
+
+                    <TextView
+                        android:id="@+id/tv_experience"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="5dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/color_4c4c4c"
+                        android:textSize="@dimen/txt_size_14" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:paddingTop="10dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/color_ebebeb" />
+
+            <RelativeLayout
+                android:id="@+id/rl_all_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/tv_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="全部评价(12)"
+                    android:textColor="@color/color_4c4c4c"
+                    android:textSize="@dimen/txt_size_16" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/icon_foreman_right" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/v_comment"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/color_ebebeb" />
+
+            <include
+                android:id="@+id/ic_main_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/activity_foreman_detaills_menu"
+                android:visibility="visible" />
+
+            <ViewStub
+                android:id="@+id/viewstub_site"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout="@layout/activity_foreman_detaills_child_site" />
+
+            <ViewStub
+                android:id="@+id/viewstub_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout="@layout/activity_foreman_detaills_child_price" />
+
+            <ViewStub
+                android:id="@+id/viewstub_safety"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout="@layout/activity_foreman_detaills_child_safety" />
+        </LinearLayout>
+    </com.huizhuang.zxsq.widget.MyScrollView>
+
+    <include
+        android:id="@+id/ic_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/common_action_bar"
+        layout="@layout/activity_foreman_detaills_menu"
+        android:visibility="gone" />
+
+    <com.huizhuang.zxsq.widget.TextViewRotate
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/common_action_bar"
+        android:background="@drawable/bg_foreman_right"
+        android:gravity="center"
+        android:text="均价\n255.5万"
+        android:textColor="@color/white"
+        android:textSize="10dip" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_foreman_details_construction_btn"
+        android:gravity="center"
+        android:text="@string/btn_yuyue_zx"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <com.huizhuang.zxsq.widget.DataLoadingLayout
+        android:id="@+id/data_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar">
+    </com.huizhuang.zxsq.widget.DataLoadingLayout>
+</RelativeLayout>

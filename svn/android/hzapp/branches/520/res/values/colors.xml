@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+ 	<color name="black_transparent">#90000000</color>
+ 	<color name="ff6c38_transparent">#ff6c38</color>
+    <color name="page_bg">#F5F5F5</color>
+    <color name="layout_bg">#F5F5F5</color>
+    <color name="txt_tips">#23afff</color>
+    <color name="float_black">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#9e9e9e</color>
+    <color name="gray_disabled">#cccccc</color>
+    <color name="gray_dark">#212121</color>
+    <color name="gray_light">#616161</color>
+    <color name="gray_4c">#4c4c4c</color>
+    <color name="gray_64">#646464</color>
+    <color name="gray_66">#666666</color>
+    <color name="gray_4d">#4d4d4d</color>
+    <color name="gray_80">#808080</color>
+    <color name="gray_99">#999999</color>
+    <color name="gray_b3">#b3b3b3</color>
+    <color name="gray_b2">#b2b2b2</color>
+    <color name="gray_b1">#787878</color>
+    <!-- For danger cases, such as virus, file delete... -->
+    <color name="red">#e62f2f</color>
+    <color name="red_selected">#ffc7b2</color>
+    <color name="red_5dc">#f5e5dc</color>
+    <!-- sex -->
+    <color name="sex_fmale">#ff8989</color>
+    <color name="sex_male">#75dcff</color>
+    <color name="orange_light">#FF6C38</color>
+    <color name="orange_drak">#e6e6e6</color>
+    <color name="red_light">#ff5c54</color>
+    <color name="red_drak">#f25851</color>   
+    <!-- For suggestions -->
+    <color name="blue">#006cff</color>
+    <color name="tab_indicator_text_selected">#FF6C38</color>
+    <color name="tab_indicator_text_unselected">#808080</color>
+    <!-- For setting -->
+    <color name="btn_p">#FEEFB9</color>
+    <color name="btn_n">#f5f5f5</color>
+    <!-- For list corner -->
+    <color name="list_corner_stroke">#D2D2D0</color>
+    <color name="list_corner_d">#FFFFFF</color>
+    <color name="list_corner_p">#FEEFB9</color>
+    <color name="tap_option_stroke">#FFFFFF</color>
+    <color name="tap_option_d">#FFFFFF</color>
+    <color name="tap_option_p">#FF6C38</color>
+    <color name="edittext_stroke">#D2D2D0</color>
+    <color name="edittext_bg">#FFFFFF</color>
+    <color name="caldroid_white">#FFFFFF</color>
+    <color name="caldroid_black">#000000</color>
+    <color name="caldroid_transparent">#00000000</color>
+    <!-- For settings framework -->
+    <color name="caldroid_lighter_gray">#ddd</color>
+    <color name="caldroid_gray">#CCC</color>
+    <color name="caldroid_darker_gray">#aaa</color>
+    <!-- A light Holo shade of blue -->
+    <color name="caldroid_holo_blue_light">#ff33b5e5</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="caldroid_holo_blue_dark">#ff0099cc</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="caldroid_sky_blue">#FFA3E8F7</color>
+
+    <!-- dialog -->
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <!-- foot button -->
+    <color name="btn_beginning_normal">#ff885b</color>
+    <color name="btn_beginning_pressed">#ff6e3b</color>
+    <!-- ActionBar -->
+    <color name="actionbar_bg">#ff6c38</color>
+    <color name="actionbar_bottom_line">#ffe1e1e1</color>
+    <!-- Common Color -->
+    <color name="color_38302e">#38302e</color>
+    <color name="color_332c2a">#332c2a</color>
+    <color name="color_999897">#999897</color>
+    <color name="color_5b5450">#5b5450</color>
+    <color name="color_e5e5e5">#e5e5e5</color>
+    <color name="color_e0e0e0">#e0e0e0</color>
+    <color name="color_ff5e5e">#ff5e5e</color>
+    <color name="color_fa5252">#fa5252</color>   
+    <color name="color_d9d9d9">#ffd9d9d9</color>
+    <color name="color_4c4c4c">#4c4c4c</color>
+    <color name="color_ebebeb">#ebebeb</color>
+    <color name="color_585858">#585858</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_919191">#919191</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_e0000000">#e0000000</color>
+    <color name="activity_bg">#f5f5f5</color>
+    <color name="color_ff6c38">#ffff6c38</color>
+    <color name="color_808080">#ff808080</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_777777">#777777</color>
+    <color name="color_757575">#757575</color>
+    <color name="color_9a9a9a">#9a9a9a</color>
+    <color name="color_f22c48">#f22c48</color>
+    <color name="color_55ffffff">#55ffffff</color>
+    <color name="color_fcfbfa">#fcfbfa</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+    <color name="color_b2b2b2">#b2b2b2</color>
+    <color name="color_b3b3b3">#b3b3b3</color>
+    <color name="color_d1d1d1">#d1d1d1</color>
+    <color name="color_a2a2a2">#a2a2a2</color>
+    <color name="color_e2e2e2">#e2e2e2</color>
+    <color name="color_fafafa">#fafafa</color>
+    <color name="color_black_50_percent">#80000000</color>
+    <color name="color_e8dedc">#e8dedc</color>
+    <color name="color_f0f0f0">#f0f0f0</color>
+    <color name="color_dfe2e6">#dfe2e6</color>
+    <color name="line_bg_color">#d9d9d9</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_e6e6e6">#e6e6e6</color>
+    <color name="color_f5e6e1">#f5e6e1</color>
+    <color name="color_a6a6a6">#a6a6a6</color>
+    <color name="color_ffa686">#ffa686</color>
+    <color name="color_ffff5e5e">#ff5e5e</color>
+    <color name="color_aaaaaa">#aaaaaa</color>
+    <color name="color_4ebbfd">#4ebbfd</color>
+    <color name="color_ff865b_alpha_90">#e6ff865b</color>
+    <color name="color_ff6e3b_alpha_90">#e6ff6e3b</color>
+    <color name="color_ed5357">#ed5357</color>
+    <!-- 找公司列表 -->
+    <color name="color_ffbba2">#ffbba2</color>   
+    <color name="color_65cf6f">#65cf6f</color>
+    <color name="color_68d5cf">#68d5cf</color>
+    <color name="color_e7cd75">#e7cd75</color>
+    <color name="color_75b0e7">#75b0e7</color>
+    <color name="color_e77575">#e77575</color>
+    <color name="color_b875e7">#b875e7</color>
+    <color name="color_62d6a9">#62d6a9</color>
+    <color name="color_f0eceb">#f0eceb</color>    
+	<color name="background_tab_pressed">#6633B5E5</color>
+	<!-- 个人中心 -->
+	<color name="color_ffcc99">#ffcc99</color>
+	<color name="color_ff7171">#ff7171</color>
+	<color name="color_0099ff">#0099ff</color>
+	
+	<!-- 工长详情，找我施工按钮颜色 -->
+    <color name="foreman_details_construction_normal">#FA6262</color>
+    <!-- 工长详情，找我施工按钮按下颜色 -->
+    <color name="foreman_details_construction_press">#FA6262</color>
+    
+    <color name="color_27b26f">#27b26f</color>
+    <color name="color_2bbc76">#2bbc76</color>
+</resources>

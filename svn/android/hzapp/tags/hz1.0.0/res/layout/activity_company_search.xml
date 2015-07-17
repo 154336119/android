@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/page_header_height"
+        android:background="@color/actionbar_bg" >
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            style="@style/ActionbarImgBtnStyle"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/back" />
+
+        <com.huizhuang.zxsq.widget.ClearEditText
+            android:id="@+id/edt_keywork"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/btn_back"
+            android:background="@drawable/edittext_bg"
+            android:drawableLeft="@drawable/search_bar_icon_normal"
+            android:gravity="center_vertical"
+            android:hint="@string/txt_common_search_hint"
+            android:imeOptions="actionSearch"
+            android:padding="3dp"
+            android:singleLine="true"
+            android:textColor="@color/color_b3b3b3"
+            android:textColorHint="@color/color_b3b3b3"
+            android:textSize="@dimen/txt_size_13" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/common_action_bar"
+        android:visibility="gone" >
+
+        <ListView
+            android:id="@+id/lv_filter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/actionbar_bg"
+            android:dividerHeight="@dimen/common_line_size" >
+        </ListView>
+
+        <com.huizhuang.zxsq.widget.DataLoadingLayout
+            android:id="@+id/data_load_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </com.huizhuang.zxsq.widget.DataLoadingLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/common_action_bar"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="热门搜索"
+            android:textColor="@color/gray_64"
+            android:textSize="@dimen/txt_size_16" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_line_size"
+            android:background="@color/gray_80" />
+
+        <com.huizhuang.zxsq.widget.MyListView
+            android:id="@+id/lv_hot_filter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/color_808080"
+            android:dividerHeight="@dimen/common_line_size"
+            android:listSelector="@color/transparent" >
+        </com.huizhuang.zxsq.widget.MyListView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_line_size"
+            android:background="@color/gray_80" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:text="历史搜索"
+            android:textColor="@color/gray_64"
+            android:textSize="@dimen/txt_size_16" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_line_size"
+            android:background="@color/gray_80" />
+
+        <com.huizhuang.zxsq.widget.MyListView
+            android:id="@+id/lv_history_filter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/color_808080"
+            android:dividerHeight="@dimen/common_line_size"
+            android:listSelector="@color/transparent" >
+        </com.huizhuang.zxsq.widget.MyListView>
+    </LinearLayout>
+
+</RelativeLayout>

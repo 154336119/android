@@ -1,0 +1,146 @@
+<ScrollView xmlns:plus="http://schemas.android.com/apk/res/com.huizhuang.hz"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="26dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/img_house_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_photo_add" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/txt_house_type_graph"
+                    android:textColor="#808080"
+                    android:textSize="@dimen/txt_size_16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="26dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/img_design_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_photo_add" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/txt_house_design_graph"
+                    android:textColor="#808080"
+                    android:textSize="@dimen/txt_size_16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/img_effect_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_photo_add" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/txt_house_effect_graph"
+                    android:textColor="#808080"
+                    android:textSize="@dimen/txt_size_16" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.huizhuang.zxsq.widget.RoomInfoItemBar
+            android:id="@+id/room_type_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            plus:itemTitle="@string/txt_house_type" >
+        </com.huizhuang.zxsq.widget.RoomInfoItemBar>
+
+        <com.huizhuang.zxsq.widget.RoomInfoItemBar
+            android:id="@+id/room_area_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            plus:imgIndicator="false"
+            plus:itemTitle="@string/txt_house_square" >
+        </com.huizhuang.zxsq.widget.RoomInfoItemBar>
+
+        <com.huizhuang.zxsq.widget.RoomInfoItemBar
+            android:id="@+id/room_style_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            plus:itemTitle="@string/txt_house_style" >
+        </com.huizhuang.zxsq.widget.RoomInfoItemBar>
+
+        <com.huizhuang.zxsq.widget.RoomInfoItemBar
+            android:id="@+id/room_zx_time_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            plus:itemTitle="@string/txt_house_decorate_time" >
+        </com.huizhuang.zxsq.widget.RoomInfoItemBar>
+
+        <com.huizhuang.zxsq.widget.RoomInfoItemBar
+            android:id="@+id/room_zxstore_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            plus:imgIndicator="false"
+            plus:itemTitle="@string/txt_house_decorate_company" >
+        </com.huizhuang.zxsq.widget.RoomInfoItemBar>
+
+        <com.huizhuang.zxsq.widget.RoomInfoItemBar
+            android:id="@+id/room_zx_designe_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            plus:imgIndicator="false"
+            plus:itemTitle="@string/txt_house_designer" >
+        </com.huizhuang.zxsq.widget.RoomInfoItemBar>
+
+        <com.huizhuang.zxsq.widget.RoomInfoItemBar
+            android:id="@+id/room_zx_budget_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            plus:itemTitle="@string/txt_house_decorate_budget" >
+        </com.huizhuang.zxsq.widget.RoomInfoItemBar>
+    </LinearLayout>
+
+</ScrollView>

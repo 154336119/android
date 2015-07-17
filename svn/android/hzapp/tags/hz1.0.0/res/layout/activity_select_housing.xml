@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/page_bg" >
+	<com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+	
+    <RelativeLayout
+        android:id="@+id/rl_housing_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/common_action_bar"
+        android:background="@color/color_dfe2e6"
+        android:padding="16dp" >
+
+        <EditText
+            android:id="@+id/et_housing_name"
+            style="@style/EditTextTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/txt_inout_housing_name"
+            android:paddingLeft="6dp"
+            android:textColorHint="@color/color_cccccc" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_tips_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rl_housing_input"
+        android:background="@color/color_f0f0f0"
+        android:padding="8dp"
+        android:textColor="@color/color_808080"
+        android:text="TextView"
+        android:textSize="@dimen/txt_size_16" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_tips_txt" >
+
+        <ListView
+            android:id="@+id/lv_solution"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@color/line_bg_color"
+            android:dividerHeight="1dp"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="vertical" />
+
+        <com.huizhuang.zxsq.widget.DataLoadingLayout
+            android:id="@+id/data_loading_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+        </com.huizhuang.zxsq.widget.DataLoadingLayout>
+    </FrameLayout>
+
+</RelativeLayout>

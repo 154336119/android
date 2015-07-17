@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.huizhuang.zxsq.widget.ViewFlow
+        android:id="@+id/viewflow_guarantee_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/guarantee_corner">
+    </com.huizhuang.zxsq.widget.ViewFlow>
+
+    <ImageView
+        android:id="@+id/iv_finish"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/guarantee_finish" 
+        android:padding="12dp"/>
+
+</RelativeLayout>

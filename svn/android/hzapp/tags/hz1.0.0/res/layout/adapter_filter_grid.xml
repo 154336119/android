@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <CheckBox
+        android:id="@+id/chb_item"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="@drawable/bg_filter_gird_item"
+        android:button="@null"
+        android:checked="false"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="@string/app_name"
+        android:textColor="@drawable/tv_color_filter_gird_item"
+        android:textSize="@dimen/txt_size_16" >
+    </CheckBox>
+
+</RelativeLayout>

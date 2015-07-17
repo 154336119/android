@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/page_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ViewStub
+                android:id="@+id/viewstub_import_unlogin"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/account_unlogin_layout" />
+
+            <ViewStub
+                android:id="@+id/viewstub_import_logged"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout="@layout/account_logged_layout" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

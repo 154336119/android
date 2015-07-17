@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:background="@color/white"
+    android:paddingTop="16dp" >
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="@color/color_4c4c4c"
+        android:textSize="@dimen/txt_size_16" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toLeftOf="@+id/tv_area"
+        android:singleLine="true"
+        android:textColor="@color/color_4c4c4c"
+        android:textSize="@dimen/txt_size_16"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_area"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="8dp"
+        android:gravity="right"
+        android:singleLine="true"
+        android:textColor="@color/color_999999"
+        android:textSize="@dimen/txt_size_16" />
+
+</RelativeLayout>

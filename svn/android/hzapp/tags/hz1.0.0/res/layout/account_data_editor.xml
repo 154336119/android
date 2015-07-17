@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+      <ImageView
+         android:id="@+id/cv_icon"
+         android:layout_width="84dp"
+         android:layout_height="84dp"
+         android:src="@drawable/acc_user_icon"
+         android:layout_marginRight="32dp" 
+         android:layout_below="@+id/common_action_bar"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="18dp"/>
+      <ImageView 
+          android:id="@+id/iv_crmera"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/acc_camera"
+          android:layout_alignBottom="@id/cv_icon"
+          android:layout_centerHorizontal="true"
+          android:layout_alignRight="@id/cv_icon"/>
+       
+      <TextView android:id="@+id/text01"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="12dp"
+          android:layout_marginBottom="18dp"
+          android:textSize="@dimen/txt_size_14"
+          android:textColor="@color/gray_80"
+          android:text="@string/txt_nickname"
+          android:layout_below="@id/cv_icon"
+          android:layout_marginTop="42dp"/>
+
+      <EditText android:id="@+id/et_nick"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="60dp"
+          android:layout_marginBottom="18dp"
+          android:textSize="@dimen/txt_size_14"
+          android:background="@null"
+          android:textColor="@color/gray_80"
+          android:hint="@string/txt_bename"
+          android:textColorHint="@color/gray_b2"
+          android:layout_below="@id/cv_icon"
+          android:layout_marginTop="42dp"
+          android:layout_toRightOf="@id/text01"/>
+
+      <View
+          android:id="@+id/line01"
+          android:layout_width="fill_parent"
+          android:layout_height="1dp"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/text01"
+          android:background="#ebebeb" />
+
+      <TextView 
+          android:id="@+id/text02"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="12dp"
+          android:layout_marginBottom="18dp"
+          android:textSize="@dimen/txt_size_14"
+          android:textColor="@color/gray_80"
+          android:text="@string/txt_sex"
+          android:layout_below="@id/line01"
+          android:layout_marginTop="18dp"/>
+      <RadioGroup 
+          android:id="@+id/rg_sex"
+          android:layout_width="130dp"
+          android:layout_height="20dp"
+          android:layout_alignBottom="@id/text02"
+          android:layout_alignLeft="@id/et_nick"
+          android:orientation="horizontal">
+          <RadioButton 
+              android:layout_width="40dp"
+              android:layout_height="20dp"
+              android:id="@+id/rb_fmale"
+              android:checked="true"
+              android:button="@null"
+              android:textSize="@dimen/txt_size_14"
+              android:text="@string/txt_fmale"
+              android:textColor="@drawable/tv_account_text_selector_fmale"
+              android:drawablePadding="10dp"
+              android:drawableLeft="@drawable/btn_fmale_selector"
+              android:layout_marginRight="48dp"/>
+          <RadioButton 
+              android:layout_width="40dp"
+              android:layout_height="20dp"
+              android:id="@+id/rb_male"
+              android:button="@null"
+              android:textSize="@dimen/txt_size_14"
+              android:text="@string/txt_male"
+              android:textColor="@drawable/tv_account_text_selector_male"
+              android:drawablePadding="10dp"
+              android:drawableLeft="@drawable/btn_male_selector"/>
+      </RadioGroup>   
+      
+      <View
+          android:id="@+id/line02"
+          android:layout_width="fill_parent"
+          android:layout_height="1dp"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/text02"
+          android:background="#ebebeb" />   
+          
+      <TextView 
+          android:id="@+id/text03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="12dp"
+          android:layout_marginBottom="18dp"
+          android:textSize="@dimen/txt_size_14"
+          android:textColor="@color/gray_80"
+          android:text="@string/txt_host_city"
+          android:layout_below="@id/line02"
+          android:layout_marginTop="18dp"/>  
+      
+      <TextView android:id="@+id/tv_city"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="60dp"
+          android:textSize="@dimen/txt_size_14"
+          android:textColor="@color/gray_b2"
+          android:layout_marginTop="16dp"
+          android:text="@string/txt_cd"
+          android:layout_below="@id/line02"
+          android:layout_toRightOf="@id/text03"
+          android:drawableLeft="@drawable/acc_location"
+          android:drawablePadding="10dp"
+          android:gravity="center"/>
+    
+      <ImageView
+          android:id="@+id/iv_arrow" 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/acc_arror_down"
+          android:layout_alignParentRight="true"
+          android:layout_marginRight="14dp"
+          android:layout_below="@id/line02"
+          android:layout_marginTop="11dp"
+          android:padding="10dp"/>
+      
+       <View
+          android:id="@+id/line03"
+          android:layout_width="fill_parent"
+          android:layout_height="1dp"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/text03"
+          android:background="#ebebeb" />
+       
+      <TextView 
+          android:id="@+id/text04"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="12dp"
+          android:layout_marginBottom="18dp"
+          android:textSize="@dimen/txt_size_14"
+          android:textColor="@color/gray_80"
+          android:text="@string/txt_phone"
+          android:layout_below="@id/line03"
+          android:layout_marginTop="18dp"
+          android:visibility="gone"/>
+      
+      <EditText 
+          android:id="@+id/et_phone"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="60dp"
+          android:layout_marginBottom="18dp"
+          android:textSize="@dimen/txt_size_14"
+          android:textColorHint="@color/gray_b2"
+          android:background="@null"
+          android:textColor="@color/gray_80"
+          android:hint="@string/txt_only_visit"
+          android:layout_below="@id/line03"
+          android:layout_marginTop="18dp"
+          android:layout_toRightOf="@id/text01"
+          android:inputType="phone"
+          android:maxLength="11"
+          android:visibility="gone"/>      
+</RelativeLayout>

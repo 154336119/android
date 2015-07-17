@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 首页 -->
+    <string name="txt_home_choice_foreman">我要选工长</string>
+    <string name="txt_map_model">地图模式</string>
+    
+    <string name="app_name" translatable="false">惠装</string>
+    <!-- common --> 
+    <string name="txt_bottom_tab_home">首页</string>
+    <string name="txt_bottom_tab_decoration">找装修</string>
+    <string name="txt_bottom_tab_diary">日记</string>
+    <string name="txt_bottom_tab_design_sketch">效果图</string>
+    <string name="txt_bottom_tab_me">我</string>
+    <string name="ensure">确定</string>
+    <string name="next_step">下一步</string>
+    <string name="txt_quit_app">退出应用</string>
+    <string name="txt_are_you_sure_to_quit">您确定要退出吗？</string>
+    <string name="txt_quit">退出</string>
+    <string name="txt_cancel">取消</string>
+    <string name="txt_unit_of_area">㎡</string>
+    <string name="txt_common_search_hint">查找：例如“龙发装饰”</string>
+    <string name="txt_version_info">%1$s</string>
+    <string name="txt_company_info">惠装网   © huizhuang.com</string>
+    <!-- 图片选择 -->
+    <string name="image_select_crop_img">正在剪切图片&#8230;</string>
+    <string name="verifyandlogin">验证并登录</string>
+    <string name="save">保存</string>  
+    <!-- 手机验证 -->
+    <string name="sent_verify">发送验证码</string>
+    <string name="txt_test_phone">验证手机</string>
+    <string name="txt_send_code_tip">点击“下一步”，即表同意</string>
+    <string name="txt_top_tip">为了工长能及时联系您，请验证手机</string>
+    <!-- 设置个人信息 -->
+    <string name="title_user_data_editor">个人资料</string>
+    <string name="txt_nickname">我的昵称</string>
+    <string name="txt_bename">取个洋气的名字吧~</string>
+    <string name="txt_sex">我的性别</string>
+    <string name="txt_host_city">所在城市</string>
+    <string name="txt_cd">成都</string>
+    <string name="txt_phone">手机号码</string>
+    <string name="txt_only_visit">仅作为活动报名回访</string>
+    <!-- 公司城市列表 -->
+    <string name="title_city_list">城市列表</string> 
+    <!-- 评论 -->
+    <string name="txt_share_to">分享到</string>
+    <!-- 设置 -->
+    <string name="title_setting">设置</string>
+    <string name="txt_push_setting">推送设置</string>
+    <string name="txt_no_load_image">3G/2G环境下不加载图片</string>
+    <string name="txt_clear_cache">清除缓存</string>
+    <string name="txt_feedback">意见反馈</string>
+    <string name="txt_give_praise">给个好评</string>
+    <string name="txt_version_information">版本信息</string>
+    <string name="txt_Logout">退出登录</string>
+    <!-- 版本信息 -->
+    <string name="txt_about_edition">版本：</string>
+    <string name="txt_aboud_version">正式版</string>
+    <string name="title_about">关于惠装</string>
+    <!-- 下拉列表 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">释放立即刷新</string>
+    <string name="xlistview_header_hint_refreshing">正在刷新\u2026</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开后加载</string>
+    <string name="xlistview_footer_hint_loading">正在加载\u2026</string>
+    <!-- 图片选择 -->
+    <string name="picture_from_camera">拍照</string>
+    <string name="picture_from_album">选择本地图片</string>
+    <!-- 更多 -->
+    <string name="about_company">公司信息</string>
+    <string name="waybill_number">运单号：</string>
+    <string name="pay_info">支付信息</string>
+    <string name="order_number">订单号：</string>
+    <string name="pay_money">支付金额：</string>
+    <string name="pay_amount_payable">应付金额：</string>
+    <string name="pay_method">选择支付方式</string>
+    <string name="pay_zhifubao">支付宝支付</string>
+    <string name="pay_recommend_zhifubao">推荐支付宝用户使用</string>
+    <string name="pay_weixin">微信支付</string>
+    <string name="pay_recommend_weixin">推荐已安装微信的用户使用</string>
+    <string name="pay_online">在线支付</string>
+    <string name="pay_recommend_online">推荐选择在线支付，快捷、安全</string>
+    <string name="pay_pos">pos机上门收款</string>
+    <string name="pay_recommend_pos">支持储蓄卡和信用卡刷卡</string>
+    <string name="pay_immediately_pay">立即支付</string>
+    <string name="pos_pay_info">刷卡支付信息</string>
+    <string name="pos_pay_wait">-请用POS机扫描二维码-</string>
+    <string name="txt_pay_tip2">* 本阶段支付金额 =合同金额×40%+增减费用-预付定金</string>
+    <!-- user login/register -->
+    <string name="txt_check_code">验证码</string>
+    <string name="title_protocol">《惠装服务协议》</string>
+    <string name="please_enter_phone">请输入您的手机号码</string>
+    <string name="please_enter_your_phone">请输入您的手机号</string>
+    <string name="please_enter_verify">请输入短信中的验证码</string>
+    <string name="messageverifylogin">为方便装修施工队长联系您，请验证手机~</string>
+    <string name="messageverifyloginbymessage">没有收到验证码？短信登录</string> 
+    <string name="please_enter_name">请输入您的称呼</string>
+
+    <!-- 爱家档案 -->
+    <string name="btn_finish">完成</string>
+    <!-- 房屋信息 -->
+    <string name="txt_house_type">户型</string>
+    <string name="txt_click_here_to_reload">点击这里重新加载</string>
+    <string name="txt_layout_empty">暂时还没有相关内容，看看别的？</string>
+    <string name="txt_on_waiting">亲，请稍等&#8230;</string>
+    <!-- 装修宝典 -->
+    <string name="txt_zxbd_digest">来源：</string>
+    <!-- sex -->
+    <string name="txt_fmale">女</string>
+    <string name="txt_male">男</string>
+    <!-- <string name="content_share_zrzx_wechat">下载惠装APP，找惠装工长做装修省钱40%，在线看工地和验收报告，不能更洋气~</string>
+    <string name="title_share_zrzx_wechat">下载惠装APP，找惠装工长做装修省钱40%，在线看工地和验收报告，不能更洋气~</string>
+    <string name="content_share_zrzx_sina">#惠装工长#【我是惠装，比装修公司省40%，工薪阶层的装修首选！】下载惠装APP，足不出户，在线就能查看工地和验收报告，不能更洋气~猛戳下载→_→：</string> -->
+    <!-- 预约量房 -->
+    <string name="txt_send_code_name">发送验证码</string>
+    <!-- 预约设计师上门设计 -->
+    <string name="txt_select_housing">选择小区</string>
+	<!-- 个人中心 -->
+	<string name="txt_forward">敬请期待</string>
+	<string name="txt_my_orders">我的订单</string>
+	<string name="txt_share_gift">分享有礼</string>
+	<string name="txt_my_coupon">我的优惠券</string>
+	<!-- 消息中心-->
+	<string name="txt_title_chat">消息中心</string>
+	<!-- 下单流程——验证手机-->       
+	<string name="txt_title_choise_house">选择小区</string>	
+	<!-- 订单详情-->       
+	<string name="txt_appointment">立即预约装修</string>	
+	<string name="txt_appointment1">预约</string>	
+	<string name="txt_ask_lowest_price">立即预约量房</string>	
+	<string name="txt_call_name">怎么称呼</string>
+	<string name="txt_sign_info">预约信息</string>	
+	<string name="txt_material">签约需要哪些材料？</string>
+	<string name="txt_sign_info_first">\t\t\t亲耐滴业主，</string>	
+	<string name="txt_sign_info_second">工长已确认和您签约，请您在约定的时间到所在城市服务站签约。</string>	
+	<string name="txt_sign_info_third">工长已确认和您签约，请您在约定的时间到以下城市服务站签约。</string>	
+	<string name="txt_service_station">成都服务站</string>	
+	<string name="txt_service_station_address">成都市高新区益州大道777号国际交流中心B座1101&#8211;1105</string>	
+	<string name="txt_service_station_phone">服务电话：028&#8211;86767676</string>	
+	<!-- 交易担保--> 
+    <string name="txt_confirmation_of_payment">立即支付</string>
+    <string name="txt_confirmation_by_pos">确认完成刷卡</string>
+    <!-- 忘记密码-->
+    <string name="txt_none_open_city_alert">么么哒，您所在的城市我们还在开发中，收到您的要求，我们会加快开发步伐,敬请期待~</string>
+    <string name="txt_left">默默离开</string>
+    <string name="txt_encourage_hz">鼓励惠装</string>
+    <string name="txt_again_send_code">%1$ss后重发验证码</string>
+    <string name="txt_order_one_tip">100元抵用券以为您备好，来约吧~</string>
+    <string name="txt_order_one_check_city">城市选择</string>
+    <string name="txt_please_input_area_name">上门量房地址</string>
+     <string name="txt_please_input_area">建筑面积是多少</string>
+    <string name="txt_please_check_time">什么时候量房</string>
+    <string name="btn_ok_yuyue">预约上门免费设计</string>
+    <string name="btn_yuyue_zx">我要找他施工</string>
+    <string name="btn_yuyue_solution">申请免费量房报价</string>
+    <string name="txt_cancel_order">取消订单</string>
+    <string name="txt_cancel_tip">感谢您选择惠装!\n如您取消订单，请反馈原因我们立即改进。</string>
+    <!--工程及费用变更单-->
+    <string name="txt_cost_all">相抵合计（元）</string>
+    <string name="txt_cost_add">增项费用（元）</string>
+    <string name="txt_cost_cuts">减项费用（元）</string>
+    <!--工期变延期单-->
+    <string name="txt_delay_day_num">工期延长天数</string>
+    <string name="txt_delay_date">变更后竣工日期</string>
+    <string name="txt_delay_case">原因</string>
+    <string name="txt_title_delay_order">工期延期单</string> 
+    <!-- 投诉 -->
+    <string name="txt_complaints_requestion_tip">您的反馈非常重要，请告诉我们您的不满</string>
+    <string name="txt_check_complaints_requestion">选择投诉问题</string>
+    <string name="txt_other_complaints_reason">请详细描述您的原因&#8230;</string>
+    <string name="txt_complaints">投诉</string>
+    <string name="txt_please_check_complaints_type">请选择投诉问题</string>
+    <string name="txt_please_check_or_input_complaints">请选择投诉原因</string>
+    <string name="txt_please_wait">我们正在核实，请耐心等待</string>
+    <string name="txt_checked_complaints_type">您已经投诉了【%1$s】</string>
+    <string name="txt_checked_complaints_question">选择投诉的原因是【%1$s】</string>
+    <string name="txt_message_count">全部评价 ( %1$s )</string>
+    <string name="txt_site_count">施工现场 ( %1$s )</string>
+    <string name="txt_default_comment">默认好评</string>
+    <!--代金券-->
+    <string name="txt_coupon"> 代金券</string>  
+    <string name="txt_coupon_content">由惠装APP赠送</string>   
+    <string name="btn_share_to_get_youhuiq">分享惠装APP,获取优惠券</string>
+</resources>

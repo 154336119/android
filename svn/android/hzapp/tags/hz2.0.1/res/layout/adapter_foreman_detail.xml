@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp" 
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+    
+	<ImageView 
+	    android:id="@+id/iv_img"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:src="@drawable/bg_photo_default"
+	    android:contentDescription="@string/app_name"
+	    android:scaleType="centerCrop"/>
+	<TextView 
+	    android:id="@+id/tv_des"
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp"
+	    android:background="@color/color_black_50_percent"
+	    android:layout_alignParentBottom="true"
+	    android:textSize="@dimen/txt_size_14"
+	    android:textColor="@color/white"
+	    android:gravity="center_vertical"
+	    android:paddingLeft="10dp"
+	    android:text="成都华润24城|三居室|2.55万"/>
+</RelativeLayout>

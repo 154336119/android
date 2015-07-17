@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg">
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/login_message_common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+		<LinearLayout
+			    android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal"
+	            android:layout_below="@id/login_message_common_action_bar"
+	            android:orientation="vertical">
+	            <LinearLayout 
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:gravity="center_vertical">
+	                <ImageView 
+	                    android:layout_width="0dp"
+	                    android:layout_height="1dp"
+	                    android:layout_weight="1"
+	                    android:contentDescription="@string/app_name"
+	                    android:background="@color/orange_light"
+	                    android:layout_marginLeft="15dp"/>
+	                <TextView 
+					    android:layout_width="wrap_content"
+					    android:layout_height="45dp"
+					    android:layout_marginLeft="8dp"
+						android:text="@string/messageverifylogin"
+						android:textSize="@dimen/txt_size_12"
+						android:textColor="@color/orange_light"
+						android:layout_marginRight="8dp"
+						android:gravity="center"/>
+	                <ImageView 
+	                    android:layout_width="0dp"
+	                    android:layout_height="1dp"
+	                    android:layout_weight="1"
+	                    android:contentDescription="@string/app_name"
+	                    android:background="@color/orange_light"
+	                    android:layout_marginRight="15dp"/>
+	            </LinearLayout>
+			
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+				
+                <EditText
+                    android:id="@+id/edtTxt_login_message_phonenumber"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:hint="@string/please_enter_your_phone"
+                    android:textSize="@dimen/txt_size_16"
+                    android:textColorHint="@color/gray_disabled"
+                    android:maxLength="11"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:paddingLeft="11dp"
+                    android:background="@null">
+                    <requestFocus />
+                </EditText>
+                  
+                 <ImageView 
+                       android:src="@drawable/fastline"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+					   android:contentDescription="@string/app_name" />
+				<Button 
+				    android:id="@+id/btn_login_message_send_verify"
+				    android:layout_width="wrap_content"
+				    android:layout_height="match_parent"
+				    android:paddingLeft="12dp"
+				    android:paddingRight="12dp"
+				    android:text="@string/txt_send_code_name"
+				    android:textColor="@color/orange_light"
+				    android:textSize="@dimen/txt_size_16"
+				    android:background="@color/white"/>
+            </LinearLayout>
+            
+				<ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/line" />
+				
+				<EditText 
+                    android:id="@+id/edtTxt_login_message_verify"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:hint="@string/please_enter_verify"
+                    android:textSize="@dimen/txt_size_16"
+                    android:textColorHint="@color/gray_disabled"
+                    android:maxLength="11"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:paddingLeft="11dp"
+                    android:background="@color/white"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/line" />
+
+            <Button
+                android:id="@+id/btn_login_message_login"
+                style="@style/ButtonLarge"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="34dp"
+                android:background="@drawable/btn_orange"
+                android:text="@string/verifyandlogin" 
+                android:enabled="false"/>
+           <RelativeLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+	           
+		 		<TextView
+	                    android:id="@+id/tv_login_message_protocal"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:paddingTop="17dp"
+	                    android:text="@string/title_protocol"
+	                    android:textColor="#23afff"
+	                    android:textSize="@dimen/txt_size_13"
+	                    android:layout_marginLeft="11dp"
+	                    android:layout_centerHorizontal="true"
+	                    android:layout_alignParentLeft="true"/>
+		 		
+		 		 <TextView
+	                    android:id="@+id/tv_login_message_by_message"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:paddingTop="17dp"
+	                    android:text="@string/messageverifyloginbymessage"
+	                    android:textColor="#23afff"
+	                    android:textSize="@dimen/txt_size_13"
+	                    android:layout_marginRight="11dp" 
+	                    android:layout_alignParentRight="true"
+	                    android:visibility="gone"/>
+            </RelativeLayout>
+            </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#333333">
+
+    <com.huizhuang.zxsq.widget.HackyViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:src="@drawable/back"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="20dp"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/tv_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_34"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_34"/>
+
+        <TextView
+            android:id="@+id/tv_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_18"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btn_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btn_share"
+        android:layout_marginBottom="68dp"
+        android:layout_marginRight="144dp"
+        android:padding="16dp"
+        android:src="@drawable/ic_like"/>
+
+    <ImageView
+        android:id="@+id/btn_collect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btn_share"
+        android:layout_marginBottom="68dp"
+        android:layout_marginRight="72dp"
+        android:padding="16dp"
+        android:src="@drawable/ic_collect"/>
+
+    <ImageView
+        android:id="@+id/btn_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="68dp"
+        android:padding="16dp"
+        android:src="@drawable/ic_share"/>
+
+    <TextView
+        android:id="@+id/btn_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_foreman_details_construction_btn"
+        android:gravity="center"
+        android:padding="15dip"
+        android:layout_alignParentBottom="true"
+        android:text="请帮我申请该设计方案"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+</RelativeLayout>
+
+

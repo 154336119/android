@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/color_ebebeb"
+        android:orientation="vertical"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:minHeight="50dp" >
+
+            <TextView
+                android:id="@+id/txt_view_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:singleLine="true"
+                android:text="@string/txt_btn_cancel"
+                android:textColor="@color/color_ff6c38"
+                android:textSize="@dimen/txt_size_20" />
+
+            <TextView
+                android:id="@+id/txt_view_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:singleLine="true"
+                android:text="@string/txt_btn_save"
+                android:textColor="@color/color_ff6c38"
+                android:textSize="@dimen/txt_size_20" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/edt_input_remark"
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:background="@color/white"
+            android:gravity="left|top"
+            android:hint="@string/txt_hint_photo_remark"
+            android:padding="13dp"
+            android:textColor="@color/color_cccccc"
+            android:textColorHint="@color/color_cccccc"
+            android:textSize="@dimen/txt_size_15" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="17dp"
+            android:paddingTop="17dp" >
+
+            <ImageView
+                android:id="@+id/img_view_photo_remark"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="13dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg_photo_default" />
+
+            <ImageView
+                android:id="@+id/img_view_photo_remark_add"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="13dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_photo_remark_add" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

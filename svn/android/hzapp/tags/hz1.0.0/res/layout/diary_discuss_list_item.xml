@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <com.huizhuang.zxsq.widget.CircleImageView
+            android:id="@+id/cv_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/uc_head_img" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/cv_icon"
+            android:text="王大锤"
+            android:textColor="@color/gray_4c"
+            android:textSize="@dimen/txt_size_16" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="1小时前"
+            android:textColor="@color/gray_80"
+            android:textSize="@dimen/txt_size_14" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="阿斯打死打伤打萨大声的萨大声的"
+        android:textColor="@color/gray_80"
+        android:textSize="@dimen/txt_size_14" />
+
+    <LinearLayout
+        android:id="@+id/ll_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_useful"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:background="@drawable/icon_bg1"
+            android:gravity="center"
+            android:text="有用（2）"
+            android:textColor="@color/gray_4c"
+            android:textSize="@dimen/txt_size_16" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/icon_line" />
+
+        <Button
+            android:id="@+id/btn_step"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:background="@drawable/icon_bg3"
+            android:gravity="center"
+            android:text="踩（1）"
+            android:textColor="@color/gray_4c"
+            android:textSize="@dimen/txt_size_16" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/icon_line" />
+
+</LinearLayout>

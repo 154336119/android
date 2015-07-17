@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@color/red_5dc"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/account_wsm_normal1" />
+
+        <TextView
+            android:id="@+id/tv_p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_p1"
+            android:textColor="@color/gray_4c"
+            android:textSize="@dimen/txt_size_16" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/tv_p1_l"
+        android:layout_width="15dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="-10dp"
+        android:background="@color/gray_disabled" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_p2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/account_wsm_normal2" />
+
+        <TextView
+            android:id="@+id/tv_p2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_p2"
+            android:textColor="@color/gray_4c"
+            android:textSize="@dimen/txt_size_16" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/tv_p2_l"
+        android:layout_width="15dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="-10dp"
+        android:background="@color/gray_disabled" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_p3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/account_wsm_normal3" />
+
+        <TextView
+            android:id="@+id/tv_p3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_p3"
+            android:textColor="@color/gray_4c"
+            android:textSize="@dimen/txt_size_16" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/tv_p3_l"
+        android:layout_width="15dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="-10dp"
+        android:background="@color/gray_disabled" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_p4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/account_wsm_normal4" />
+
+        <TextView
+            android:id="@+id/tv_p4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_p4"
+            android:textColor="@color/gray_4c"
+            android:textSize="@dimen/txt_size_16" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/tv_p4_l"
+        android:layout_width="15dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="-10dp"
+        android:background="@color/gray_disabled" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_p5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/account_wsm_normal5" />
+
+        <TextView
+            android:id="@+id/tv_p5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_p5"
+            android:textColor="@color/gray_4c"
+            android:textSize="@dimen/txt_size_16" />
+    </LinearLayout>
+
+</LinearLayout>

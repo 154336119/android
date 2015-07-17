@@ -1,0 +1,928 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res/com.huizhuang.hz"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/activity_bg"
+                android:gravity="end">
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar"
+        android:background="@color/activity_bg">
+
+
+        <com.huizhuang.zxsq.widget.CustomScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <!-- 主页内容 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- 广告 -->
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dip"
+                    android:background="#ffffff"
+                    android:visibility="visible">
+
+                    <com.huizhuang.zxsq.widget.ViewFlow
+                        android:id="@+id/main_page_viewflow"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+                    </com.huizhuang.zxsq.widget.ViewFlow>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:padding="3dip">
+
+                        <com.huizhuang.zxsq.widget.CircleFlowIndicator
+                            android:id="@+id/main_page_viewflowindic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|bottom"
+                            android:padding="2dip"
+                            app:activeColor="#feb49a"
+                            app:activeType="fill"
+                            app:inactiveColor="#e4e4e4"
+                            app:inactiveType="fill"
+                            app:radius="4dip"
+                            app:spacing="20dip"/>
+                    </LinearLayout>
+                </FrameLayout>
+
+                <!-- 抢工长，省，担保 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/main_page_grabforeman"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_item_click"
+                            android:drawablePadding="5dip"
+                            android:drawableTop="@drawable/home_page_icon_grabforeman"
+                            android:gravity="center"
+                            android:padding="20dip"
+                            android:text="最安全"
+                            android:textColor="#4c4c4c"
+                            android:textSize="15sp"/>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="20dip"
+                        android:layout_marginTop="20dip"
+                        android:background="@drawable/home_page_dividing_line_v"
+                        android:contentDescription="@string/app_name"/>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/main_page_preferential"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_item_click"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dip"
+                                android:contentDescription="@string/app_name"/>
+                            <!--
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawablePadding="5dip"
+                                android:drawableTop="@drawable/home_page_icon_preferential"
+                                android:gravity="center"
+                                android:text="最低价"
+                                android:textColor="#4c4c4c"
+                                android:textSize="15sp" /> -->
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dip"
+                            android:layout_marginRight="20dip"
+                            android:background="@drawable/home_page_dividing_line_h"
+                            android:contentDescription="@string/app_name"/>
+
+                        <LinearLayout
+                            android:id="@+id/main_page_guarantee"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_item_click"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dip"
+                                android:contentDescription="@string/app_name"/>
+
+                            <!--
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawablePadding="5dip"
+                                android:drawableTop="@drawable/home_page_icon_guarantee"
+                                android:gravity="center"
+                                android:text="最安全"
+                                android:textColor="#4c4c4c"
+                                android:textSize="15sp" /> -->
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 分隔线 -->
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip"
+                    android:background="@drawable/home_page_dividing_line_h"
+                    android:contentDescription="@string/app_name"/>
+
+                <!-- 效果， 宝典， 日记，记账 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="20dip"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dip">
+
+                        <TextView
+                            android:id="@+id/main_page_effect"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_item_click"
+                            android:drawablePadding="5dip"
+                            android:drawableTop="@drawable/home_page_icon_effect"
+                            android:gravity="center"
+                            android:paddingLeft="5dip"
+                            android:paddingRight="5dip"
+                            android:text="效果图"
+                            android:textColor="#808080"
+                            android:textSize="13sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dip">
+
+                        <TextView
+                            android:id="@+id/main_page_collection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_item_click"
+                            android:drawablePadding="5dip"
+                            android:drawableTop="@drawable/home_page_icon_collection"
+                            android:gravity="center"
+                            android:paddingLeft="5dip"
+                            android:paddingRight="5dip"
+                            android:text="装修宝典"
+                            android:textColor="#808080"
+                            android:textSize="13sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dip">
+
+                        <TextView
+                            android:id="@+id/main_page_diary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_item_click"
+                            android:drawablePadding="5dip"
+                            android:drawableTop="@drawable/home_page_icon_diary"
+                            android:gravity="center"
+                            android:paddingLeft="5dip"
+                            android:paddingRight="5dip"
+                            android:text="写日记"
+                            android:textColor="#808080"
+                            android:textSize="13sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dip">
+
+                        <TextView
+                            android:id="@+id/main_page_bookkeeping"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_item_click"
+                            android:drawablePadding="5dip"
+                            android:drawableTop="@drawable/home_page_icon_bookkeeing"
+                            android:gravity="center"
+                            android:paddingLeft="5dip"
+                            android:paddingRight="5dip"
+                            android:text="装修记账"
+                            android:textColor="#808080"
+                            android:textSize="13sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 免费装修 -->
+
+                <LinearLayout
+                    android:id="@+id/main_page_free_all_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                  <!--   分隔条 -->
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dip"
+                        android:background="#ebebeb"
+                        android:contentDescription="@string/app_name"/>
+
+                    <LinearLayout
+                        android:id="@+id/main_page_free_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_item_click"
+                        android:baselineAligned="false"
+                        android:orientation="vertical"
+                        android:padding="5dip">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="5dip">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:drawableLeft="@drawable/home_page_icon_free"
+                                android:drawablePadding="5dip"
+                                android:text="免费装修"
+                                android:textColor="#4c4c4c"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:id="@+id/main_page_free_countdown"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:background="@drawable/home_page_countdown_bg"
+                                android:paddingBottom="2dip"
+                                android:paddingLeft="5dip"
+                                android:paddingRight="5dip"
+                                android:paddingTop="2dip"
+                                android:text="5天12小时56分 23秒"
+                                android:textColor="#ffffff"
+                                android:textSize="13sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dip">
+
+                            <ImageView
+                                android:id="@+id/main_page_free_img"
+                                android:layout_width="120dip"
+                                android:layout_height="90dip"
+                                android:layout_marginLeft="10dip"
+                                android:background="@drawable/bg_photo_default"
+                                android:contentDescription="@string/app_name"/>
+
+                            <TextView
+                                android:id="@+id/main_page_free_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dip"
+                                android:ellipsize="end"
+                                android:lineSpacingMultiplier="1.3"
+                                android:maxLines="4"
+                                android:text="免费装修体验在即，快来报名参加。我们的宗旨是，有便宜就要占。有便宜就要占。有便宜就要占。有便宜就要占。有便宜就要占。有便宜就要占。有便宜就要占。有便宜就要占。有便宜就要占。"
+                                android:textColor="#4c4c4c"
+                                android:textSize="16sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+              <!--   精华日记 -->
+
+                <LinearLayout
+                    android:id="@+id/main_page_essencediary_all_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                   <!--  分隔条 -->
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dip"
+                        android:background="#ebebeb"
+                        android:contentDescription="@string/app_name"/>
+
+                    <LinearLayout
+                        android:id="@+id/main_page_essencediary_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:baselineAligned="false"
+                        android:orientation="vertical"
+                        android:padding="5dip"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="5dip">
+
+                            <TextView
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:layout_weight="1"
+                                android:drawableLeft="@drawable/home_page_icon_essencediary"
+                                android:drawablePadding="5dip"
+                                android:text="精华日记"
+                                android:textColor="#4c4c4c"
+                                android:textSize="20sp"/>
+
+                            <ImageView
+                                android:id="@+id/main_page_essencediary_more"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_item_click"
+                                android:contentDescription="@string/app_name"
+                                android:padding="5dip"
+                                android:src="@drawable/home_page_icon_more"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/main_page_essencediary_item1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:orientation="horizontal"
+                            android:padding="5dip">
+
+                            <LinearLayout
+                                android:id="@+id/main_page_essencediary_item1_person"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/bg_item_click"
+                                android:orientation="vertical"
+                                android:paddingLeft="10dip">
+
+                                <com.huizhuang.zxsq.widget.CircleImageView
+                                    android:id="@+id/main_page_essencediary_head1"
+                                    android:layout_width="70dip"
+                                    android:layout_height="70dip"
+                                    android:background="@drawable/ic_default_header"
+                                    android:contentDescription="@string/app_name"/>
+
+                                <TextView
+                                    android:id="@+id/main_page_essencediary_name1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dip"
+                                    android:ellipsize="end"
+                                    android:singleLine="true"
+                                    android:text="我叫王大锤"
+                                    android:textColor="#4c4c4c"
+                                    android:textSize="15sp"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/main_page_essencediary_item1_diary"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/bg_item_click"
+                                android:orientation="vertical"
+                                android:paddingLeft="15dip">
+
+                                <TextView
+                                    android:id="@+id/main_page_essencediary_title1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:singleLine="true"
+                                    android:text="装修，我就是这么任性"
+                                    android:textColor="#4c4c4c"
+                                    android:textSize="18sp"/>
+
+                                <TextView
+                                    android:id="@+id/main_page_essencediary_text1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dip"
+                                    android:ellipsize="end"
+                                    android:lineSpacingMultiplier="1.3"
+                                    android:maxLines="3"
+                                    android:text="我们村的日记就是酱紫哒，看起来萌萌哒，用起来爽爽哒！我们村的日记就是酱紫哒，看起来萌萌哒，用起来爽爽哒！"
+                                    android:textColor="#808080"
+                                    android:textSize="15sp"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/main_page_essencediary_line"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dip"
+                            android:layout_marginRight="15dip"
+                            android:background="@drawable/home_page_dividing_line_h"
+                            android:contentDescription="@string/app_name"/>
+
+                        <LinearLayout
+                            android:id="@+id/main_page_essencediary_item2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:orientation="horizontal"
+                            android:padding="5dip">
+
+                            <LinearLayout
+                                android:id="@+id/main_page_essencediary_item2_person"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/bg_item_click"
+                                android:orientation="vertical"
+                                android:paddingLeft="10dip">
+
+                                <com.huizhuang.zxsq.widget.CircleImageView
+                                    android:id="@+id/main_page_essencediary_head2"
+                                    android:layout_width="70dip"
+                                    android:layout_height="70dip"
+                                    android:background="@drawable/ic_default_header"
+                                    android:contentDescription="@string/app_name"/>
+
+                                <TextView
+                                    android:id="@+id/main_page_essencediary_name2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dip"
+                                    android:ellipsize="end"
+                                    android:singleLine="true"
+                                    android:text="我叫王大锤"
+                                    android:textColor="#4c4c4c"
+                                    android:textSize="15sp"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/main_page_essencediary_item2_diary"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/bg_item_click"
+                                android:orientation="vertical"
+                                android:paddingLeft="15dip">
+
+                                <TextView
+                                    android:id="@+id/main_page_essencediary_title2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:singleLine="true"
+                                    android:text="装修，我就是这么任性"
+                                    android:textColor="#4c4c4c"
+                                    android:textSize="18sp"/>
+
+                                <TextView
+                                    android:id="@+id/main_page_essencediary_text2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dip"
+                                    android:ellipsize="end"
+                                    android:lineSpacingMultiplier="1.3"
+                                    android:maxLines="3"
+                                    android:text="我们村的日记就是酱紫哒，看起来萌萌哒，用起来爽爽哒！我们村的日记就是酱紫哒，看起来萌萌哒，用起来爽爽哒！"
+                                    android:textColor="#808080"
+                                    android:textSize="15sp"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 惠装号工长 -->
+
+                <LinearLayout
+                    android:id="@+id/main_page_goodforeman_all_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- 分隔条 -->
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dip"
+                        android:background="#ebebeb"
+                        android:contentDescription="@string/app_name"/>
+
+                    <LinearLayout
+                        android:id="@+id/main_page_goodforeman_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:baselineAligned="false"
+                        android:orientation="vertical"
+                        android:padding="5dip">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="5dip">
+
+                            <TextView
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:layout_weight="1"
+                                android:drawableLeft="@drawable/home_page_icon_goodforeman"
+                                android:drawablePadding="5dip"
+                                android:text="惠装好工长"
+                                android:textColor="#4c4c4c"
+                                android:textSize="20sp"/>
+
+                            <ImageView
+                                android:id="@+id/main_page_goodforeman_more"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_item_click"
+                                android:contentDescription="@string/app_name"
+                                android:padding="5dip"
+                                android:src="@drawable/home_page_icon_more"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/main_page_goodforeman_item1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_item_click"
+                            android:orientation="vertical"
+                            android:padding="5dip">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:paddingLeft="10dip">
+
+                                <com.huizhuang.zxsq.widget.CircleImageView
+                                    android:id="@+id/main_page_goodforeman_head1"
+                                    android:layout_width="50dip"
+                                    android:layout_height="50dip"
+                                    android:layout_margin="5dip"
+                                    android:background="@drawable/ic_default_header"
+                                    android:contentDescription="@string/app_name"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dip"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/main_page_goodforeman_name1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:ellipsize="end"
+                                            android:singleLine="true"
+                                            android:text="王大锤"
+                                            android:textColor="#4c4c4c"
+                                            android:textSize="18sp"/>
+
+                                        <TextView
+                                            android:id="@+id/main_page_goodforeman_community1"
+                                            android:layout_width="0dip"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dip"
+                                            android:layout_weight="1"
+                                            android:ellipsize="end"
+                                            android:singleLine="true"
+                                            android:text="桐梓林一号"
+                                            android:textColor="#808080"
+                                            android:textSize="18sp"/>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dip"
+                                        android:gravity="center_vertical"
+                                        android:orientation="horizontal">
+
+                                        <RatingBar
+                                            android:id="@+id/main_page_goodforeman_score1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="18dip"
+                                            android:isIndicator="true"
+                                            android:numStars="5"
+                                            android:progress="0"
+                                            android:progressDrawable="@drawable/rating_bar_yellow_new"
+                                            android:stepSize="0.5"
+                                            />
+
+                                        <TextView
+                                            android:id="@+id/main_page_goodforeman_score_tv1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dip"
+                                            android:ellipsize="end"
+                                            android:singleLine="true"
+                                            android:text="暂无评价"
+                                            android:textColor="#ff6c38"
+                                            android:textSize="15sp"/>
+
+                                        <TextView
+                                            android:id="@+id/main_page_goodforeman_score_count1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dip"
+                                            android:ellipsize="end"
+                                            android:singleLine="true"
+                                            android:text="(0人评价)"
+                                            android:textColor="#808080"
+                                            android:textSize="15sp"
+                                            android:visibility="invisible"/>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="90dip"
+                                android:layout_marginBottom="10dip"
+                                android:layout_marginLeft="10dip"
+                                android:layout_marginRight="5dip"
+                                android:layout_marginTop="5dip"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/main_page_goodforeman_img1_a"
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/bg_photo_default"
+                                    android:contentDescription="@string/app_name"
+                                    android:scaleType="centerCrop"/>
+
+                                <ImageView
+                                    android:id="@+id/main_page_goodforeman_img1_b"
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="5dip"
+                                    android:layout_marginRight="5dip"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/bg_photo_default"
+                                    android:contentDescription="@string/app_name"
+                                    android:scaleType="centerCrop"/>
+
+                                <ImageView
+                                    android:id="@+id/main_page_goodforeman_img1_c"
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/bg_photo_default"
+                                    android:contentDescription="@string/app_name"
+                                    android:scaleType="centerCrop"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/main_page_goodforeman_line"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dip"
+                            android:layout_marginRight="15dip"
+                            android:background="@drawable/home_page_dividing_line_h"
+                            android:contentDescription="@string/app_name"/>
+
+                        <LinearLayout
+                            android:id="@+id/main_page_goodforeman_item2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_item_click"
+                            android:orientation="vertical"
+                            android:padding="5dip">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:paddingLeft="10dip">
+
+                                <com.huizhuang.zxsq.widget.CircleImageView
+                                    android:id="@+id/main_page_goodforeman_head2"
+                                    android:layout_width="50dip"
+                                    android:layout_height="50dip"
+                                    android:layout_margin="5dip"
+                                    android:background="@drawable/ic_default_header"
+                                    android:contentDescription="@string/app_name"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dip"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/main_page_goodforeman_name2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:ellipsize="end"
+                                            android:singleLine="true"
+                                            android:text="王大锤"
+                                            android:textColor="#4c4c4c"
+                                            android:textSize="18sp"/>
+
+                                        <TextView
+                                            android:id="@+id/main_page_goodforeman_community2"
+                                            android:layout_width="0dip"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dip"
+                                            android:layout_weight="1"
+                                            android:ellipsize="end"
+                                            android:singleLine="true"
+                                            android:text="桐梓林一号"
+                                            android:textColor="#808080"
+                                            android:textSize="18sp"/>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dip"
+                                        android:gravity="center_vertical"
+                                        android:orientation="horizontal">
+
+                                        <RatingBar
+                                            android:id="@+id/main_page_goodforeman_score2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="18dip"
+                                            android:isIndicator="true"
+                                            android:numStars="5"
+                                            android:progress="0"
+                                            android:progressDrawable="@drawable/rating_bar_yellow_new"
+                                            android:stepSize="0.5"/>
+
+                                        <TextView
+                                            android:id="@+id/main_page_goodforeman_score_tv2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dip"
+                                            android:ellipsize="end"
+                                            android:singleLine="true"
+                                            android:text="暂无评价"
+                                            android:textColor="#ff6c38"
+                                            android:textSize="15sp"/>
+
+                                        <TextView
+                                            android:id="@+id/main_page_goodforeman_score_count2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dip"
+                                            android:ellipsize="end"
+                                            android:singleLine="true"
+                                            android:text="(0人评价)"
+                                            android:textColor="#808080"
+                                            android:textSize="15sp"
+                                            android:visibility="invisible"/>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="90dip"
+                                android:layout_marginBottom="10dip"
+                                android:layout_marginLeft="10dip"
+                                android:layout_marginRight="5dip"
+                                android:layout_marginTop="5dip"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/main_page_goodforeman_img2_a"
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/bg_photo_default"
+                                    android:contentDescription="@string/app_name"
+                                    android:scaleType="centerCrop"/>
+
+                                <ImageView
+                                    android:id="@+id/main_page_goodforeman_img2_b"
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="5dip"
+                                    android:layout_marginRight="5dip"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/bg_photo_default"
+                                    android:contentDescription="@string/app_name"
+                                    android:scaleType="centerCrop"/>
+
+                                <ImageView
+                                    android:id="@+id/main_page_goodforeman_img2_c"
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/bg_photo_default"
+                                    android:contentDescription="@string/app_name"
+                                    android:scaleType="centerCrop"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.huizhuang.zxsq.widget.CustomScrollView>
+
+        <com.huizhuang.zxsq.widget.DataLoadingLayout
+            android:id="@+id/home_data_loading_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+
+</RelativeLayout>

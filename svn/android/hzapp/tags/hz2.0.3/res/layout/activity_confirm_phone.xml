@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/page_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/confirm_phone_common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/gray_disabled"
+        android:layout_marginTop="20dp"/>
+    
+        <com.huizhuang.zxsq.widget.ClearEditText
+            android:id="@+id/edtTxt_confirm_phone_phone"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/white"
+            android:hint="@string/please_enter_your_phone"
+            android:paddingLeft="8dp"
+            android:singleLine="true"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:textColorHint="@color/gray_disabled">
+            <requestFocus />
+        </com.huizhuang.zxsq.widget.ClearEditText>
+   	<View 
+    	android:layout_width="match_parent"
+    	android:layout_height="1dp"
+    	android:background="@color/gray_disabled"/>
+
+    <Button
+        android:id="@+id/btn_confirm_phone_submit"
+        style="@style/ButtonLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_orange"
+        android:text="@string/btn_finish" 
+        android:enabled="false"/>
+
+</LinearLayout>

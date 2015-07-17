@@ -1,0 +1,38 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/page_bg">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp" >
+
+        <com.huizhuang.zxsq.widget.MyListView
+            android:id="@+id/lv_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="22dp"
+            android:drawSelectorOnTop="false"
+            android:fastScrollEnabled="false"
+            android:focusable="true"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="vertical" />
+
+        <TextView
+            android:id="@+id/tv_wait_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/icon_supervison_wrench"
+            android:text="等待整改结束，重新验收"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_18" />
+    </LinearLayout>
+
+</ScrollView>

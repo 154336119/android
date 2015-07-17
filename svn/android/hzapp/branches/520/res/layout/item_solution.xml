@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/page_bg"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/iv_cover_image"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:src="@drawable/bg_photo_default" 
+        android:contentDescription="@string/app_name"/>
+
+    <ImageView
+        android:id="@+id/iv_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_right"
+        android:contentDescription="@string/app_name"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_toLeftOf="@+id/iv_arrow"
+        android:layout_toRightOf="@+id/iv_cover_image"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="王大锤"
+            android:textColor="@color/color_4c4c4c"
+            android:textSize="@dimen/txt_size_14" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/tv_node"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="施工阶段:"
+                android:textColor="@color/color_808080"
+                android:textSize="@dimen/txt_size_14" />
+
+            <TextView
+                android:id="@+id/tv_node_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:singleLine="true"
+                android:text="水电阶段"
+                android:textColor="@color/color_ff6c38"
+                android:textSize="@dimen/txt_size_14" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_properties"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:text="12.7万/半包 | 四室一厅 | 128㎡"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_12" />
+    </LinearLayout>
+
+</RelativeLayout>

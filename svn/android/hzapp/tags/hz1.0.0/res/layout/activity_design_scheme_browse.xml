@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#333333" >
+
+        <com.huizhuang.zxsq.widget.HackyViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/btn_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/btn_share"
+            android:layout_marginBottom="68dp"
+            android:layout_marginRight="144dp"
+            android:padding="16dp"
+            android:src="@drawable/ic_like" />
+
+        <ImageView
+            android:id="@+id/btn_collect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/btn_share"
+            android:layout_marginBottom="68dp"
+            android:layout_marginRight="72dp"
+            android:padding="16dp"
+            android:src="@drawable/ic_collect" />
+
+        <ImageView
+            android:id="@+id/btn_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="68dp"
+            android:padding="16dp"
+            android:src="@drawable/ic_share" />
+
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:background="#80000000">
+			<ImageView
+	            android:id="@+id/iv_headimg"
+	            style="@style/ImgViewWithBorder"
+	            android:contentDescription="@string/app_name"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="11dp"
+	            android:layout_marginRight="11dp"/>
+			<TextView
+			    android:id="@+id/tv_designer_name" 
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textColor="@color/white"
+			    android:textSize="17sp"
+			    android:layout_alignTop="@id/iv_headimg"
+			    android:layout_toRightOf="@id/iv_headimg"
+			    android:text="万个如"/>            
+			<TextView
+			    android:id="@+id/tv_designer_company" 
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textColor="@color/white"
+			    android:textSize="13sp"
+			    android:layout_alignLeft="@id/tv_designer_name"
+			    android:layout_below="@id/tv_designer_name"
+			    android:text="万个如"
+			    android:layout_marginTop="8dp"/>
+			<TextView 
+			    android:id="@+id/tv_appointment"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_alignParentRight="true"
+			    android:background="@drawable/bg_design_scheme_btn"
+			    android:textColor="@color/white"
+			    android:text="@string/txt_company_design_scheme_appointment"
+			    android:drawableTop="@drawable/ic_design_scheme_appointment"
+			    android:drawablePadding="8dp"
+			    android:padding="11dp"/>			    
+        </RelativeLayout>
+    </RelativeLayout>
+
+ 
+
+</RelativeLayout>

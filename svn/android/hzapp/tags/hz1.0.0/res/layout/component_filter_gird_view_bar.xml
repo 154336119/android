@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/common_action_bar"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_filter_title_zone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_f5f5f5"
+        android:clickable="true"
+        android:minHeight="50dp"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_15" />
+
+        <ImageView
+            android:id="@+id/iv_filter_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="17dp"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_fliter_arrow_down" />
+
+        <TextView
+            android:id="@+id/tv_select_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/iv_filter_arrow"
+            android:layout_toRightOf="@id/tv_title"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:textColor="@color/color_ff6c38"
+            android:textSize="@dimen/txt_size_15" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_dddddd"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_gv_zone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.huizhuang.zxsq.widget.component.GridViewForScrollView
+            android:id="@+id/gv_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_f5f5f5"
+            android:cacheColorHint="@android:color/transparent"
+            android:focusable="false"
+            android:horizontalSpacing="17dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:paddingBottom="17dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="17dp"
+            android:verticalSpacing="17dp" >
+        </com.huizhuang.zxsq.widget.component.GridViewForScrollView>
+
+        <TextView
+            android:id="@+id/tv_filter_way_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/color_f5f5f5"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/txt_info_filter_way_tip"
+            android:textColor="@color/color_b2b2b2"
+            android:textSize="@dimen/txt_size_13"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/color_dddddd"
+            android:clickable="false" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:orientation="vertical"
+        android:paddingBottom="15dip"
+        android:paddingTop="15dip" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="180dip" >
+
+            <ImageView
+                android:id="@+id/item_foreman_constructionsite_img"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/bg_photo_default"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/item_foreman_constructionsite_stage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#7f000000"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="水电阶段 "
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_foreman_constructionsite_community"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingTop="10dip"
+            android:singleLine="true"
+            android:text="成都华润24城"
+            android:textColor="#4c4c4c"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dip" >
+
+            <TextView
+                android:id="@+id/item_foreman_constructionsite_housetype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="三居室 "
+                android:textColor="#808080"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/item_foreman_constructionsite_measure_line"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/home_page_dividing_line_v"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/item_foreman_constructionsite_measure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="128㎡ "
+                android:textColor="#808080"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/item_foreman_constructionsite_days_line"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/home_page_dividing_line_v"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/item_foreman_constructionsite_days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="45天"
+                android:textColor="#808080"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/item_foreman_constructionsite_price_line"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/home_page_dividing_line_v"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/item_foreman_constructionsite_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10万/半包"
+                android:textColor="#808080"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_page_dividing_line_h"
+        android:contentDescription="@string/app_name" />
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/page_bg" >
+
+    <RadioButton
+        android:id="@+id/rb_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_complaints"
+        android:button="@null"
+        android:checked="true"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="乱收费"
+        android:textColor="@drawable/tv_complaints_text"
+        android:textSize="@dimen/txt_size_14" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/icon_complaints_left" />
+
+</RelativeLayout>

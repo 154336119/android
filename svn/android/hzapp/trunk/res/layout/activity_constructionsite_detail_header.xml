@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="15dp">
+<!-- 工地信息 -->
+        <TextView
+            android:id="@+id/tv_activity_constructionsite_detial_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="中海国际交流中心"
+            android:textColor="@color/gray_4d"
+            android:textSize="@dimen/txt_size_18" />
+        <TextView
+            android:id="@+id/tv_activity_constructionsite_detial_header_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="880m"
+            android:textColor="@color/gray_c0"
+            android:textSize="@dimen/txt_size_11" 
+            android:layout_alignBottom="@id/tv_activity_constructionsite_detial_header_title"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:id="@+id/tv_activity_constructionsite_detial_header_style_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123㎡ |三居室 |田园风格"
+            android:layout_below="@id/tv_activity_constructionsite_detial_header_title"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/gray_80"
+            android:textSize="@dimen/txt_size_12" />
+        <TextView
+            android:id="@+id/tv_activity_constructionsite_detial_header_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="施工造价："
+            android:layout_below="@id/tv_activity_constructionsite_detial_header_style_area"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/gray_80"
+            android:textSize="@dimen/txt_size_12" />
+        <TextView
+            android:id="@+id/tv_activity_constructionsite_detial_header_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="施工工期："
+            android:layout_alignBaseline="@id/tv_activity_constructionsite_detial_header_price"
+            android:layout_toRightOf="@id/tv_activity_constructionsite_detial_header_price"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/gray_80"
+            android:textSize="@dimen/txt_size_12" />
+    </RelativeLayout>
+    
+    <View
+         android:layout_width="match_parent"
+         android:layout_height="10dp"
+         android:background="@color/color_ebebeb" />
+   
+   <!--  工长信息 -->
+   <RelativeLayout 
+       android:id="@+id/rl_activity_constructionsite_detial_header_foreman_detail"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingRight="20dp"
+       android:paddingLeft="20dp"
+       android:paddingTop="15dp"
+       android:paddingBottom="15dp"
+       android:gravity="center">
+         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="该工地由惠装工长"
+		        android:textColor="@color/gray_4d"
+		        android:textSize="@dimen/txt_size_13" />
+	        <TextView
+	            android:id="@+id/tv_activity_constructionsite_detial_header_foremanname"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="王大锤"
+		        android:textColor="@color/gray_orange"
+		        android:textSize="@dimen/txt_size_13" />
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="负责施工."
+		        android:textColor="@color/gray_4d"
+		        android:textSize="@dimen/txt_size_13" />
+   		</LinearLayout>
+   		<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true">
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="更多案例"
+		        android:textColor="@color/color_b3b3b3"
+		        android:textSize="@dimen/txt_size_12" />
+	        
+	        <ImageView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="5dp"
+		        android:background="@drawable/icon_foreman_right"/>
+   		</LinearLayout>
+   </RelativeLayout>
+   
+   <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/color_ebebeb" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/foreman_constructionsite_stage_start_n"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/iv_activity_constructionsite_detial_header_start_line"
+                android:layout_width="0dip"
+                android:layout_height="1dip"
+                android:layout_weight="1"
+                android:background="#d1d1d1"
+                android:contentDescription="@string/app_name" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/foreman_constructionsite_stage_hydropower_n"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/iv_activity_constructionsite_detial_header_hydropower_line"
+                android:layout_width="0dip"
+                android:layout_height="1dip"
+                android:layout_weight="1"
+                android:background="#d1d1d1"
+                android:contentDescription="@string/app_name" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/foreman_constructionsite_stage_mudwood_n"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/iv_activity_constructionsite_detial_header_mudwood_line"
+                android:layout_width="0dip"
+                android:layout_height="1dip"
+                android:layout_weight="1"
+                android:background="#d1d1d1"
+                android:contentDescription="@string/app_name" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/foreman_constructionsite_stage_paint_n"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/iv_activity_constructionsite_detial_header_paint_line"
+                android:layout_width="0dip"
+                android:layout_height="1dip"
+                android:layout_weight="1"
+                android:background="#d1d1d1"
+                android:contentDescription="@string/app_name" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/foreman_constructionsite_stage_completed_n"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/iv_activity_constructionsite_detial_header_completed_line"
+                android:layout_width="0dip"
+                android:layout_height="1dip"
+                android:layout_weight="1"
+                android:background="#d1d1d1"
+                android:contentDescription="@string/app_name" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/foreman_constructionsite_stage_real_n"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/tv_activity_constructionsite_detial_header_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dip"
+                android:drawableTop="@drawable/foreman_constructionsite_stage_start_n"
+                android:gravity="center"
+                android:text="开工"
+                android:textColor="#808080"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_activity_constructionsite_detial_header_hydropower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dip"
+                android:drawableTop="@drawable/foreman_constructionsite_stage_hydropower_n"
+                android:gravity="center"
+                android:text="水电"
+                android:textColor="#808080"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_activity_constructionsite_detial_header_mudwood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dip"
+                android:drawableTop="@drawable/foreman_constructionsite_stage_mudwood_n"
+                android:gravity="center"
+                android:text="泥木"
+                android:textColor="#808080"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_activity_constructionsite_detial_header_paint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dip"
+                android:drawableTop="@drawable/foreman_constructionsite_stage_paint_n"
+                android:gravity="center"
+                android:text="油漆"
+                android:textColor="#808080"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_activity_constructionsite_detial_header_completed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dip"
+                android:drawableTop="@drawable/foreman_constructionsite_stage_completed_n"
+                android:gravity="center"
+                android:text="竣工"
+                android:textColor="#808080"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_activity_constructionsite_detial_header_real"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dip"
+                android:drawableTop="@drawable/foreman_constructionsite_stage_real_n"
+                android:gravity="center"
+                android:text="实景"
+                android:textColor="#808080"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </FrameLayout>
+    <!-- 施工案例 -->
+
+</LinearLayout>

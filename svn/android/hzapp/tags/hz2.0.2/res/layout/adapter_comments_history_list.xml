@@ -1,0 +1,196 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/page_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lin_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <com.huizhuang.zxsq.widget.CircleImageView
+                android:id="@+id/iv_img"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/bg_photo_default" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txt_size_14" />
+
+                <TextView
+                    android:id="@+id/tv_node"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_name"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/txt_comment_node"
+                    android:textColor="@color/color_808080"
+                    android:textSize="@dimen/txt_size_12" />
+
+                <TextView
+                    android:id="@+id/tv_node_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_name"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/tv_node"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/color_ff6c38"
+                    android:textSize="@dimen/txt_size_12" />
+
+                <com.huizhuang.zxsq.widget.MyGridView 
+				    android:id="@+id/gv_score"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_below="@id/tv_node"
+                    android:layout_marginTop="5dp"
+                    android:cacheColorHint="@android:color/transparent"
+        			android:divider="@null"
+        			android:numColumns="3"
+        			android:listSelector="@android:color/transparent"
+        			android:horizontalSpacing="5dp"
+        			android:verticalSpacing="5dp"/>
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/color_b2b2b2"
+                    android:textSize="@dimen/txt_size_12" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_12" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_d9d9d9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_foreman_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <com.huizhuang.zxsq.widget.CircleImageView
+                android:id="@+id/iv_foreman_img"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/bg_photo_default" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_foreman_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txt_size_14" />
+
+                <TextView
+                    android:id="@+id/tv_foreman_node"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_foreman_name"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/txt_comment_node"
+                    android:textColor="@color/color_808080"
+                    android:textSize="@dimen/txt_size_12" />
+
+                <TextView
+                    android:id="@+id/tv_foreman_node_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_foreman_name"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/tv_foreman_node"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/color_ff6c38"
+                    android:textSize="@dimen/txt_size_12" />
+
+				<com.huizhuang.zxsq.widget.MyGridView 
+				    android:id="@+id/gv_foreman_score"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_below="@id/tv_foreman_node"
+                    android:layout_marginTop="5dp"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:listSelector="@android:color/transparent"
+        			android:divider="@null"
+        			android:numColumns="3"
+        			android:horizontalSpacing="5dp"
+        			android:verticalSpacing="5dp"/>
+                
+                <TextView
+                    android:id="@+id/tv_foreman_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/color_b2b2b2"
+                    android:textSize="@dimen/txt_size_12" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_foreman_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_12" />
+			
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_d9d9d9" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_radio_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_main_bottom_bar"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <RadioButton
+        android:id="@+id/btn_home"
+        style="@style/navBarItemStyle"
+        android:drawableTop="@drawable/tab_item_home"
+        android:text="@string/txt_bottom_tab_home" />
+
+    <RadioButton
+        android:id="@+id/btn_company"
+        style="@style/navBarItemStyle"
+        android:drawableTop="@drawable/tab_item_company"
+        android:text="@string/txt_bottom_tab_decoration" />
+
+    <RadioButton
+        android:id="@+id/btn_diary"
+        style="@style/navBarItemStyle"
+        android:drawableTop="@drawable/tab_item_diary"
+        android:text="@string/txt_bottom_tab_diary" />
+
+    <RadioButton
+        android:id="@+id/btn_atlas"
+        style="@style/navBarItemStyle"
+        android:drawableTop="@drawable/tab_item_tuku"
+        android:text="@string/txt_bottom_tab_design_sketch" />
+
+    <RadioButton
+        android:id="@+id/btn_account"
+        style="@style/navBarItemStyle"
+        android:drawableTop="@drawable/tab_item_account"
+        android:text="@string/txt_bottom_tab_me" />
+
+</RadioGroup>

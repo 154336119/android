@@ -1,0 +1,45 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            layout="@layout/adapter_accept_foreman" />
+
+        <TextView
+            android:id="@+id/tv_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_top_bottom_border_disabled"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="猛戳我学习如何进行开工验收^_^"
+            android:textColor="@color/color_ff6c38"
+            android:textSize="@dimen/txt_size_16" />
+
+        <TextView
+            android:id="@+id/tv_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="30dp"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/icon_supervison_wrench"
+            android:text="小惠正在施工中，请亲稍后来验收..."
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_16" />
+    </LinearLayout>
+
+</ScrollView>

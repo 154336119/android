@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+	<TextView 
+	    android:id="@+id/tv_name"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:textSize="@dimen/txt_size_16"
+	    android:textColor="@color/color_4c4c4c"
+	    android:text="装修价格问题"
+	    android:drawableRight="@drawable/arrow_right_gray_big"
+	    android:drawablePadding="20dp"
+	    android:singleLine="true"
+	    android:ellipsize="end"/>
+</LinearLayout>

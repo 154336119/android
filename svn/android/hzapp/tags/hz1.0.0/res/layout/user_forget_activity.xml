@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/page_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edittext_rounded_bg"
+        android:ems="10"
+        android:hint="@string/please_enter_phone"
+        android:inputType="number"
+        android:maxLength="11"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColorHint="@color/gray_disabled" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_code"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_rounded_bg"
+            android:ems="10"
+            android:hint="@string/input_code"
+            android:inputType="number"
+            android:maxLength="4"
+            android:paddingLeft="8dp"
+            android:singleLine="true"
+            android:textColorHint="@color/gray_disabled" />
+
+        <ImageView
+            android:id="@+id/btn_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/white"
+            android:padding="8dp"  />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_error_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/ic_round_tip"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text=""
+        android:textColor="#ff4747"
+        android:textSize="@dimen/txt_size_16"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_next"
+        style="@style/ButtonLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btn_orange"
+        android:text="@string/next_step" />
+
+</LinearLayout>

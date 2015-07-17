@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:paddingTop="17dp"
+    android:paddingLeft="17dp"
+    android:paddingRight="17dp">
+    <ImageView
+        android:id="@+id/iv_header"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_default_header" />
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_4c4c4c"
+        android:textSize="@dimen/txt_size_15" 
+        android:layout_toRightOf="@id/iv_header"
+        android:text="王晓锤"
+        android:layout_marginLeft="23dp"/>
+	<TextView
+        android:id="@+id/tv_add_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_b2b2b2"
+        android:textSize="@dimen/txt_size_13" 
+        android:text="王晓锤"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_808080"
+        android:textSize="@dimen/txt_size_13" 
+        android:layout_toRightOf="@id/iv_header"
+        android:layout_below="@id/tv_user_name"
+        android:text="王晓a阿斯顿撒旦撒旦撒旦撒旦撒旦撒旦撒旦撒大时代撒旦撒打死打伤打撒旦撒旦撒旦"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="6dp"
+        android:lineSpacingExtra="6dp"/>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5px"
+        android:background="@color/color_d9d9d9"
+        android:layout_below="@id/iv_header"
+        android:layout_marginTop="17dp"/>
+</RelativeLayout>

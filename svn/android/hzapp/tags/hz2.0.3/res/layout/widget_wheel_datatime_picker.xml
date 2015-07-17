@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.huizhuang.hz"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/page_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_f2f2f2" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/line" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/global_selector_bg_white"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/cancel"
+            android:textColor="@color/color_4c4c4c"
+            android:textSize="@dimen/txt_size_16"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name"
+            android:textColor="@color/color_4c4c4c"
+            android:textSize="@dimen/txt_size_18"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_ensure"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/global_selector_bg_white"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/ensure"
+            android:textColor="@color/color_4c4c4c"
+            android:textSize="@dimen/txt_size_16"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/wheel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.huizhuang.zxsq.widget.wheel.WheelVerticalView
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:selectionDivider="@drawable/divider_dark_gradient_horizontal"
+            app:selectionDividerActiveAlpha="100"
+            app:selectionDividerDimmedAlpha="255"
+            app:selectionDividerHeight="1px" />
+
+        <com.huizhuang.zxsq.widget.wheel.WheelVerticalView
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:selectionDivider="@drawable/divider_dark_gradient_horizontal"
+            app:selectionDividerActiveAlpha="100"
+            app:selectionDividerDimmedAlpha="255"
+            app:selectionDividerHeight="1px" />
+
+        <com.huizhuang.zxsq.widget.wheel.WheelVerticalView
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:selectionDivider="@drawable/divider_dark_gradient_horizontal"
+            app:selectionDividerActiveAlpha="100"
+            app:selectionDividerDimmedAlpha="255"
+            app:selectionDividerHeight="1px" />
+
+        <com.huizhuang.zxsq.widget.wheel.WheelVerticalView
+            android:id="@+id/hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:selectionDivider="@drawable/divider_dark_gradient_horizontal"
+            app:selectionDividerActiveAlpha="100"
+            app:selectionDividerDimmedAlpha="255"
+            app:selectionDividerHeight="1px" />
+
+        <com.huizhuang.zxsq.widget.wheel.WheelVerticalView
+            android:id="@+id/min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:selectionDivider="@drawable/divider_dark_gradient_horizontal"
+            app:selectionDividerActiveAlpha="100"
+            app:selectionDividerDimmedAlpha="255"
+            app:selectionDividerHeight="1px" />
+    </LinearLayout>
+
+</LinearLayout>

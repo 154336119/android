@@ -1,0 +1,90 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .sonar\
+* .sonar\.sonartmp\
+* .sonar\.sonartmp\caches\
+* .sonar\.sonartmp\caches\persistit_tempvol_3427700583000457378.tmp
+* build.xml
+* huizhuang_app_keystore
+* proguard-project.txt
+* sonar-project.properties
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:20.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* jni\ => app\src\main\jni\
+* libs\alipaysdk.jar => app\libs\alipaysdk.jar
+* libs\alipaysecsdk.jar => app\libs\alipaysecsdk.jar
+* libs\alipayutdid.jar => app\libs\alipayutdid.jar
+* libs\armeabi\libBaiduMapSDK_v3_1_1.so => app\src\main\jniLibs\armeabi\libBaiduMapSDK_v3_1_1.so
+* libs\armeabi\libjpush173.so => app\src\main\jniLibs\armeabi\libjpush173.so
+* libs\armeabi\liblocSDK3.so => app\src\main\jniLibs\armeabi\liblocSDK3.so
+* libs\baidumapapi_v3_1_1.jar => app\libs\baidumapapi_v3_1_1.jar
+* libs\com.umeng.message.lib.jar => app\libs\com.umeng.message.lib.jar
+* libs\commons-codec-1.3.jar => app\libs\commons-codec-1.3.jar
+* libs\date4j.jar => app\libs\date4j.jar
+* libs\fastjson-1.1.33.jar => app\libs\fastjson-1.1.33.jar
+* libs\gpuiimage.jar => app\libs\gpuiimage.jar
+* libs\jpush-sdk-release1.7.3.jar => app\libs\jpush-sdk-release1.7.3.jar
+* libs\libammsdk.jar => app\libs\libammsdk.jar
+* libs\locSDK_3.1.jar => app\libs\locSDK_3.1.jar
+* libs\mframework.jar => app\libs\mframework.jar
+* libs\nineoldandroids-2.4.0.jar => app\libs\nineoldandroids-2.4.0.jar
+* libs\ShareSDK-Core-2.5.7.jar => app\libs\ShareSDK-Core-2.5.7.jar
+* libs\ShareSDK-Douban-2.5.7.jar => app\libs\ShareSDK-Douban-2.5.7.jar
+* libs\ShareSDK-QQ-2.5.7.jar => app\libs\ShareSDK-QQ-2.5.7.jar
+* libs\ShareSDK-QZone-2.5.7.jar => app\libs\ShareSDK-QZone-2.5.7.jar
+* libs\ShareSDK-Renren-2.5.7.jar => app\libs\ShareSDK-Renren-2.5.7.jar
+* libs\ShareSDK-SinaWeibo-2.5.7.jar => app\libs\ShareSDK-SinaWeibo-2.5.7.jar
+* libs\ShareSDK-TencentWeibo-2.5.7.jar => app\libs\ShareSDK-TencentWeibo-2.5.7.jar
+* libs\ShareSDK-Wechat-2.5.7.jar => app\libs\ShareSDK-Wechat-2.5.7.jar
+* libs\ShareSDK-Wechat-Core-2.5.7.jar => app\libs\ShareSDK-Wechat-Core-2.5.7.jar
+* libs\ShareSDK-Wechat-Favorite-2.5.7.jar => app\libs\ShareSDK-Wechat-Favorite-2.5.7.jar
+* libs\ShareSDK-Wechat-Moments-2.5.7.jar => app\libs\ShareSDK-Wechat-Moments-2.5.7.jar
+* libs\uk-co-senab-photoview.jar => app\libs\uk-co-senab-photoview.jar
+* libs\umeng-analytics-v5.2.4.jar => app\libs\umeng-analytics-v5.2.4.jar
+* libs\umeng-feedback-v4.3.jar => app\libs\umeng-feedback-v4.3.jar
+* libs\umeng-update-v2.4.2.jar => app\libs\umeng-update-v2.4.2.jar
+* libs\universal-image-loader-1.9.1.jar => app\libs\universal-image-loader-1.9.1.jar
+* libs\volley.jar => app\libs\volley.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

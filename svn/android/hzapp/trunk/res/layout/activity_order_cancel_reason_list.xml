@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/page_bg" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/common_action_bar" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/page_bg"
+                android:gravity="center"
+                android:lineSpacingExtra="3dp"
+                android:padding="15dp"
+                android:text="@string/txt_cancel_tip"
+                android:textColor="@color/color_ff6c38"
+                android:textSize="@dimen/txt_size_14" />
+
+            <com.huizhuang.zxsq.widget.MyListView
+                android:id="@+id/xlv_reason"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="1px"
+                android:drawSelectorOnTop="false"
+                android:fastScrollEnabled="false"
+                android:focusable="true"
+                android:listSelector="#00000000"
+                android:scrollbars="vertical" />
+
+            <EditText
+                android:id="@+id/et_other"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_top_bottom_border_disabled"
+                android:gravity="top"
+                android:hint="以上都不是?悄悄告诉我们吧!（60字内）"
+                android:inputType="textMultiLine"
+                android:maxLength="60"
+                android:padding="5dp"
+                android:textColor="@color/color_4c4c4c"
+                android:textColorHint="@color/gray_disabled"
+                android:textSize="@dimen/txt_size_16" 
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btn_submit"
+                style="@style/ButtonLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/btn_orange"
+                android:text="确认提交" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.huizhuang.zxsq.widget.DataLoadingLayout
+        android:id="@+id/data_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar">
+    </com.huizhuang.zxsq.widget.DataLoadingLayout>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.VerticalViewPager
+        android:id="@+id/verticalViewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/support_service_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/page_header_height"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/support_service_header_left"
+            android:layout_width="@dimen/page_header_height"
+            android:layout_height="@dimen/page_header_height"
+            android:background="@drawable/bg_actionbar_btn"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/support_service_header_left" />
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="1dip"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/support_service_header_right"
+            android:layout_width="@dimen/page_header_height"
+            android:layout_height="@dimen/page_header_height"
+            android:background="@drawable/bg_actionbar_btn"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/support_service_header_right" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/support_service_complete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dip"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/support_service_complete" />
+
+    <ImageView
+        android:id="@+id/support_service_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dip"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/support_service_up_orange" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_layout_empty" />
+
+    <TextView
+        android:id="@+id/txt_view_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:text="@string/txt_layout_empty"
+        android:textColor="#808080"
+        android:textSize="15sp"
+        android:lineSpacingExtra="6dp" 
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:id="@+id/txt_view_reload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:padding="9dp"
+        android:text="@string/txt_click_here_to_reload"
+        android:textColor="@color/color_ff6c38"
+        android:textSize="@dimen/txt_size_12"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/txt_view_appointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text="@string/txt_appointment"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_18"
+        android:background="@drawable/orange_bottom_selector"
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp"
+        android:paddingLeft="51dp"
+        android:paddingRight="51dp"
+        android:visibility="gone" />
+</LinearLayout>

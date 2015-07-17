@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="44dp"
+    android:paddingLeft="15dp" 
+    android:paddingRight="15dp"
+    android:background="@color/layout_bg">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="#4d4d4d"
+        android:textSize="@dimen/txt_size_13"
+        android:text="增减费用红"
+        android:layout_centerVertical="true"/>
+	<ImageView
+	    android:id="@+id/img_arr"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/cost_change_expand_arr"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"/>
+
+</RelativeLayout>

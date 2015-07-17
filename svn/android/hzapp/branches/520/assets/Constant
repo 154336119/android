@@ -1,0 +1,1340 @@
+{
+    "journey_types": [
+        {
+            "id": "1",
+            "pid": "0",
+            "cid": "1",
+            "name": "设计费",
+            "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/1.png",
+            "sub": [
+                {
+                    "id": "99999999",
+                    "pid": "1",
+                    "cid": "0",
+                    "name": "其他",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/1.png"
+                },
+                {
+                    "id": "7",
+                    "pid": "1",
+                    "cid": "1",
+                    "name": "效果图",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/1_1.png"
+                },
+                {
+                    "id": "8",
+                    "pid": "1",
+                    "cid": "2",
+                    "name": "施工图",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/1_2.png"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "pid": "0",
+            "cid": "2",
+            "name": "主材费",
+            "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2.png",
+            "sub": [
+                {
+                    "id": "100000000",
+                    "pid": "2",
+                    "cid": "0",
+                    "name": "其他",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2.png"
+                },
+                {
+                    "id": "9",
+                    "pid": "2",
+                    "cid": "1",
+                    "name": "瓷砖",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2_1.png"
+                },
+                {
+                    "id": "10",
+                    "pid": "2",
+                    "cid": "2",
+                    "name": "地板",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2_2.png"
+                },
+                {
+                    "id": "11",
+                    "pid": "2",
+                    "cid": "3",
+                    "name": "厨卫洁具",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2_3.png"
+                },
+                {
+                    "id": "12",
+                    "pid": "2",
+                    "cid": "4",
+                    "name": "橱柜",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2_4.png"
+                },
+                {
+                    "id": "13",
+                    "pid": "2",
+                    "cid": "5",
+                    "name": "灯具",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2_5.png"
+                },
+                {
+                    "id": "14",
+                    "pid": "2",
+                    "cid": "6",
+                    "name": "石材",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2_6.png"
+                },
+                {
+                    "id": "15",
+                    "pid": "2",
+                    "cid": "7",
+                    "name": "开关插座",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2_7.png"
+                },
+                {
+                    "id": "16",
+                    "pid": "2",
+                    "cid": "8",
+                    "name": "锁",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2_8.png"
+                },
+                {
+                    "id": "17",
+                    "pid": "2",
+                    "cid": "9",
+                    "name": "水管角阀",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2_9.png"
+                },
+                {
+                    "id": "18",
+                    "pid": "2",
+                    "cid": "10",
+                    "name": "五金类",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2_10.png"
+                },
+                {
+                    "id": "19",
+                    "pid": "2",
+                    "cid": "11",
+                    "name": "玻璃",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2_11.png"
+                },
+                {
+                    "id": "20",
+                    "pid": "2",
+                    "cid": "12",
+                    "name": "木材",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2_12.png"
+                },
+                {
+                    "id": "21",
+                    "pid": "2",
+                    "cid": "13",
+                    "name": "油漆",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2_13.png"
+                },
+                {
+                    "id": "22",
+                    "pid": "2",
+                    "cid": "14",
+                    "name": "楼梯",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2_14.png"
+                },
+                {
+                    "id": "23",
+                    "pid": "2",
+                    "cid": "15",
+                    "name": "门",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/2_15.png"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "pid": "0",
+            "cid": "3",
+            "name": "装修费",
+            "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/3.png",
+            "sub": [
+                {
+                    "id": "100000001",
+                    "pid": "3",
+                    "cid": "0",
+                    "name": "其他",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/3.png"
+                },
+                {
+                    "id": "24",
+                    "pid": "3",
+                    "cid": "1",
+                    "name": "防水人工",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/3_1.png"
+                },
+                {
+                    "id": "25",
+                    "pid": "3",
+                    "cid": "2",
+                    "name": "贴瓷砖",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/3_2.png"
+                },
+                {
+                    "id": "26",
+                    "pid": "3",
+                    "cid": "3",
+                    "name": "贴地板",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/3_3.png"
+                },
+                {
+                    "id": "27",
+                    "pid": "3",
+                    "cid": "4",
+                    "name": "地热暖气",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/3_4.png"
+                },
+                {
+                    "id": "28",
+                    "pid": "3",
+                    "cid": "5",
+                    "name": "电视墙造型",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/3_5.png"
+                },
+                {
+                    "id": "29",
+                    "pid": "3",
+                    "cid": "6",
+                    "name": "墙面改造",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/3_6.png"
+                },
+                {
+                    "id": "30",
+                    "pid": "3",
+                    "cid": "7",
+                    "name": "窗门改造",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/3_7.png"
+                },
+                {
+                    "id": "31",
+                    "pid": "3",
+                    "cid": "8",
+                    "name": "楼梯改造",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/3_8.png"
+                },
+                {
+                    "id": "32",
+                    "pid": "3",
+                    "cid": "9",
+                    "name": "阳台改造",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/3_9.png"
+                },
+                {
+                    "id": "33",
+                    "pid": "3",
+                    "cid": "10",
+                    "name": "花园改造",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/3_10.png"
+                },
+                {
+                    "id": "34",
+                    "pid": "3",
+                    "cid": "11",
+                    "name": "房屋吊顶",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/3_11.png"
+                },
+                {
+                    "id": "35",
+                    "pid": "3",
+                    "cid": "12",
+                    "name": "水电改造",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/3_12.png"
+                },
+                {
+                    "id": "36",
+                    "pid": "3",
+                    "cid": "13",
+                    "name": "其它改造",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/3_13.png"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "pid": "0",
+            "cid": "4",
+            "name": "软装费",
+            "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4.png",
+            "sub": [
+                {
+                    "id": "100000002",
+                    "pid": "4",
+                    "cid": "0",
+                    "name": "其他",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4.png"
+                },
+                {
+                    "id": "37",
+                    "pid": "4",
+                    "cid": "1",
+                    "name": "沙发",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_1.png"
+                },
+                {
+                    "id": "38",
+                    "pid": "4",
+                    "cid": "2",
+                    "name": "茶几",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_2.png"
+                },
+                {
+                    "id": "39",
+                    "pid": "4",
+                    "cid": "3",
+                    "name": "电视柜",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_3.png"
+                },
+                {
+                    "id": "40",
+                    "pid": "4",
+                    "cid": "4",
+                    "name": "餐桌餐椅",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_4.png"
+                },
+                {
+                    "id": "41",
+                    "pid": "4",
+                    "cid": "5",
+                    "name": "床/床头柜",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_5.png"
+                },
+                {
+                    "id": "42",
+                    "pid": "4",
+                    "cid": "6",
+                    "name": "衣帽架",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_6.png"
+                },
+                {
+                    "id": "43",
+                    "pid": "4",
+                    "cid": "7",
+                    "name": "床垫",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_7.png"
+                },
+                {
+                    "id": "44",
+                    "pid": "4",
+                    "cid": "8",
+                    "name": "衣柜",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_8.png"
+                },
+                {
+                    "id": "45",
+                    "pid": "4",
+                    "cid": "9",
+                    "name": "梳妆台",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_9.png"
+                },
+                {
+                    "id": "46",
+                    "pid": "4",
+                    "cid": "10",
+                    "name": "书桌",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_10.png"
+                },
+                {
+                    "id": "47",
+                    "pid": "4",
+                    "cid": "11",
+                    "name": "桌椅板凳",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_11.png"
+                },
+                {
+                    "id": "48",
+                    "pid": "4",
+                    "cid": "12",
+                    "name": "鞋柜鞋架",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_12.png"
+                },
+                {
+                    "id": "49",
+                    "pid": "4",
+                    "cid": "13",
+                    "name": "窗帘",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_13.png"
+                },
+                {
+                    "id": "50",
+                    "pid": "4",
+                    "cid": "14",
+                    "name": "摆挂件",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_14.png"
+                },
+                {
+                    "id": "51",
+                    "pid": "4",
+                    "cid": "15",
+                    "name": "床品布艺",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_15.png"
+                },
+                {
+                    "id": "52",
+                    "pid": "4",
+                    "cid": "16",
+                    "name": "餐具",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_16.png"
+                },
+                {
+                    "id": "53",
+                    "pid": "4",
+                    "cid": "17",
+                    "name": "锅具",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_17.png"
+                },
+                {
+                    "id": "54",
+                    "pid": "4",
+                    "cid": "18",
+                    "name": "地毯",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_18.png"
+                },
+                {
+                    "id": "55",
+                    "pid": "4",
+                    "cid": "19",
+                    "name": "墙纸",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/4_19.png"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "pid": "0",
+            "cid": "5",
+            "name": "家电费",
+            "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/5.png",
+            "sub": [
+                {
+                    "id": "100000003",
+                    "pid": "5",
+                    "cid": "0",
+                    "name": "其他",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/5.png"
+                },
+                {
+                    "id": "56",
+                    "pid": "5",
+                    "cid": "1",
+                    "name": "电视",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/5_1.png"
+                },
+                {
+                    "id": "57",
+                    "pid": "5",
+                    "cid": "2",
+                    "name": "冰箱",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/5_2.png"
+                },
+                {
+                    "id": "58",
+                    "pid": "5",
+                    "cid": "3",
+                    "name": "洗衣机",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/5_3.png"
+                },
+                {
+                    "id": "59",
+                    "pid": "5",
+                    "cid": "4",
+                    "name": "烟机灶具",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/5_4.png"
+                },
+                {
+                    "id": "60",
+                    "pid": "5",
+                    "cid": "5",
+                    "name": "热水器",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/5_5.png"
+                },
+                {
+                    "id": "61",
+                    "pid": "5",
+                    "cid": "6",
+                    "name": "浴霸",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/5_6.png"
+                },
+                {
+                    "id": "62",
+                    "pid": "5",
+                    "cid": "7",
+                    "name": "家庭影院",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/5_7.png"
+                },
+                {
+                    "id": "63",
+                    "pid": "5",
+                    "cid": "8",
+                    "name": "空调",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/5_8.png"
+                },
+                {
+                    "id": "64",
+                    "pid": "5",
+                    "cid": "9",
+                    "name": "电风扇",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/5_9.png"
+                },
+                {
+                    "id": "65",
+                    "pid": "5",
+                    "cid": "10",
+                    "name": "空气净化器",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/5_10.png"
+                },
+                {
+                    "id": "66",
+                    "pid": "5",
+                    "cid": "11",
+                    "name": "小家电",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/5_11.png"
+                },
+                {
+                    "id": "67",
+                    "pid": "5",
+                    "cid": "12",
+                    "name": "电脑",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/5_12.png"
+                },
+                {
+                    "id": "68",
+                    "pid": "5",
+                    "cid": "13",
+                    "name": "饮水机",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/5_13.png"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "pid": "0",
+            "cid": "6",
+            "name": "其他",
+            "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/6.png",
+            "sub": [
+                {
+                    "id": "73",
+                    "pid": "6",
+                    "cid": "5",
+                    "name": "其他",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/6.png"
+                },
+                {
+                    "id": "69",
+                    "pid": "6",
+                    "cid": "1",
+                    "name": "验房费",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/6_1.png"
+                },
+                {
+                    "id": "70",
+                    "pid": "6",
+                    "cid": "2",
+                    "name": "货运搬运费",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/6_2.png"
+                },
+                {
+                    "id": "71",
+                    "pid": "6",
+                    "cid": "3",
+                    "name": "管理费",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/6_3.png"
+                },
+                {
+                    "id": "72",
+                    "pid": "6",
+                    "cid": "4",
+                    "name": "保洁费",
+                    "img": "http://img.rls.huizhuang.com//mobile/app/journey_type_images/6_4.png"
+                }
+            ]
+        }
+    ],
+    "cost_ranges": [
+        {
+            "name": "3万以下",
+            "cost": "0_3",
+            "id": 1
+        },
+        {
+            "name": "3-8万",
+            "cost": "3_8",
+            "id": 2
+        },
+        {
+            "name": "8-30万",
+            "cost": "8_30",
+            "id": 4
+        },
+        {
+            "name": "30万以上",
+            "cost": "30_0",
+            "id": 32
+        }
+    ],
+    "room_types": [
+        {
+            "id": 1,
+            "name": "一居室"
+        },
+        {
+            "id": 2,
+            "name": "两居室"
+        },
+        {
+            "id": 3,
+            "name": "三居室"
+        },
+        {
+            "id": 4,
+            "name": "四居室"
+        },
+        {
+            "id": 5,
+            "name": "别墅"
+        },
+        {
+            "id": 6,
+            "name": "复式"
+        },
+        {
+            "id": 7,
+            "name": "公寓"
+        },
+        {
+            "id": 8,
+            "name": "跃层"
+        },
+        {
+            "id": 9,
+            "name": "KTV"
+        },
+        {
+            "id": 10,
+            "name": "商铺"
+        },
+        {
+            "id": 11,
+            "name": "餐馆/饭店"
+        },
+        {
+            "id": 12,
+            "name": "酒吧/咖啡厅"
+        },
+        {
+            "id": 13,
+            "name": "SPA/美容院"
+        },
+        {
+            "id": 14,
+            "name": "样板间/展厅"
+        },
+        {
+            "id": 15,
+            "name": "会所/俱乐部"
+        },
+        {
+            "id": 16,
+            "name": "宾馆/酒店"
+        },
+        {
+            "id": 17,
+            "name": "办公室/写字楼"
+        },
+        {
+            "id": 18,
+            "name": "厂房"
+        },
+        {
+            "id": 19,
+            "name": "学校/幼儿园"
+        },
+        {
+            "id": 20,
+            "name": "医院"
+        }
+    ],
+    "room_spaces": [
+        {
+            "id": 1,
+            "name": "客厅"
+        },
+        {
+            "id": 2,
+            "name": "阳台"
+        },
+        {
+            "id": 3,
+            "name": "厨房"
+        },
+        {
+            "id": 4,
+            "name": "厕所"
+        },
+        {
+            "id": 5,
+            "name": "玄关"
+        },
+        {
+            "id": 6,
+            "name": "阁楼"
+        },
+        {
+            "id": 7,
+            "name": "衣帽间"
+        },
+        {
+            "id": 8,
+            "name": "飘窗"
+        },
+        {
+            "id": 9,
+            "name": "书房"
+        },
+        {
+            "id": 10,
+            "name": "儿童房"
+        },
+        {
+            "id": 11,
+            "name": "吧台"
+        },
+        {
+            "id": 12,
+            "name": "过道"
+        },
+        {
+            "id": 13,
+            "name": "卫生间"
+        },
+        {
+            "id": 14,
+            "name": "餐厅"
+        },
+        {
+            "id": 15,
+            "name": "卧室"
+        }
+    ],
+    "room_parts": [
+        {
+            "id": 1,
+            "name": "隔断"
+        },
+        {
+            "id": 2,
+            "name": "楼梯"
+        },
+        {
+            "id": 3,
+            "name": "创意家居"
+        },
+        {
+            "id": 4,
+            "name": "吊顶"
+        },
+        {
+            "id": 5,
+            "name": "酒柜"
+        },
+        {
+            "id": 6,
+            "name": "窗帘"
+        },
+        {
+            "id": 7,
+            "name": "鞋柜"
+        },
+        {
+            "id": 8,
+            "name": "照片墙"
+        },
+        {
+            "id": 9,
+            "name": "电视背景墙"
+        },
+        {
+            "id": 10,
+            "name": "客厅背景墙"
+        },
+        {
+            "id": 11,
+            "name": "飘窗"
+        },
+        {
+            "id": 12,
+            "name": "榻榻米"
+        },
+        {
+            "id": 13,
+            "name": "沙发背景墙"
+        },
+        {
+            "id": 14,
+            "name": "灯具"
+        },
+        {
+            "id": 15,
+            "name": "橱柜"
+        },
+        {
+            "id": 16,
+            "name": "卧室背景墙"
+        },
+        {
+            "id": 17,
+            "name": "餐厅背景墙"
+        },
+        {
+            "id": 18,
+            "name": "客厅吊顶"
+        },
+        {
+            "id": 19,
+            "name": "餐厅吊顶"
+        },
+        {
+            "id": 20,
+            "name": "卧室吊顶"
+        },
+        {
+            "id": 21,
+            "name": "过道吊顶"
+        },
+        {
+            "id": 22,
+            "name": "卫生间隔断"
+        },
+        {
+            "id": 23,
+            "name": "客厅隔断"
+        },
+        {
+            "id": 24,
+            "name": "玄关隔断"
+        },
+        {
+            "id": 25,
+            "name": "门"
+        },
+        {
+            "id": 26,
+            "name": "床"
+        },
+        {
+            "id": 27,
+            "name": "床头柜"
+        },
+        {
+            "id": 28,
+            "name": "电视柜"
+        },
+        {
+            "id": 29,
+            "name": "沙发"
+        },
+        {
+            "id": 30,
+            "name": "书柜"
+        },
+        {
+            "id": 31,
+            "name": "衣柜"
+        },
+        {
+            "id": 32,
+            "name": "餐桌"
+        },
+        {
+            "id": 33,
+            "name": "餐椅"
+        },
+        {
+            "id": 34,
+            "name": "淋浴房"
+        },
+        {
+            "id": 35,
+            "name": "浴缸"
+        },
+        {
+            "id": 36,
+            "name": "鞋柜"
+        },
+        {
+            "id": 37,
+            "name": "梳妆台"
+        },
+        {
+            "id": 38,
+            "name": "书桌"
+        },
+        {
+            "id": 39,
+            "name": "儿童床"
+        }
+    ],
+    "room_styles": [
+        {
+            "id": 167,
+            "name": "欧式",
+            "img": "http://img.rls.huizhuang.com//mobile/app/register_style/style_167@2x.png"
+        },
+        {
+            "id": 168,
+            "name": "美式",
+            "img": "http://img.rls.huizhuang.com//mobile/app/register_style/style_168@2x.png"
+        },
+        {
+            "id": 169,
+            "name": "中式",
+            "img": "http://img.rls.huizhuang.com//mobile/app/register_style/style_169@2x.png"
+        },
+        {
+            "id": 171,
+            "name": "地中海",
+            "img": "http://img.rls.huizhuang.com//mobile/app/register_style/style_171@2x.png"
+        },
+        {
+            "id": 190,
+            "name": "田园",
+            "img": "http://img.rls.huizhuang.com//mobile/app/register_style/style_190@2x.png"
+        },
+        {
+            "id": 222,
+            "name": "现代",
+            "img": "http://img.rls.huizhuang.com//mobile/app/register_style/style_222@2x.png"
+        },
+        {
+            "id": 305,
+            "name": "简约",
+            "img": "http://img.rls.huizhuang.com//mobile/app/register_style/style_305@2x.png"
+        },
+        {
+            "id": 375,
+            "name": "混搭",
+            "img": "http://img.rls.huizhuang.com//mobile/app/register_style/style_375@2x.png"
+        },
+        {
+            "id": 389,
+            "name": "新古典",
+            "img": "http://img.rls.huizhuang.com//mobile/app/register_style/style_389@2x.png"
+        },
+        {
+            "id": 391,
+            "name": "北欧",
+            "img": "http://img.rls.huizhuang.com//mobile/app/register_style/style_391@2x.png"
+        },
+        {
+            "id": 392,
+            "name": "乡村",
+            "img": "http://img.rls.huizhuang.com//mobile/app/register_style/style_392@2x.png"
+        },
+        {
+            "id": 393,
+            "name": "简欧",
+            "img": "http://img.rls.huizhuang.com//mobile/app/register_style/style_393@2x.png"
+        }
+    ],
+    "zx_nodes": [
+        {
+            "id": 1,
+            "name": "开工验收"
+        },
+        {
+            "id": 2,
+            "name": "隐蔽工程验收 "
+        },
+        {
+            "id": 3,
+            "name": "泥木工程验收"
+        },
+        {
+            "id": 4,
+            "name": "油漆工程验收"
+        },
+        {
+            "id": 5,
+            "name": "竣工验收"
+        }
+    ],
+    "jl_nodes": [
+        {
+            "id": "p1",
+            "name": "开工交底",
+            "remark": "开工交底"
+        },
+        {
+            "id": "p2",
+            "name": "水电验收",
+            "remark": "水电验收"
+        },
+        {
+            "id": "p3",
+            "name": "泥木验收",
+            "remark": "泥木验收"
+        },
+        {
+            "id": "p4",
+            "name": "油漆验收",
+            "remark": "油漆验收"
+        },
+        {
+            "id": "p5",
+            "name": "竣工验收",
+            "remark": "竣工验收"
+        },
+        {
+            "id": "p6",
+            "name": "巡查",
+            "remark": "巡查"
+        }
+    ],
+    "decoration_types": [
+        {
+            "id": 1,
+            "name": "新房装修"
+        },
+        {
+            "id": 2,
+            "name": "别墅装修"
+        },
+        {
+            "id": 3,
+            "name": "二手房"
+        },
+        {
+            "id": 4,
+            "name": "局部装修"
+        },
+        {
+            "id": 5,
+            "name": "商业办公"
+        }
+    ],
+    "renovation_ways": [
+        {
+            "id": 1,
+            "name": "半包"
+        },
+        {
+            "id": 2,
+            "name": "全包"
+        },
+        {
+            "id": 3,
+            "name": "清包"
+        },
+        {
+            "id": 5,
+            "name": "纯设计"
+        },
+        {
+            "id": 6,
+            "name": "软装搭配"
+        }
+    ],
+    "store_order_options": [
+        {
+            "id": "default",
+            "name": "默认"
+        },
+        {
+            "id": "location",
+            "name": "离我最近"
+        },
+        {
+            "id": "order_count",
+            "name": "人气预约"
+        },
+        {
+            "id": "allot_count",
+            "name": "成交最高"
+        },
+        {
+            "id": "rank",
+            "name": "评价最高"
+        },
+        {
+            "id": "one_price",
+            "name": "人均价最低"
+        },
+        {
+            "id": "blueprint_count",
+            "name": "设计方案数最多"
+        }
+    ],
+    "diary_order_options": [
+        {
+            "id": "location",
+            "name": "离我最近"
+        },
+        {
+            "id": "new",
+            "name": "最新发布"
+        }
+    ],
+    "rank_types": {
+        "app_diary_v2": [],
+        "app_store": [
+            {
+                "id": 26,
+                "name": "评分",
+                "max_score": "5"
+            }
+        ],
+        "jl_staff": [
+            {
+                "id": 16,
+                "name": "服务态度",
+                "max_score": "5"
+            },
+            {
+                "id": 17,
+                "name": "专业能力",
+                "max_score": "5"
+            },
+            {
+                "id": 19,
+                "name": "问题协调",
+                "max_score": "5"
+            }
+        ],
+        "jl_store": [
+            {
+                "id": 20,
+                "name": "服务态度",
+                "max_score": "5"
+            },
+            {
+                "id": 21,
+                "name": "专业能力",
+                "max_score": "5"
+            },
+            {
+                "id": 22,
+                "name": "沟通情况",
+                "max_score": "5"
+            },
+            {
+                "id": 23,
+                "name": "工程进度",
+                "max_score": "5"
+            }
+        ],
+        "jl_gongzhang": [
+            {
+                "id": 28,
+                "name": "设计能力",
+                "max_score": "5"
+            },
+            {
+                "id": 29,
+                "name": "施工质量",
+                "max_score": "5"
+            },
+            {
+                "id": 30,
+                "name": "服务态度",
+                "max_score": "5"
+            },
+            {
+                "id": 31,
+                "name": "施工价格",
+                "max_score": "5"
+            },
+            {
+                "id": 32,
+                "name": "施工工期",
+                "max_score": "5"
+            }
+        ]
+    },
+    "store_services": [
+        {
+            "id": 1,
+            "name": "免费量房"
+        },
+        {
+            "id": 3,
+            "name": "免费预算"
+        },
+        {
+            "id": 4,
+            "name": "专业质量检测"
+        },
+        {
+            "id": 5,
+            "name": "正品保障"
+        },
+        {
+            "id": 6,
+            "name": "延期赔付"
+        },
+        {
+            "id": 7,
+            "name": "三家比价"
+        },
+        {
+            "id": 8,
+            "name": "担保交易"
+        },
+        {
+            "id": 9,
+            "name": "优惠券"
+        },
+        {
+            "id": 10,
+            "name": "免费设计"
+        },
+        {
+            "id": 11,
+            "name": "总价0增项"
+        }
+    ],
+    "designer_price_ranges": [
+        {
+            "name": "免费设计",
+            "cost": "0",
+            "id": 0
+        },
+        {
+            "name": "0-100元/㎡",
+            "cost": "0_100",
+            "id": 1
+        },
+        {
+            "name": "100-200元/㎡",
+            "cost": "100_200",
+            "id": 2
+        },
+        {
+            "name": "200-300元/㎡",
+            "cost": "200_300",
+            "id": 3
+        },
+        {
+            "name": "300-500元/㎡",
+            "cost": "300_500",
+            "id": 4
+        },
+        {
+            "name": "500元/㎡以上",
+            "cost": "500",
+            "id": 5
+        }
+    ],
+    "designer_services": [
+        {
+            "id": 1,
+            "name": "软装配饰设计"
+        },
+        {
+            "id": 2,
+            "name": "硬装设计"
+        },
+        {
+            "id": 3,
+            "name": "产品配购"
+        },
+        {
+            "id": 4,
+            "name": "施工监理"
+        }
+    ],
+    "gongzhang_time_ranges": [
+        {
+            "name": "1年以下",
+            "range": "0_1",
+            "id": 1
+        },
+        {
+            "name": "1~3年",
+            "range": "1_3",
+            "id": 2
+        },
+        {
+            "name": "3~5年",
+            "range": "3_5",
+            "id": 3
+        },
+        {
+            "name": "5~10年",
+            "range": "5_10",
+            "id": 4
+        },
+        {
+            "name": "10年以上",
+            "range": "10_0",
+            "id": 5
+        }
+    ],
+    "decorate_carry_prices": [
+        {
+            "id": 1,
+            "name": "1万起"
+        },
+        {
+            "id": 2,
+            "name": "3万起"
+        },
+        {
+            "id": 3,
+            "name": "5万起"
+        },
+        {
+            "id": 4,
+            "name": "10万起"
+        },
+        {
+            "id": 5,
+            "name": "20万起"
+        }
+    ],
+    "store_price_grades": [
+        {
+            "name": "性价比",
+            "range": "0_50000",
+            "id": 1
+        },
+        {
+            "name": "舒适性",
+            "range": "50000_200000",
+            "id": 2
+        },
+        {
+            "name": "中高端",
+            "range": "200000_0",
+            "id": 3
+        }
+    ],
+    "brand_types": [
+        {
+            "name": "连锁品牌",
+            "id": 2
+        },
+        {
+            "name": "其它品牌",
+            "id": 1
+        }
+    ],
+    "promotion_types": [
+        {
+            "name": "下单即返现金",
+            "id": 1
+        },
+        {
+            "name": "活动促销",
+            "id": 2
+        }
+    ]
+}

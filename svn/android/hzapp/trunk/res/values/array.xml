@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <!-- 装修公司城市列表-->
+    <string-array name="company_city">
+        <item>成都</item>
+        <item>重庆</item>
+        <item>长沙</item>
+        <item>长春</item>
+        <item>大连</item>
+        <item>福州</item>
+        <item>贵阳</item>
+        <item>哈尔滨</item>
+        <item>合肥</item>
+        <item>杭州</item>
+        <item>呼和浩特</item>
+        <item>昆明</item>
+        <item>兰州</item>
+        <item>南京</item>
+        <item>沈阳</item>
+        <item>太原</item>
+        <item>天津</item>
+        <item>武汉</item>
+        <item>西安</item>
+        <item>郑州</item>
+        
+    </string-array>
+</resources>

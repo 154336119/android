@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_bottom_border_disabled" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.huizhuang.zxsq.widget.XListView
+                android:id="@+id/report_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@null"
+                android:drawSelectorOnTop="false"
+                android:fastScrollEnabled="false"
+                android:focusable="true"
+                android:layoutAnimation="@anim/layout_animation_for_listview"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="vertical" />
+
+            <Button
+                android:id="@+id/btn_submit"
+                style="@style/ButtonLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_orange"
+                android:text="@string/btn_see_name" />
+        </LinearLayout>
+
+        <com.huizhuang.zxsq.widget.DataLoadingLayout
+            android:id="@+id/dll_wait"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </com.huizhuang.zxsq.widget.DataLoadingLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/btn_go_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="110dp"
+        android:layout_marginRight="30dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/icon_go_top" />
+
+</RelativeLayout>

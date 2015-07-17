@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/activity_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <com.huizhuang.zxsq.widget.CircleImageView
+        android:id="@+id/civ_head"
+        android:layout_width="82dip"
+        android:layout_height="82dip"
+        android:layout_margin="17dp"
+        android:background="@drawable/ic_default_header"
+        android:contentDescription="@string/app_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/icon_rz"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/color_4c4c4c"
+            android:textSize="@dimen/txt_size_18" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_808080"
+                android:textSize="@dimen/txt_size_14" />
+
+            <View
+                android:id="@+id/v_line1"
+                android:layout_width="1px"
+                android:layout_height="14dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="3dp"
+                android:background="@color/gray_disabled" />
+
+            <TextView
+                android:id="@+id/tv_appointment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff6c38"
+                android:textSize="@dimen/txt_size_14" />
+
+            <TextView
+                android:id="@+id/tv_appointment_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:text="@string/txt_appointment1"
+                android:textColor="@color/color_808080"
+                android:textSize="@dimen/txt_size_14" />
+
+            <View
+                android:id="@+id/v_line2"
+                android:layout_width="1px"
+                android:layout_height="14dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="3dp"
+                android:background="@color/gray_disabled" />
+
+            <TextView
+                android:id="@+id/tv_quotation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff6c38"
+                android:textSize="@dimen/txt_size_14" />
+
+            <TextView
+                android:id="@+id/tv_quotation_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="成交"
+                android:textColor="#808080"
+                android:textSize="@dimen/txt_size_14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginTop="8dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="装修均价:"
+                android:textColor="@color/color_808080"
+                android:textSize="@dimen/txt_size_14" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#ff6c38"
+                android:textSize="@dimen/txt_size_14" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

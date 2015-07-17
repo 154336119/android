@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_transparent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="抱歉，您的当前订单暂时不能监理"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="导致不能监理的原因有:"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.未使用惠装交易担保,不提供免费监理;"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.部分非省会城市不提供免费监理;"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.订单未达到监理状态,暂不能监理预约;"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_16" />
+
+</LinearLayout>

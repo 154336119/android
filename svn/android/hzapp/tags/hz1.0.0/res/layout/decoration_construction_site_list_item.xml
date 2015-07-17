@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_f5f5f5" >
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="91dp"
+        android:layout_height="91dp"
+        android:background="@drawable/bg_photo_default"
+        android:contentDescription="@string/app_name" 
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/iv_img"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingTop="3dp"
+            android:singleLine="true"
+            android:text="田园风格，完美的搭配"
+            android:textColor="@color/gray_4c"
+            android:textSize="@dimen/txt_size_15" />
+        <LinearLayout 
+            android:id="@+id/ll_site_report_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp">
+	        <TextView
+	            android:id="@+id/tv_community"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ellipsize="end"
+	            android:singleLine="true"
+	            android:text="中海名城"
+	            android:textColor="@color/color_808080"
+	            android:textSize="@dimen/txt_size_13" />
+	        <ImageView 
+	            android:layout_width="0.5px"
+	            android:layout_height="match_parent"
+	            android:background="@color/color_808080"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginRight="5dp"
+	            android:layout_marginTop="2dp"
+	            android:layout_marginBottom="2dp"/> 
+	        <TextView
+	            android:id="@+id/tv_budget"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ellipsize="end"
+	            android:singleLine="true"
+	            android:text="中海名城"
+	            android:textColor="@color/color_808080"
+	            android:textSize="@dimen/txt_size_13" />   
+	        <ImageView 
+	            android:layout_width="0.5px"
+	            android:layout_height="match_parent"
+	            android:background="@color/color_808080"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginRight="5dp"
+	            android:layout_marginTop="2dp"
+	            android:layout_marginBottom="2dp"/> 
+	        <TextView
+	            android:id="@+id/tv_area"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ellipsize="end"
+	            android:singleLine="true"
+	            android:text="中海名城"
+	            android:textColor="@color/color_808080"
+	            android:textSize="@dimen/txt_size_13" />                                           
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_time_limit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginTop="7dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="工期"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_13" />
+        <TextView
+            android:id="@+id/tv_construction_stage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginTop="7dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="施工阶段"
+            android:textColor="@color/color_808080"
+            android:textSize="@dimen/txt_size_13" />
+        
+    </LinearLayout>
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="0.5px"
+	    android:background="@color/color_d9d9d9"
+	    android:layout_marginLeft="11dp"
+	    android:layout_below="@id/iv_img"/>
+</RelativeLayout>

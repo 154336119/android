@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/page_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/page_header_height" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" 
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="0.5px"
+                    android:layout_marginLeft="17dip"
+                    android:layout_weight="1"
+                    android:background="#ff6c38"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:text="@string/txt_order_one_tip"
+                    android:textColor="#ff6c38"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="0.5px"
+                    android:layout_marginRight="20dip"
+                    android:layout_weight="1"
+                    android:background="#ff6c38"
+                    android:contentDescription="@string/app_name" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/line" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:background="@null"
+                    android:ems="10"
+                    android:hint="@string/please_enter_name"
+                    android:maxLength="11"
+                    android:paddingLeft="20dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/color_cccccc"
+                    android:textSize="16sp" >
+
+                    <requestFocus />
+                </EditText>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:paddingLeft="17dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/line" />
+
+                <EditText
+                    android:id="@+id/et_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:background="@null"
+                    android:ems="10"
+                    android:hint="@string/please_enter_phone"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:paddingLeft="20dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/color_cccccc"
+                    android:textSize="16sp" >
+                </EditText>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_place"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:drawableRight="@drawable/foreman_pricelist_arrow"
+                android:gravity="center_vertical"
+                android:hint="@string/txt_order_one_check_city"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:singleLine="true"
+                android:textColor="@color/color_4c4c4c"
+                android:textColorHint="@color/color_cccccc"
+                android:textSize="16sp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/line" />
+
+            <Button
+                android:id="@+id/btn_next"
+                style="@style/ButtonLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/btn_orange"
+                android:text="@string/txt_ask_lowest_price" 
+                android:enabled="false"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

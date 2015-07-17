@@ -1,0 +1,243 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.huizhuang.hz"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/page_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical" >
+
+                <com.huizhuang.zxsq.widget.CircleImageView
+                    android:id="@+id/civ_jls_head"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/icon01"
+                    app:border_color="@color/white"
+                    app:border_width="2dp" />
+
+                <TextView
+                    android:id="@+id/tv_jls_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/gray_4c"
+                    android:textSize="@dimen/txt_size_18" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/color_ff6c38" />
+
+                    <TextView
+                        android:id="@+id/tv_node"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="@string/txt_score_des"
+                        android:textColor="@color/color_ff6c38"
+                        android:textSize="@dimen/txt_size_14" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/color_ff6c38" />
+                </LinearLayout>
+
+                <RatingBar
+                    android:id="@+id/rb_jls_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:isIndicator="false"
+                    android:numStars="5"
+                    android:progressDrawable="@drawable/rating_bar_grade"
+                    android:stepSize="1" />
+
+                <LinearLayout
+                    android:id="@+id/lin_jls"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_jls_evaluation"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    android:background="@color/white"
+                    android:gravity="top"
+                    android:hint="@string/ev_hint"
+                    android:inputType="textMultiLine"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/gray_80"
+                    android:textColorHint="@color/gray_b2"
+                    android:textSize="@dimen/txt_size_14" />
+
+                <LinearLayout
+                    android:id="@+id/lin_foreman_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/color_d9d9d9" />
+
+                    <com.huizhuang.zxsq.widget.CircleImageView
+                        android:id="@+id/civ_foreman_head"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/icon01"
+                        app:border_color="@color/white"
+                        app:border_width="2dp" />
+
+                    <TextView
+                        android:id="@+id/tv_foreman_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/gray_4c"
+                        android:textSize="@dimen/txt_size_18" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/color_ff6c38" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:text="@string/txt_score_des"
+                            android:textColor="@color/color_ff6c38"
+                            android:textSize="@dimen/txt_size_14" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/color_ff6c38" />
+                    </LinearLayout>
+
+                    <RatingBar
+                        android:id="@+id/rb_foreman_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:isIndicator="false"
+                        android:numStars="5"
+                        android:progressDrawable="@drawable/rating_bar_grade"
+                        android:stepSize="1" />
+
+                    <LinearLayout
+                        android:id="@+id/lin_foreman"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_foreman_evaluation"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_margin="20dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/ev_hint"
+                        android:inputType="textMultiLine"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        android:textColor="@color/gray_80"
+                        android:textColorHint="@color/gray_b2"
+                        android:textSize="@dimen/txt_size_14" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    style="@style/ButtonLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/btn_orange"
+                    android:text="@string/txt_contract_record_commit" />
+            </LinearLayout>
+        </ScrollView>  
+        <com.huizhuang.zxsq.widget.DataLoadingLayout
+            android:id="@+id/common_dl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </com.huizhuang.zxsq.widget.DataLoadingLayout>
+    </RelativeLayout>
+
+</LinearLayout>

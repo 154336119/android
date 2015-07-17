@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#80000000"
+    android:paddingBottom="56dp"
+    android:paddingTop="16dp" >
+
+    <TextView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/diary_weather_1"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="晴"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_16" />
+
+    <TextView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/diary_weather_2"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="多云"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_16" />
+
+    <TextView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/diary_weather_3"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="雪"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_16" />
+
+    <TextView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/diary_weather_4"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="雷阵雨"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_16" />
+
+    <TextView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/diary_weather_5"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="阴"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_16" />
+
+    <TextView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignTop="@+id/imageView5"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/diary_weather_6"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="雨"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_16" />
+
+</RelativeLayout>

@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lin_option_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <LinearLayout
+        android:id="@+id/lin_delay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="上门量房时迟到"
+            android:textColor="@color/color_4c4c4c"
+            android:textSize="@dimen/txt_size_14" />
+
+        <CheckBox
+            android:id="@+id/cb_delay"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/radio_order_check"
+            android:button="@null"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_uncoverall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="没穿工作服"
+            android:textColor="@color/color_4c4c4c"
+            android:textSize="@dimen/txt_size_14" />
+
+        <CheckBox
+            android:id="@+id/cb_uncoverall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/radio_order_check"
+            android:button="@null"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_attitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="态度不够友好"
+            android:textColor="@color/color_4c4c4c"
+            android:textSize="@dimen/txt_size_14" />
+
+        <CheckBox
+            android:id="@+id/cb_attitude"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/radio_order_check"
+            android:button="@null"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_devote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="服务不够专业"
+            android:textColor="@color/color_4c4c4c"
+            android:textSize="@dimen/txt_size_14" />
+
+        <CheckBox
+            android:id="@+id/cb_devote"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/radio_order_check"
+            android:button="@null"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_unrecommend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="没有介绍惠装服务保障"
+            android:textColor="@color/color_4c4c4c"
+            android:textSize="@dimen/txt_size_14" />
+
+        <CheckBox
+            android:id="@+id/cb_unrecommend"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/radio_order_check"
+            android:button="@null"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

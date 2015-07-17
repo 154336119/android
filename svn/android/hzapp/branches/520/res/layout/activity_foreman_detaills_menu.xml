@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/lin_site"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_construction_site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/icon_foreman_camera_press"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="施工现场"
+            android:background="@color/activity_bg"
+            android:textColor="@color/color_ff6c38"
+            android:textSize="@dimen/txt_size_14" />
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View 
+                android:layout_width="0dp"
+                android:layout_height="11dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_bottom_border_disabled1"/>
+            <ImageView 
+                android:id="@+id/iv_site"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_foreman_sj"
+                android:contentDescription="@string/app_name"
+                android:visibility="visible"/>
+            <View 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_bottom_border_disabled1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_lower_prices"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_lower_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/icon_foreman_diamonds_normal"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="最低价"
+            android:background="@color/activity_bg"
+            android:textColor="@color/gray_disabled"
+            android:textSize="@dimen/txt_size_14" />
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View 
+                android:layout_width="0dp"
+                android:layout_height="11dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_bottom_border_disabled1"/>
+            <ImageView 
+                android:id="@+id/iv_lower_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_foreman_sj"
+                android:contentDescription="@string/app_name"
+                android:visibility="gone"/>
+            <View 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_bottom_border_disabled1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_safety"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_safety"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/icon_foreman_safety_normal"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="最安全"
+            android:background="@color/activity_bg"
+            android:textColor="@color/gray_disabled"
+            android:textSize="@dimen/txt_size_14" />
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View 
+                android:layout_width="0dp"
+                android:layout_height="11dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_bottom_border_disabled1"/>
+            <ImageView 
+                android:id="@+id/iv_safety"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_foreman_sj"
+                android:contentDescription="@string/app_name"
+                android:visibility="gone"/>
+            <View 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_bottom_border_disabled1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,248 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/page_bg"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/account"
+                    android:textColor="@color/gray_66"
+                    android:textSize="@dimen/txt_size_16" />
+
+                <com.huizhuang.zxsq.widget.ClearEditText
+                    android:id="@+id/et_username"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="12dip"
+                    android:background="@null"
+                    android:drawablePadding="8dp"
+                    android:drawableRight="@drawable/clear_tv_delete_selector"
+                    android:hint="@string/input_username"
+                    android:singleLine="true"
+                    android:textColorHint="@color/gray_disabled"
+                    android:textSize="@dimen/txt_size_16" >
+
+                    <requestFocus />
+                </com.huizhuang.zxsq.widget.ClearEditText>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:layout_marginTop="-2dp"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/login_password"
+                    android:textColor="@color/gray_66"
+                    android:textSize="@dimen/txt_size_16" />
+
+                <EditText
+                    android:id="@+id/et_password"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:ems="10"
+                    android:hint="@string/input_password"
+                    android:inputType="textPassword"
+                    android:maxLength="12"
+                    android:singleLine="true"
+                    android:textColorHint="@color/gray_disabled"
+                    android:textSize="16sp" />
+
+                <ImageView 
+                    android:id="@+id/im_showCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/code_hide"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/line" />
+
+            <Button
+                android:id="@+id/btn_login"
+                style="@style/ButtonLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/btn_orange"
+                android:text="@string/login" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/btn_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="24dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="@string/register"
+                    android:textColor="#23afff"
+                    android:textSize="@dimen/txt_size_16" />
+
+                <TextView
+                    android:id="@+id/btn_forget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingBottom="24dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="@string/forget_password"
+                    android:textColor="#23afff"
+                    android:textSize="@dimen/txt_size_16" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:visibility="invisible" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/line_left" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="@string/following_way_login"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/txt_size_16" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/line_right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="24dp"
+                android:visibility="invisible" >
+
+                <TextView
+                    android:id="@+id/btn_weixin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:drawablePadding="8dp"
+                    android:drawableTop="@drawable/ic_tencent_wechat"
+                    android:gravity="center"
+                    android:text="@string/weixin"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/txt_size_14" />
+
+                <TextView
+                    android:id="@+id/btn_qq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:drawablePadding="8dp"
+                    android:drawableTop="@drawable/ic_tencent_qq"
+                    android:gravity="center"
+                    android:text="@string/qq"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/txt_size_14" />
+
+                <TextView
+                    android:id="@+id/btn_weibo_sina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:drawablePadding="8dp"
+                    android:drawableTop="@drawable/ic_sina_weibo"
+                    android:gravity="center"
+                    android:text="@string/sinaweibo"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/txt_size_14" />
+
+                <TextView
+                    android:id="@+id/btn_weibo_tengxun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:drawablePadding="8dp"
+                    android:drawableTop="@drawable/ic_tencent_weibo"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:text="@string/tencentweibo"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/txt_size_14" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

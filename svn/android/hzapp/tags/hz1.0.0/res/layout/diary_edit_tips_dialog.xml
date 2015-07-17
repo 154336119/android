@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/diary_edit_dialog_bg" >
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/diary_edit_dialog_close" />
+
+    <Button
+        android:id="@+id/btn_weiguan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginLeft="128dp"
+        android:background="@drawable/btn_orange"
+        android:text="提醒好友围观"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_16" />
+
+    <Button
+        android:id="@+id/btn_jnmj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_weiguan"
+        android:layout_below="@+id/btn_weiguan"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_orange"
+        android:text=" 得锦囊妙计   "
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_16" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/data_loading_layout"
+        layout="@layout/layout_network_loading" />
+
+    <include
+        android:id="@+id/data_load_failed_layout"
+        layout="@layout/layout_loading_failed"
+        android:visibility="gone"/>
+
+</RelativeLayout>

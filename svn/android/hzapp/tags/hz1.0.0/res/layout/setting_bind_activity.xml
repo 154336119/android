@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f5f5f5" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:id="@+id/line01"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="24dp"
+                android:background="#d9d9d9" />
+
+            <TextView
+                android:id="@+id/tv_qq"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_below="@id/line01"
+                android:drawableLeft="@drawable/setting_bind_icon_qq"
+                android:drawablePadding="16dp"
+                android:gravity="center_vertical"
+                android:padding="12dp"
+                android:text="@string/txt_bind_qq"
+                android:textColor="@color/gray_80"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/setting_text_selector"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_qq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/line01"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_green_off" />
+            <View
+                android:id="@+id/line02"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d9d9d9"
+                android:layout_below="@id/tv_qq" />
+            
+            <TextView
+                android:id="@+id/tv_sina"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_below="@id/line02"
+                android:drawableLeft="@drawable/setting_bind_icon_sina"
+                android:drawablePadding="16dp"
+                android:gravity="center_vertical"
+                android:padding="12dp"
+                android:text="@string/txt_bind_sina"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/setting_text_selector"
+                android:textColor="@color/gray_80"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_sina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/line02"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_green_off" />
+            <View
+                android:id="@+id/line03"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d9d9d9"
+                android:layout_below="@id/tv_sina" />
+            <TextView
+                android:id="@+id/tv_douban"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_below="@id/line03"
+                android:drawableLeft="@drawable/setting_bind_icon_douban"
+                android:drawablePadding="16dp"
+                android:gravity="center_vertical"
+                android:padding="12dp"
+                android:text="@string/txt_bind_douban"
+                android:textColor="@color/gray_80"
+                android:textSize="16sp" 
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/setting_text_selector"/>
+
+            <Button
+                android:id="@+id/btn_douban"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/line03"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_green_off" />
+            <View
+                android:id="@+id/line04"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d9d9d9"
+                android:layout_below="@id/tv_douban" /> 
+                
+            <TextView
+                android:id="@+id/tv_renren"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_below="@id/line04"
+                android:drawableLeft="@drawable/setting_bind_icon_renren"
+                android:drawablePadding="16dp"
+                android:gravity="center_vertical"
+                android:padding="12dp"
+                android:text="@string/txt_bind_renren"
+                android:textColor="@color/gray_80"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/setting_text_selector"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_renren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/line04"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp" 
+                android:background="@drawable/btn_green_off"/>
+            <View
+                android:id="@+id/line05"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d9d9d9"
+                android:layout_below="@id/tv_renren" />              
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

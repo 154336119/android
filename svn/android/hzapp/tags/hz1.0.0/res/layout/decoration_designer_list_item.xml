@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_f5f5f5"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/iv_headimg"
+        style="@style/ImgViewWithBorder"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/app_name" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingTop="3dp"
+            android:singleLine="true"
+            android:text="叶语嫣"
+            android:textColor="@color/gray_64"
+            android:textSize="@dimen/txt_size_16" />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_name"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="end"
+            android:paddingTop="3dp"
+            android:singleLine="true"
+            android:text="设计总监"
+            android:textColor="@color/color_cccccc"
+            android:textSize="@dimen/txt_size_14" />
+        <TextView
+            android:id="@+id/tv_career_average_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="工龄:"
+            android:textColor="@color/color_cccccc"
+            android:textSize="@dimen/txt_size_14" />
+
+        <TextView
+            android:id="@+id/tv_career_average"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tv_career_average_title"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="12年"
+            android:textColor="@color/color_cccccc"
+            android:textSize="@dimen/txt_size_14" />
+
+        <TextView
+            android:id="@+id/tv_design_fee_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_career_average_title"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="设计费:"
+            android:textColor="@color/color_cccccc"
+            android:textSize="@dimen/txt_size_14" />
+
+        <TextView
+            android:id="@+id/tv_design_fee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_career_average_title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tv_design_fee_title"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="￥200-600/m²"
+            android:textColor="@color/color_cccccc"
+            android:textSize="@dimen/txt_size_14" />
+
+        <TextView
+            android:id="@+id/tv_representative_works_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_design_fee_title"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="代表作品:"
+            android:textColor="@color/color_cccccc"
+            android:textSize="@dimen/txt_size_14" />
+
+        <TextView
+            android:id="@+id/tv_representative_works"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_design_fee_title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tv_representative_works_title"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="城南一号"
+            android:textColor="@color/color_cccccc"
+            android:textSize="@dimen/txt_size_14" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_f5f5f5" >
+
+    <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>
+
+    <com.huizhuang.zxsq.widget.XListView
+        android:id="@+id/my_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="false"
+        android:focusable="true"
+        android:layoutAnimation="@anim/layout_animation_for_listview"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="vertical" />
+
+    <com.huizhuang.zxsq.widget.DataLoadingLayout
+        android:id="@+id/common_dl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_action_bar"
+        android:visibility="gone" >
+    </com.huizhuang.zxsq.widget.DataLoadingLayout>
+
+</RelativeLayout>

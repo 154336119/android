@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.huizhuang.hz"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/layout_bg">
+    <com.huizhuang.zxsq.widget.MyScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+	   	<LinearLayout 
+	       android:id="@+id/ll01"
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:orientation="vertical">
+	       	<include layout="@layout/component_company_detail_one"/>
+			<include layout="@layout/component_company_detail_two"/>
+			<include layout="@layout/component_company_detail_three"/>																				    						       						       	
+	    </LinearLayout>
+	    
+    </com.huizhuang.zxsq.widget.MyScrollView>
+<!--     <com.huizhuang.zxsq.widget.actionbar.CommonActionBar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/black_transparent">
+    </com.huizhuang.zxsq.widget.actionbar.CommonActionBar>    -->       
+</RelativeLayout>
